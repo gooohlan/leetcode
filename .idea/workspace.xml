@@ -34,7 +34,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode (3)">
+  <component name="RunManager" selected="Go Build.go build leetcode (4)">
     <configuration name="go build leetcode (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -92,6 +92,25 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build leetcode (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/219.go" />
+      <package value="leetcode" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build leetcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -132,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build leetcode (4)" />
         <item itemvalue="Go Build.go build leetcode (3)" />
         <item itemvalue="Go Build.go build leetcode (2)" />
         <item itemvalue="Go Build.go build leetcode (1)" />
-        <item itemvalue="Go Build.go build leetcode" />
         <item itemvalue="Go Build.go build leetcode" />
       </list>
     </recent_temporary>
@@ -145,21 +164,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1606442044804">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1606448187261">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606442044804" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1606442044803">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606448187261" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1606448187260">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606442044803" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1606442044802">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606448187260" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1606448187259">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606442044802" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1606442044804">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606448187259" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1606448187260">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606442044804" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606448187260" />
   </component>
 </project>
