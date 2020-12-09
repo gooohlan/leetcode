@@ -1,7 +1,7 @@
 package main
 
 import (
-	"log"
+	"fmt"
 )
 
 func thirdMax(nums []int) int {
