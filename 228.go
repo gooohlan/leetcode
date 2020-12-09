@@ -34,10 +34,6 @@ func summaryRanges(nums []int) []string {
 	return rStr
 }
 
-func main() {
-	str := summaryRanges1([]int{0, 2, 3, 4, 6, 8, 9})
-	log.Println(str)
-}
 
 func summaryRanges1(nums []int) []string {
 	var rStr []string
@@ -55,4 +51,10 @@ func summaryRanges1(nums []int) []string {
 		j++
 	}
 	return rStr
+}
+
+
+func main() {
+	str := summaryRanges1([]int{0, 2, 3, 4, 6, 8, 9})
+	log.Println(str)
 }

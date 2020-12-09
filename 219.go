@@ -16,5 +16,5 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 }
 
 func main()  {
-	log.Println(containsNearbyDuplicate([]int{1,2,3,1,4}, 2))
+	log.Println(containsNearbyDuplicate([]int{1,0,1,1}, 1))
 }
