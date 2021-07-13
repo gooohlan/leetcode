@@ -1,7 +1,5 @@
 package main
 
-import "log"
-
 // [1,2,3]
 // [4,5,6]
 //
@@ -10,16 +8,6 @@ import "log"
 // [1,2]
 // [3,4]
 // [5,6]
-
-func main() {
-	arr := [][]int{
-		[]int{1, 2, 3},
-		[]int{4, 5, 6},
-		[]int{7, 8, 9},
-	}
-	newArr := matrixReshape2(arr, 3, 2)
-	log.Println(newArr)
-}
 
 func matrixReshape(nums [][]int, r int, c int) [][]int {
 	x, y := len(nums), len(nums[0])

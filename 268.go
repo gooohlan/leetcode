@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -47,8 +46,4 @@ func missingNumber4(nums []int) int {
 		miss ^= k ^ v
 	}
 	return miss
-}
-
-func main() {
-	fmt.Println(missingNumber4([]int{0, 1, 2, 4, 5, 3}))
 }

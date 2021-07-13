@@ -1,7 +1,6 @@
 package main
 
 import (
-	"log"
 	"strconv"
 )
 
@@ -21,7 +20,7 @@ func summaryRanges(nums []int) []string {
 			}
 			head = nums[i]
 			tail = nums[i]
-		}else{
+		} else {
 
 			tail = nums[i]
 		}
@@ -34,27 +33,20 @@ func summaryRanges(nums []int) []string {
 	return rStr
 }
 
-
 func summaryRanges1(nums []int) []string {
 	var rStr []string
-	for i,j :=0,0; j<len(nums);{
-		if j+1 < len(nums) && nums[j+1] == nums[j]+1{
+	for i, j := 0, 0; j < len(nums); {
+		if j+1 < len(nums) && nums[j+1] == nums[j]+1 {
 			j++
 			continue
 		}
-		if i==j {
+		if i == j {
 			rStr = append(rStr, strconv.Itoa(nums[i]))
-		}else{
-			rStr = append(rStr, strconv.Itoa(nums[i]) + "->" + strconv.Itoa(nums[j]))
+		} else {
+			rStr = append(rStr, strconv.Itoa(nums[i])+"->"+strconv.Itoa(nums[j]))
 		}
-		i = j+1
+		i = j + 1
 		j++
 	}
 	return rStr
-}
-
-
-func main() {
-	str := summaryRanges1([]int{0, 2, 3, 4, 6, 8, 9})
-	log.Println(str)
 }

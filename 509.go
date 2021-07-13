@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 传统
 func fib(N int) int {
 	if N <= 1 {
@@ -40,8 +36,4 @@ func memory(N int) int {
 	}
 	cache[N] = memory(N-1) + memory(N-2)
 	return cache[N]
-}
-
-func main() {
-	fmt.Println(fib2(4))
 }

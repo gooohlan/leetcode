@@ -1,15 +1,8 @@
 package main
 
 import (
-	"log"
 	"sort"
 )
-
-func main() {
-	var arr []int = []int{1, 2, 3, 4, 1, 1, 1, 2, 2, 2, 2, 2, 2}
-	i := majorityElement2(arr)
-	log.Println(i)
-}
 
 // map解法
 func majorityElement(nums []int) int {
@@ -30,18 +23,16 @@ func majorityElement(nums []int) int {
 	return 0
 }
 
-
 func majorityElement0(nums []int) int {
 	mapArr := make(map[int]int)
-	for _,v := range nums{
-		mapArr[v] ++
-		if mapArr[v] > len(nums)/2{
+	for _, v := range nums {
+		mapArr[v]++
+		if mapArr[v] > len(nums)/2 {
 			return v
 		}
 	}
 	return 0
 }
-
 
 // 题目中保证了众数出现次数多余一半,所以遇到众数+1,非众数-1的最终结果始终大于1
 func majorityElement1(nums []int) int {
@@ -51,7 +42,7 @@ func majorityElement1(nums []int) int {
 			count++
 		} else {
 			count--
-			if count == 0 && k<len(nums) {
+			if count == 0 && k < len(nums) {
 				repeat = nums[k+1]
 			}
 		}
@@ -60,7 +51,7 @@ func majorityElement1(nums []int) int {
 }
 
 // 先排序直接找 len/2的数
-func majorityElement2(nums []int) int{
+func majorityElement2(nums []int) int {
 	sort.Ints(nums)
 	return nums[len(nums)/2]
 }

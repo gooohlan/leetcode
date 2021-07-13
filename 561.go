@@ -1,7 +1,6 @@
 package main
 
 import (
-	"log"
 	"sort"
 )
 
@@ -12,8 +11,4 @@ func arrayPairSum(nums []int) int {
 		sum += nums[i]
 	}
 	return sum
-}
-
-func main() {
-	log.Println(arrayPairSum([]int{1,4,3,2}))
 }

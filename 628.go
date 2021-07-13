@@ -1,14 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"math"
 	"sort"
 )
-
-func main() {
-	fmt.Println(maximumProduct([]int{1, 2, 3, 4, 6, -11, -2}))
-}
 
 func maximumProduct(nums []int) int {
 	sort.Ints(nums)

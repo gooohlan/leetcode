@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 哈希
 func findDisappearedNumbers(nums []int) []int {
 	var rArr []int
@@ -27,7 +23,7 @@ func findDisappearedNumbers1(nums []int) []int {
 		}
 	}
 	var rArr []int
-	for k,v := range nums{
+	for k, v := range nums {
 		if v > 0 {
 			rArr = append(rArr, k+1)
 		}
@@ -35,14 +31,9 @@ func findDisappearedNumbers1(nums []int) []int {
 	return rArr
 }
 
-func abs(n int) int  {
+func abs(n int) int {
 	if n < 0 {
-		n *=-1
+		n *= -1
 	}
 	return n
-}
-
-func main() {
-	arr := findDisappearedNumbers1([]int{4, 3, 2, 7, 8, 2, 3, 1})
-	fmt.Println(arr)
 }

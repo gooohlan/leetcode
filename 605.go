@@ -1,11 +1,5 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println(canPlaceFlowers([]int{1, 0, 0, 1}, 1))
-}
-
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	for i := 0; i < len(flowerbed) && n > 0; {
 		if flowerbed[i] == 1 { // 当前格子已经有花,我们两格后见

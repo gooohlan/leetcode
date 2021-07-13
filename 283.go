@@ -60,9 +60,3 @@ func moveZeroes(nums []int) {
 // A：我现在在陆地12上面，我把它踢给你吧
 // B：好嘞，谢了，兄弟
 // 第5步之后数组的值是[1,3,12,0,0]
-
-
-func main() {
-	arr := []int{0, 1, 0, 3, 12}
-	moveZeroes(arr)
-}

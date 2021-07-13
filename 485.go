@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func findMaxConsecutiveOnes(nums []int) int {
 	var count, maxCount int
 	for _, v := range nums {
@@ -15,8 +13,4 @@ func findMaxConsecutiveOnes(nums []int) int {
 		}
 	}
 	return maxCount
-}
-
-func main() {
-	fmt.Println(findMaxConsecutiveOnes([]int{1}))
 }

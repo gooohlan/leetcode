@@ -1,7 +1,5 @@
 package main
 
-import "log"
-
 func containsNearbyDuplicate(nums []int, k int) bool {
 	mapArr := make(map[int]int)
 	for key, val := range nums {
@@ -13,8 +11,4 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 		mapArr[val] = key
 	}
 	return false
-}
-
-func main()  {
-	log.Println(containsNearbyDuplicate([]int{1,0,1,1}, 1))
 }

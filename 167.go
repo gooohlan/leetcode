@@ -1,8 +1,5 @@
 package main
 
-func main() {
-	twoSum([]int{2, 7, 11, 15}, 9)
-}
 func twoSum(numbers []int, target int) []int {
 	l, r := 0, len(numbers)-1
 	for l < r {

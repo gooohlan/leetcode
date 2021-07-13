@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
-
 func thirdMax(nums []int) int {
-	a:= nums[0]
+	a := nums[0]
 	if len(nums) <= 2 {
 		for _, v := range nums {
 			if v > a {
@@ -16,7 +12,7 @@ func thirdMax(nums []int) int {
 	}
 
 	minNum := ^int(^uint(0) >> 1)
-	b,c := minNum, minNum
+	b, c := minNum, minNum
 	for i := 1; i < len(nums); i++ {
 		if nums[i] > a {
 			a, b, c = nums[i], a, b
@@ -30,8 +26,4 @@ func thirdMax(nums []int) int {
 		return a
 	}
 	return c
-}
-
-func main() {
-	fmt.Println(thirdMax([]int{1, 2, -2147483648}))
 }
