@@ -1,6 +1,6 @@
 ## go日常算法学习
 ### 解题思路
-[日刷LeetCode](https://inkdp.cn/leetcode.html)
+[日刷LeetCode](https://www.inkdp.cn/leetcode.html)
 ### 学习路线
 1. 数组
    * 简单[进行中]
