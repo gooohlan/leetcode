@@ -3,6 +3,9 @@ package main
 import "sort"
 
 func intersection(nums1 []int, nums2 []int) []int {
+	if len(nums1) > len(nums2){ // 遍历较小的数组生成map
+		intersection(nums2, nums1)
+	}
 	var intersection []int
 	mapList := make(map[int]bool)
 	for _, v := range nums1 {
