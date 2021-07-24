@@ -45,3 +45,8 @@ func Test455(t *testing.T) {
 	fmt.Println(findContentChildren([]int{1, 2, 3}, []int{1, 1}))
 	fmt.Println(findContentChildren([]int{1, 2}, []int{1, 2, 3}))
 }
+
+func Test496(t *testing.T) {
+	fmt.Println(nextGreaterElement2([]int{4,1,2}, []int{1,3,4,2}))
+	fmt.Println(nextGreaterElement2([]int{2, 4}, []int{1,2,3,4}))
+}
