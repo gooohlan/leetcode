@@ -50,3 +50,7 @@ func Test496(t *testing.T) {
 	fmt.Println(nextGreaterElement2([]int{4,1,2}, []int{1,3,4,2}))
 	fmt.Println(nextGreaterElement2([]int{2, 4}, []int{1,2,3,4}))
 }
+
+func Test506(t *testing.T) {
+	fmt.Println(findRelativeRanks([]int{3, 5, 6, 1, 4}))
+}
