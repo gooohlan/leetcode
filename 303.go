@@ -4,7 +4,7 @@ type NumArray struct {
 	sums []int
 }
 
-func Constructor(nums []int) NumArray {
+func Constructor1(nums []int) NumArray {
 	sums := make([]int, len(nums))
 	for i, v := range nums {
 		sums[i] = v

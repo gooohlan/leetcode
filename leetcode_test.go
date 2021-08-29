@@ -12,7 +12,7 @@ func Test204(t *testing.T) {
 }
 
 func Test303(t *testing.T) {
-	obj := Constructor([]int{-2, 0, 3, -5, 2, -1})
+	obj := Constructor1([]int{-2, 0, 3, -5, 2, -1})
 	param_1 := obj.SumRange(0, 5)
 	fmt.Println(param_1)
 	obj = Constructor2([]int{-2, 0, 3, -5, 2, -1})
@@ -53,4 +53,12 @@ func Test496(t *testing.T) {
 
 func Test506(t *testing.T) {
 	fmt.Println(findRelativeRanks([]int{3, 5, 6, 1, 4}))
+}
+
+func Test598(t *testing.T) {
+	ops := [][]int{
+		[]int{2,2},
+		[]int{3,3},
+	}
+	fmt.Println(maxCount(3, 3, ops))
 }
