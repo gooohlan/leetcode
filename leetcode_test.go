@@ -47,8 +47,8 @@ func Test455(t *testing.T) {
 }
 
 func Test496(t *testing.T) {
-	fmt.Println(nextGreaterElement2([]int{4,1,2}, []int{1,3,4,2}))
-	fmt.Println(nextGreaterElement2([]int{2, 4}, []int{1,2,3,4}))
+	fmt.Println(nextGreaterElement2([]int{4, 1, 2}, []int{1, 3, 4, 2}))
+	fmt.Println(nextGreaterElement2([]int{2, 4}, []int{1, 2, 3, 4}))
 }
 
 func Test506(t *testing.T) {
@@ -57,8 +57,18 @@ func Test506(t *testing.T) {
 
 func Test598(t *testing.T) {
 	ops := [][]int{
-		[]int{2,2},
-		[]int{3,3},
+		[]int{2, 2},
+		[]int{3, 3},
 	}
 	fmt.Println(maxCount(3, 3, ops))
+}
+
+func Test599(t *testing.T) {
+	list1 := []string{"Shogun", "Tapioca Express", "Burger King", "KFC"}
+	list2 := []string{"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"}
+	fmt.Println(findRestaurant(list1, list2))
+}
+
+func Test645(t *testing.T) {
+	fmt.Println(findErrorNums2([]int{1, 2, 2, 4}))
 }
