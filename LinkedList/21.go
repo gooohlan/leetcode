@@ -6,6 +6,7 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	head := &ListNode{}
 	pre := head
 	for list1 != nil && list2 != nil {
+		// 比较两个节点的值, 将较小的节点放到pre指针
 		if list1.Val < list2.Val {
 			pre.Next = list1
 			list1 = list1.Next
