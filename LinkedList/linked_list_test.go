@@ -23,3 +23,12 @@ func TestMergeTwoLists(t *testing.T) {
 	l3 := mergeTwoLists(l1, l2)
 	fmt.Println(l3)
 }
+
+func TestPartition(t *testing.T) {
+	head := NewListNode(1, 4, 3, 2, 5, 2)
+	node := partition(head, 3)
+	for node != nil {
+		fmt.Println(node.Val)
+		node = node.Next
+	}
+}
