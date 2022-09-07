@@ -32,3 +32,15 @@ func TestPartition(t *testing.T) {
 		node = node.Next
 	}
 }
+
+func TestMergeKLists(t *testing.T) {
+	l1 := NewListNode(1, 4, 5)
+	l2 := NewListNode(1, 3, 4)
+	l3 := NewListNode(2, 6)
+
+	newListNode := mergeKLists([]*ListNode{l1, l2, l3})
+	for newListNode != nil {
+		fmt.Println(newListNode.Val)
+		newListNode = newListNode.Next
+	}
+}
