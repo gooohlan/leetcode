@@ -23,8 +23,11 @@ func (h *minHeap) Pop() interface{} {
 	return x
 }
 
-func mergeKLists(lists []*ListNode) *ListNode {
+// 使用最小堆存储所有链表头结点节点
+// 遍历最小堆,取出最小节点添加到新链表,同时将取出节点下一个节点放入最小堆中
+func mergeKLists2(lists []*ListNode) *ListNode {
 	h := new(minHeap)
+	// 将所有链表的头结点放入最小堆
 	for _, list := range lists {
 		if list != nil {
 			heap.Push(h, list)
@@ -34,10 +37,13 @@ func mergeKLists(lists []*ListNode) *ListNode {
 	head := &ListNode{}
 	pre := head
 	for h.Len() > 0 {
+		// 取出最小节点
 		node := heap.Pop(h).(*ListNode)
 		if node.Next != nil {
+			// 将最小节点下一节点加入最小堆
 			heap.Push(h, node.Next)
 		}
+		// 最小节点放入链表
 		pre.Next = node
 		pre = pre.Next
 	}

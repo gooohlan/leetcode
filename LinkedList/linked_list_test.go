@@ -38,7 +38,7 @@ func TestMergeKLists(t *testing.T) {
 	l2 := NewListNode(1, 3, 4)
 	l3 := NewListNode(2, 6)
 
-	newListNode := mergeKLists([]*ListNode{l1, l2, l3})
+	newListNode := mergeKLists1([]*ListNode{l1, l2, l3})
 	for newListNode != nil {
 		fmt.Println(newListNode.Val)
 		newListNode = newListNode.Next
