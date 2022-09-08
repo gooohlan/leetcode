@@ -44,3 +44,12 @@ func TestMergeKLists(t *testing.T) {
 		newListNode = newListNode.Next
 	}
 }
+
+func TestRemoveNthFromEnd(t *testing.T) {
+	l := NewListNode(1, 2, 3, 4, 5)
+	newListNode := removeNthFromEnd(l, 2)
+	for newListNode != nil {
+		fmt.Println(newListNode.Val)
+		newListNode = newListNode.Next
+	}
+}
