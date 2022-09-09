@@ -10,4 +10,5 @@
    - [23.合并K个升序链表-分治](https://github.com/InkDP/leetcode/blob/master/LinkedList/23-1.go)
    - [23.合并K个升序链表-最小堆](https://github.com/InkDP/leetcode/blob/master/LinkedList/23-2.go)
    - [19.删除链表的倒数第N个结点](https://github.com/InkDP/leetcode/blob/master/LinkedList/19.go)
+   - [876. 链表的中间结点](https://github.com/InkDP/leetcode/blob/master/LinkedList/876.go)
 2. .....

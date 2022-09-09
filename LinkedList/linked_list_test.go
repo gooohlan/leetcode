@@ -53,3 +53,12 @@ func TestRemoveNthFromEnd(t *testing.T) {
 		newListNode = newListNode.Next
 	}
 }
+
+func TestMiddleNode(t *testing.T) {
+	l := NewListNode(1, 2, 3, 4, 5)
+	mid := middleNode(l)
+	for mid != nil {
+		fmt.Println(mid.Val)
+		mid = mid.Next
+	}
+}
