@@ -62,3 +62,11 @@ func TestMiddleNode(t *testing.T) {
 		mid = mid.Next
 	}
 }
+
+func TestGetIntersectionNode(t *testing.T) {
+	l1 := NewListNode(4, 1, 8, 4, 5)
+	l2 := NewListNode(5, 6, 1, 8, 4, 5)
+
+	l := getIntersectionNode(l1, l2)
+	fmt.Println(l)
+}
