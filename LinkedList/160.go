@@ -29,3 +29,22 @@ func getIntersectionNode1(headA, headB *ListNode) *ListNode {
 	}
 	return p1
 }
+
+// 核心依旧在于同事到达相交点c1
+// 我们让两个链表收尾相连,这样两个链表的长度一致,即p1 = headA + headB p2 = headB + headA
+// 这样我们同时遍历两个指针,就可以同时到底c1,如果没有相交点,也会同时走到指针的末尾
+func getIntersectionNode(headA, headB *ListNode) *ListNode {
+	p1, p2 := headA, headB
+
+	for p1 != p2 {
+		if p1 == nil {
+			p1 = headB
+		}
+		if p2 == nil {
+			p2 = headA
+		}
+		p1 = p1.Next
+		p2 = p2.Next
+	}
+	return p1
+}

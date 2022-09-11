@@ -64,9 +64,19 @@ func TestMiddleNode(t *testing.T) {
 }
 
 func TestGetIntersectionNode(t *testing.T) {
-	l1 := NewListNode(4, 1, 8, 4, 5)
-	l2 := NewListNode(5, 6, 1, 8, 4, 5)
+	l := NewListNode(8, 4, 5)
+	l1 := NewListNode(4, 1)
+	l2 := NewListNode(5, 6, 1)
+	p1, p2 := l1, l2
+	for p1.Next != nil {
+		p1 = p1.Next
+	}
+	p1.Next = l
+	for p2.Next != nil {
+		p2 = p2.Next
+	}
+	p2.Next = l
 
-	l := getIntersectionNode(l1, l2)
+	l = getIntersectionNode(l1, l2)
 	fmt.Println(l)
 }
