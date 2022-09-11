@@ -8,4 +8,6 @@
 - [23.合并K个升序链表-最小堆](https://github.com/InkDP/leetcode/blob/master/LinkedList/23-2.go)
 - [19.删除链表的倒数第N个结点](https://github.com/InkDP/leetcode/blob/master/LinkedList/19.go)
 - [876. 链表的中间结点](https://github.com/InkDP/leetcode/blob/master/LinkedList/876.go)
-- [160. 相交链表](https://github.com/InkDP/leetcode/blob/master/LinkedList/160.go)
+- [160. 环形链表](https://github.com/InkDP/leetcode/blob/master/LinkedList/160.go)
+- [141. 环形链表 II](https://github.com/InkDP/leetcode/blob/master/LinkedList/141.go)
+- [142. 环形链表 II](https://github.com/InkDP/leetcode/blob/master/LinkedList/142.go)

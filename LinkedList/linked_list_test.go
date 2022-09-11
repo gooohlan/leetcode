@@ -80,3 +80,22 @@ func TestGetIntersectionNode(t *testing.T) {
 	l = getIntersectionNode(l1, l2)
 	fmt.Println(l)
 }
+
+func TestDetectCycle(t *testing.T) {
+	l := NewListNode(2, 0, 4)
+	l1 := l
+	for l1.Next != nil {
+		l1 = l1.Next
+	}
+	l1.Next = l
+	l1 = l1.Next
+
+	l2 := NewListNode(3)
+	ll2 := l2
+	for ll2.Next != nil {
+		ll2 = ll2.Next
+	}
+	ll2.Next = l1
+
+	fmt.Println(detectCycle(l2))
+}
