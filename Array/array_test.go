@@ -14,3 +14,25 @@ func TestRemoveElement(t *testing.T) {
 	val := 2
 	fmt.Println(removeElement(arr, val))
 }
+
+func TestTwoSum(t *testing.T) {
+	arr := []int{1, 3, 6, 7}
+	fmt.Println(twoSum(arr, 9))
+}
+
+func TestMoveZeroes(t *testing.T) {
+	arr := []int{1, 0, 2, 3, 0, 0, 5}
+	moveZeroes(arr)
+	fmt.Println(arr)
+}
+
+func TestReverseString(t *testing.T) {
+	str := "abcdABCD"
+
+	fmt.Println(string(reverseString([]byte(str))))
+}
+
+func TestLongestPalindrome(t *testing.T) {
+	str := "cbbd"
+	fmt.Println(longestPalindrome(str))
+}
