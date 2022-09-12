@@ -35,7 +35,6 @@ func getIntersectionNode1(headA, headB *ListNode) *ListNode {
 // 这样我们同时遍历两个指针,就可以同时到底c1,如果没有相交点,也会同时走到指针的末尾
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	p1, p2 := headA, headB
-
 	for p1 != p2 {
 		if p1 == nil {
 			p1 = headB
