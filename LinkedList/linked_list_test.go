@@ -99,3 +99,9 @@ func TestDetectCycle(t *testing.T) {
 
 	fmt.Println(detectCycle(l2))
 }
+
+func TestDeleteDuplicates(t *testing.T) {
+	l := NewListNode(0, 0, 1, 1, 1, 2, 2, 3, 3, 4)
+	l = deleteDuplicates(l)
+	fmt.Println(l)
+}
