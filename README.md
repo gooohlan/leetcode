@@ -21,3 +21,5 @@
    - [167.两数之和 II - 输入有序数组](https://github.com/InkDP/leetcode/blob/master/Arrray/167.go)
    - [283. 移动零](https://github.com/InkDP/leetcode/blob/master/Arrray/283.go)
    - [344. 反转字符串](https://github.com/InkDP/leetcode/blob/master/Arrray/344.go)
+3. [二叉树](https://github.com/InkDP/leetcode/tree/master/BinaryTree)
+   - [104. 二叉树的最大深度](https://github.com/InkDP/leetcode/blob/master/Binary/104.go)

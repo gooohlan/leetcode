@@ -1,7 +1,7 @@
 package Array
 
 // 依旧采用快慢指针的方式
-// 如果fast遇到只为val的元素,则直接跳过,否则赋值给slow所在值,slow前进一步
+// 如果fast遇到值为val的元素,则直接跳过,否则赋值给slow所在值,slow前进一步
 func removeElement(nums []int, val int) int {
 	slow := 0
 	for fast := 0; fast < len(nums); fast++ {
