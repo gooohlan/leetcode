@@ -22,4 +22,4 @@
    - [283. 移动零](https://github.com/InkDP/leetcode/blob/master/Arrray/283.go)
    - [344. 反转字符串](https://github.com/InkDP/leetcode/blob/master/Arrray/344.go)
 3. [二叉树](https://github.com/InkDP/leetcode/tree/master/BinaryTree)
-   - [104. 二叉树的最大深度](https://github.com/InkDP/leetcode/blob/master/Binary/104.go)
+   - [104. 二叉树的最大深度](https://github.com/InkDP/leetcode/blob/master/BinaryTree/104.go)
