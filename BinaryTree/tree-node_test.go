@@ -22,7 +22,7 @@ func TestPreorderTraversal(t *testing.T) {
 		Right: &TreeNode{9, nil, nil},
 	}
 	fmt.Println(preorderTraversal1(node))
-	fmt.Println(preorderTraversal2(node))
+	// fmt.Println(preorderTraversal2(node))
 }
 func TestDiameterOfBinaryTree(t *testing.T) {
 	node := &TreeNode{
@@ -43,4 +43,25 @@ func TestInvertTree(t *testing.T) {
 	node = invertTree2(node)
 
 	fmt.Println(111)
+}
+
+func TestConnect(t *testing.T) {
+	node := &Node{
+		1,
+		&Node{
+			2,
+			&Node{4, &Node{8, nil, nil, nil}, &Node{9, nil, nil, nil}, nil},
+			&Node{5, &Node{10, nil, nil, nil}, &Node{11, nil, nil, nil}, nil},
+			nil,
+		},
+		&Node{
+			3,
+			&Node{6, &Node{12, nil, nil, nil}, &Node{13, nil, nil, nil}, nil},
+			&Node{7, &Node{14, nil, nil, nil}, &Node{15, nil, nil, nil}, nil},
+			nil,
+		},
+		nil,
+	}
+
+	connect(node)
 }
