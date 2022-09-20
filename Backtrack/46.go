@@ -1,4 +1,4 @@
-package Backtracking
+package Backtrack
 
 var res [][]int
 
