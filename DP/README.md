@@ -10,5 +10,5 @@
 
 **明确 base case -> 明确「状态」-> 明确「选择」 -> 定义 `dp` 数组/函数的含义**。
 
-- [322. 零钱兑换](https://github.com/InkDP/leetcode/blob/master/DP/322.go)
-- [509. 菲波那切数列](https://github.com/InkDP/leetcode/blob/master/DP/509.go)
+- [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
+- [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)

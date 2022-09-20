@@ -13,9 +13,9 @@
 > 引用自[东哥带你刷二叉树（纲领篇）](https://labuladong.github.io/algo/1/6/)
 
 
-- [104. 二叉树的最大深度](https://github.com/InkDP/leetcode/blob/master/BinaryTree/104.go)
-- [116. 填充每个节点的下一个右侧节点指针](https://github.com/InkDP/leetcode/blob/master/BinaryTree/116.go)
-- [144. 二叉树的前序遍历](https://github.com/InkDP/leetcode/blob/master/BinaryTree/144.go)
-- [145. 二叉树的后序遍历](https://github.com/InkDP/leetcode/blob/master/BinaryTree/145.go)
-- [226. 翻转二叉树](https://github.com/InkDP/leetcode/blob/master/BinaryTree/226.go)
-- [543. 二叉树的直径](https://github.com/InkDP/leetcode/blob/master/BinaryTree/543.go)
+- [104. 二叉树的最大深度](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/104.go)
+- [116. 填充每个节点的下一个右侧节点指针](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/116.go)
+- [144. 二叉树的前序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/144.go)
+- [145. 二叉树的后序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/145.go)
+- [226. 翻转二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/226.go)
+- [543. 二叉树的直径](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/543.go)
