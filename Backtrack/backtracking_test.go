@@ -20,3 +20,7 @@ func TestSubsets(t *testing.T) {
 	list := subsets([]int{1, 2, 3})
 	fmt.Println(list)
 }
+
+func TestCombine(t *testing.T) {
+	fmt.Println(combine(3, 2))
+}
