@@ -24,3 +24,13 @@ func TestSubsets(t *testing.T) {
 func TestCombine(t *testing.T) {
 	fmt.Println(combine(3, 2))
 }
+
+func TestSubsetsWithDup(t *testing.T) {
+	nums := []int{1, 2, 2}
+	fmt.Println(subsetsWithDup(nums))
+}
+
+func TestCombinationSum2(t *testing.T) {
+	nums := []int{10, 1, 2, 7, 6, 1, 5}
+	fmt.Println(combinationSum2(nums, 8))
+}
