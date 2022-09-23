@@ -34,3 +34,10 @@ func TestCombinationSum2(t *testing.T) {
 	nums := []int{10, 1, 2, 7, 6, 1, 5}
 	fmt.Println(combinationSum2(nums, 8))
 }
+
+func TestPermuteUnique(t *testing.T) {
+	nums := []int{1, 2, 3}
+	fmt.Println(permuteUnique(nums))
+	nums = []int{1, 2, 1}
+	fmt.Println(permuteUnique(nums))
+}
