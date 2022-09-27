@@ -20,6 +20,7 @@ func combinationSum(candidates []int, target int) [][]int {
 		if trackSum > target {
 			return
 		}
+
 		for i := start; i < len(candidates); i++ {
 			track = append(track, candidates[i])
 			trackSum += candidates[i]
