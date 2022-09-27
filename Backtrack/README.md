@@ -9,3 +9,4 @@
 - [90. 子集 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/90.go)
 - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/40.go)
 - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/47.go)
+- [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/Backtrack/39.go)
