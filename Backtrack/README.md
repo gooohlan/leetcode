@@ -50,7 +50,7 @@ func bacjtrack(路径, 选择列表):
 
   **大小为`k`的组合就是大小为`k`的子集**
   - [77. 组合](https://github.com/gooohlan/leetcode/blob/master/Backtrack/77.go)
-  - 216.组合总和 III
+  - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/master/Backtrack/216.go)
 - 排列（元素无重不可复选）
   - [46. 全排列](https://github.com/gooohlan/leetcode/blob/master/Backtrack/46.go)
   - [51. N 皇后（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/51.go)
