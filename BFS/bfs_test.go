@@ -14,3 +14,8 @@ func TestMinDepth(t *testing.T) {
 	depth := minDepth(node)
 	fmt.Println(depth)
 }
+
+func TestOpenLock(t *testing.T) {
+	deadends := []string{"0201", "0101", "0102", "1212", "2002"}
+	fmt.Println(openLock(deadends, "0202"))
+}
