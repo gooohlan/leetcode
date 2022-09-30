@@ -47,5 +47,6 @@
    - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/Backtrack/39.go)
 6. [BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
    - [111. 二叉树的最小深度](https://github.com/gooohlan/leetcode/blob/master/BFS/111.go)
+   - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
    
      

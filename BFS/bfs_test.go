@@ -17,5 +17,6 @@ func TestMinDepth(t *testing.T) {
 
 func TestOpenLock(t *testing.T) {
 	deadends := []string{"0201", "0101", "0102", "1212", "2002"}
-	fmt.Println(openLock(deadends, "0202"))
+	// fmt.Println(openLock(deadends, "0202"))
+	fmt.Println(openLock2(deadends, "0202"))
 }
