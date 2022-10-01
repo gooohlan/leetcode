@@ -49,5 +49,7 @@
    - [111. 二叉树的最小深度](https://github.com/gooohlan/leetcode/blob/master/BFS/111.go)
    - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
    - [773. 滑动谜题](https://github.com/gooohlan/leetcode/blob/master/BFS/773.go)
+7. [二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
+   - [704. 二分查找](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/704.go)
    
      
