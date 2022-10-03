@@ -14,4 +14,8 @@
 
 这个思路其实也不难，第 2 步相当于在寻找一个「可行解」，然后第 3 步在优化这个「可行解」，最终找到最优解，也就是最短的覆盖子串。左右指针轮流前进，窗口大小增增减减，窗口不断向右滑动，这就是「滑动窗口」这个名字的来历。
 
+
 - [76. 最小覆盖子串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/76.go)
+- [567. 字符串的排列](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/567.go)
+- [438. 找到字符串中所有字母异位词](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/438.go)
+- [3. 无重复字符的最长子串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/3.go)
