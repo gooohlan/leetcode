@@ -20,7 +20,8 @@ func checkInclusion(s1 string, s2 string) bool {
 			}
 		}
 
-		for r-l >= len(s1) {
+		// 因为是排列,所以左侧收缩的条件为整个字符串的长度大于子串长度
+		if r-l >= len(s1) {
 			if valid == len(need) {
 				return true
 			}
@@ -28,10 +29,10 @@ func checkInclusion(s1 string, s2 string) bool {
 			l++
 			// 在这里判断是否找到了合法的子串
 			if _, ok := need[d]; ok {
+				window[d]--
 				if window[d] == need[d] {
 					valid--
 				}
-				window[d]--
 			}
 		}
 	}
