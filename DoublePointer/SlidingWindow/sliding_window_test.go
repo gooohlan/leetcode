@@ -22,3 +22,7 @@ func Test438(t *testing.T) {
 	fmt.Println(findAnagrams(s1, s2))
 	fmt.Println(findAnagrams2(s1, s2))
 }
+
+func Test3(t *testing.T) {
+	fmt.Println(lengthOfLongestSubstring("pwwkew"))
+}
