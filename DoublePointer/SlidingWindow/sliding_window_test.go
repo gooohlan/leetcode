@@ -26,3 +26,8 @@ func Test438(t *testing.T) {
 func Test3(t *testing.T) {
 	fmt.Println(lengthOfLongestSubstring("pwwkew"))
 }
+
+func Test1004(t *testing.T) {
+	nums := []int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}
+	fmt.Println(longestOnes(nums, 3))
+}
