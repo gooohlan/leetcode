@@ -31,7 +31,7 @@
       - [3. 无重复字符的最长子串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/3.go)
       - [1004. 最大连续1的个数 III](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/1004.go)
    
-3. [二叉树](https://github.com/gooohlan/leetcode/tree/master/BinaryTree)
+2. [二叉树](https://github.com/gooohlan/leetcode/tree/master/BinaryTree)
    - [104. 二叉树的最大深度](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/104.go)
    - [116. 填充每个节点的下一个右侧节点指针](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/116.go)
    - [144. 二叉树的前序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/144.go)
@@ -39,11 +39,11 @@
    - [226. 翻转二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/226.go)
    - [543. 二叉树的直径](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/543.go)
    
-4. [动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
+3. [动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
    - [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)
    
-5. [回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
+4. [回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
    - [78. 子集](https://github.com/gooohlan/leetcode/blob/master/Backtrack/78.go)
    - [77. 组合](https://github.com/gooohlan/leetcode/blob/master/Backtrack/77.go)
    - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/master/Backtrack/216.go)
@@ -53,12 +53,13 @@
    - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/40.go)
    - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/47.go)
    - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/Backtrack/39.go)
-6. [BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
+5. [BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
    - [111. 二叉树的最小深度](https://github.com/gooohlan/leetcode/blob/master/BFS/111.go)
    - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
    - [773. 滑动谜题](https://github.com/gooohlan/leetcode/blob/master/BFS/773.go)
-7. [二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
+6. [二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
    - [704. 二分查找](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/704.go)
    - [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/34.go)
+7. ...
    
      
