@@ -42,6 +42,10 @@
 3. [动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
    - [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)
+   - [Stock](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
+     - [121. 买卖股票的最佳时机](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/121.go)
+     - [122. 买卖股票的最佳时机 II](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/122.go)
+     - [309. 最佳买卖股票时机含冷冻期](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/309.go)
    
 4. [回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
    - [78. 子集](https://github.com/gooohlan/leetcode/blob/master/Backtrack/78.go)
