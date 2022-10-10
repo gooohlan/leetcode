@@ -3,20 +3,15 @@ package Stock
 // 本体与122最大的区别就是买入卖出多次,所以在买入时做一些调整
 func maxProfit122(prices []int) int {
 	n := len(prices)
-	var dp [][2]int
+	dp := make([][2]int, n)
+	dp[0][0] = 0
+	dp[0][1] = -prices[0]
 
-	for i := 0; i < n; i++ {
-		var item [2]int
-		if i == 0 {
-			item[0] = 0          // 第1天不买入
-			item[1] = -prices[i] // 第1天买入
-		} else {
-			// dp[i][0] 表示在第I天未持有, 此时有两种情况:昨天就未持有, 或者昨天持有今日卖了,二者取最大值即可
-			item[0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
-			// dp[i][0] 表示在第I天持有, 此时有两种情况:昨天就持有, 或者昨天未持有今日买进,买进时需要从最大利润中减去今天买入价格,二者取最大值即可
-			item[1] = max(dp[i-1][1], dp[i-1][0]-prices[i])
-		}
-		dp = append(dp, item)
+	for i := 1; i < n; i++ {
+		// dp[i][0] 表示在第I天未持有, 此时有两种情况:昨天就未持有, 或者昨天持有今日卖了,二者取最大值即可
+		dp[i][0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
+		// dp[i][1] 表示在第I天持有, 此时有两种情况:昨天就持有, 或者昨天未持有今日买进,买进时需要从最大利润中减去今天买入价格,二者取最大值即可
+		dp[i][1] = max(dp[i-1][1], dp[i-1][0]-prices[i])
 	}
 
 	return dp[n-1][0]

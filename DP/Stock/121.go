@@ -4,20 +4,15 @@ package Stock
 // 声明一个二维数组 分别表示天数和是否购买, 1表示持有 0未持有
 func maxprofit121(prices []int) int {
 	n := len(prices)
-	var dp [][2]int
+	dp := make([][2]int, n)
+	dp[0][0] = 0
+	dp[0][1] = -prices[0]
 
-	for i := 0; i < n; i++ {
-		var item [2]int
-		if i == 0 {
-			item[0] = 0          // 第1天不买入
-			item[1] = -prices[i] // 第1天买入
-		} else {
-			// dp[i][0] 表示在第I天未持有, 此时有两种情况:昨天就未持有, 或者昨天持有今日卖了,二者取最大值即可
-			item[0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
-			// dp[i][0] 表示在第I天持有, 此时有两种情况:昨天就持有, 或者昨天未持有今日买进,二者取最大值即可
-			item[1] = max(dp[i-1][1], -prices[i])
-		}
-		dp = append(dp, item)
+	for i := 1; i < n; i++ {
+		// dp[i][0] 表示在第I天未持有, 此时有两种情况:昨天就未持有, 或者昨天持有今日卖了,二者取最大值即可
+		dp[i][0] = max(dp[i-1][0], dp[i-1][1]+prices[i])
+		// dp[i][0] 表示在第I天持有, 此时有两种情况:昨天就持有, 或者昨天未持有今日买进,二者取最大值即可
+		dp[i][1] = max(dp[i-1][1], -prices[i])
 	}
 
 	return dp[n-1][0]
