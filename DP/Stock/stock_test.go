@@ -29,3 +29,9 @@ func Test714(t *testing.T) {
 	fmt.Println(maxProfit714(prices, 3))
 	fmt.Println(maxProfit714_1(prices, 3))
 }
+
+func Test123(t *testing.T) {
+	prices := []int{3, 3, 5, 0, 0, 3, 1, 4}
+	fmt.Println(maxProfit123(prices))
+	fmt.Println(maxProfit123_1(prices))
+}
