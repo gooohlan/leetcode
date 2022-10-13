@@ -42,7 +42,11 @@
 3. [动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
    - [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)
-   - [Stock](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
+   - [192. 打家劫舍](https://github.com/gooohlan/leetcode/blob/master/DP/198.go)
+   - [213. 打家劫舍 II](https://github.com/gooohlan/leetcode/blob/master/DP/213.go)
+   - [337. 打家劫舍 III](https://github.com/gooohlan/leetcode/blob/master/DP/337.go)
+   - 
+   - [买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
      - [121. 买卖股票的最佳时机](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/121.go)
      - [122. 买卖股票的最佳时机 II](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/122.go)
      - [309. 最佳买卖股票时机含冷冻期](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/309.go)
