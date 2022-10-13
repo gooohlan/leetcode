@@ -12,6 +12,9 @@
 
 - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
 - [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)
+- [192. 打家劫舍](https://github.com/gooohlan/leetcode/blob/master/DP/198.go)
+- [213. 打家劫舍 II](https://github.com/gooohlan/leetcode/blob/master/DP/213.go)
+- [337. 打家劫舍 III](https://github.com/gooohlan/leetcode/blob/master/DP/337.go)
 
 ### 使用动态规划解决股票问题
 
