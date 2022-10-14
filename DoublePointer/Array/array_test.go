@@ -41,3 +41,8 @@ func Test15(t *testing.T) {
 	nums := []int{0, 0, 0, 0}
 	fmt.Println(threeSum(nums))
 }
+
+func Test18(t *testing.T) {
+	nums := []int{2, 2, 2, 2, 2}
+	fmt.Println(fourSum(nums, 8))
+}
