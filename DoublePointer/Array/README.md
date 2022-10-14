@@ -8,3 +8,5 @@
 - [167. 两数之和 II - 输入有序数组](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/167.go)
 - [283. 移动零](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/283.go)
 - [344. 反转字符串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/344.go)
+- [15. 三数之和](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/15.go)
+- [18. 四数之和](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/18.go)

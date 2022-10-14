@@ -23,6 +23,8 @@
       - [167.两数之和 II - 输入有序数组](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Array/167.go)
       - [283. 移动零](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Array/283.go)
       - [344. 反转字符串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Array/344.go)
+      - [15. 三数之和](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/15.go)
+      - [18. 四数之和](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/Arrray/18.go)
    
    3. [滑动窗口](https://github.com/gooohlan/leetcode/tree/master/DoublePointer/SlidingWindow)
       - [76. 最小覆盖子串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/76.go)
