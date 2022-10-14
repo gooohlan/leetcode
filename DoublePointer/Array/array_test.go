@@ -36,3 +36,8 @@ func TestLongestPalindrome(t *testing.T) {
 	str := "cbbd"
 	fmt.Println(longestPalindrome(str))
 }
+
+func Test15(t *testing.T) {
+	nums := []int{0, 0, 0, 0}
+	fmt.Println(threeSum(nums))
+}
