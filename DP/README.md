@@ -16,9 +16,8 @@
 - [213. 打家劫舍 II](https://github.com/gooohlan/leetcode/blob/master/DP/213.go)
 - [337. 打家劫舍 III](https://github.com/gooohlan/leetcode/blob/master/DP/337.go)
 
-### 使用动态规划解决股票问题
+### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
-[Stock](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 - [121. 买卖股票的最佳时机](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/121.go)
 - [122. 买卖股票的最佳时机 II](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/122.go)
 - [309. 最佳买卖股票时机含冷冻期](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/309.go)
