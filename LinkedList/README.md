@@ -3,6 +3,7 @@
 - [206. 反转链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/206.go)
 - [反转链表前N个元素](https://github.com/gooohlan/leetcode/blob/master/LinkedList/reverseN.go)
 - [92. 反转链表 II](https://github.com/gooohlan/leetcode/blob/master/LinkedList/92.go)
+- [25. K 个一组翻转链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/25.go)
 
 ### [双指针技巧解法](https://github.com/gooohlan/leetcode/tree/master/LinkedList/DoublePointer)
 

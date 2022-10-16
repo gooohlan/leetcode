@@ -32,3 +32,9 @@ func Test92(t *testing.T) {
 
 	PrintListNode(node)
 }
+
+func Test25(t *testing.T) {
+	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, &ListNode{6, &ListNode{7, nil}}}}}}}
+	node = reverseKGroup(node, 4)
+	PrintListNode(node)
+}
