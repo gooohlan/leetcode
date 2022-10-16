@@ -16,6 +16,6 @@ func reverseN(head *ListNode, n int) *ListNode {
 	}
 	last := reverseN(head.Next, n-1)
 	head.Next.Next = head
-	head.Next = successor // 因为只反转前N个元素,所以要指向为翻转的部分
+	head.Next = successor // 因为只反转前N个元素, 反转完的节点要指向未反转的部分
 	return last
 }

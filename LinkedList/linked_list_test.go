@@ -25,3 +25,10 @@ func TestReverseListN(t *testing.T) {
 
 	PrintListNode(node)
 }
+
+func Test92(t *testing.T) {
+	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, &ListNode{6, &ListNode{7, nil}}}}}}}
+	node = reverseBetween(node, 4, 6)
+
+	PrintListNode(node)
+}
