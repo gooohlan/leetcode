@@ -27,15 +27,16 @@ func reverseList(head *ListNode) *ListNode {
 }
 
 func reverseList2(node *ListNode) *ListNode {
-	return reverse(nil, node)
+	return reverse(node)
 }
 
-func reverse(pre, head *ListNode) *ListNode {
-	if head == nil {
-		return pre
+func reverse(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
 	}
 
-	next := head.Next
-	head.Next = pre
-	return reverse(head, next)
+	last := reverse(head.Next)
+	head.Next.Next = head
+	head.Next = nil
+	return last
 }
