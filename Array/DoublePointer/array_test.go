@@ -2,6 +2,7 @@ package Array
 
 import (
 	"fmt"
+	"sort"
 	"testing"
 )
 
@@ -45,4 +46,10 @@ func Test15(t *testing.T) {
 func Test18(t *testing.T) {
 	nums := []int{2, 2, 2, 2, 2}
 	fmt.Println(fourSum(nums, 8))
+}
+
+func Test1(t *testing.T) {
+	nums := []int{3, 2, 4}
+	sort.Ints(nums)
+	fmt.Println(nums)
 }
