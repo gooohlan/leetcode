@@ -6,10 +6,11 @@ import (
 )
 
 func PrintListNode(node *ListNode) {
-	for node != nil {
-		fmt.Println(node.Val)
-		node = node.Next
+	if node == nil {
+		return
 	}
+	fmt.Println(node.Val)
+	PrintListNode(node.Next)
 }
 
 func Test206(t *testing.T) {
@@ -37,4 +38,9 @@ func Test25(t *testing.T) {
 	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, &ListNode{6, &ListNode{7, nil}}}}}}}
 	node = reverseKGroup(node, 4)
 	PrintListNode(node)
+}
+
+func Test234(t *testing.T) {
+	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{2, &ListNode{1, nil}}}}}
+	fmt.Println(isPalindrome2(node))
 }
