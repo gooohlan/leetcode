@@ -42,5 +42,5 @@ func Test25(t *testing.T) {
 
 func Test234(t *testing.T) {
 	node := &ListNode{1, &ListNode{2, &ListNode{3, &ListNode{2, &ListNode{1, nil}}}}}
-	fmt.Println(isPalindrome2(node))
+	fmt.Println(isPalindrome(node))
 }

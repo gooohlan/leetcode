@@ -1,4 +1,4 @@
-package main
+package Array
 
 func containsDuplicate(nums []int) bool {
 	mapArr := make(map[int]bool)

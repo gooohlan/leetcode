@@ -13,12 +13,14 @@ func traverse(right *ListNode) bool {
 	if right == nil {
 		return true
 	}
-	res := traverse(right.Next)
-	if !res || right.Val != left.Val {
+	if !traverse(right.Next) {
+		return false
+	}
+	if right.Val != left.Val {
 		return false
 	}
 	left = left.Next
-	return res
+	return true
 }
 
 // 利用双指针先找到中心节点,然后反转中心节点后面部分, 与前面进行对比

@@ -7,6 +7,14 @@
 
 ### [1. 数组](https://github.com/gooohlan/leetcode/tree/master/Array)
 
+- [1. 两数之和](https://github.com/gooohlan/leetcode/blob/master/Array/1.go)
+- [169. 多数元素](https://github.com/gooohlan/leetcode/blob/master/Array/169.go)
+- [217. 存在重复元素](https://github.com/gooohlan/leetcode/blob/master/Array/217.go)
+- [219. 存在重复元素 II](https://github.com/gooohlan/leetcode/blob/master/Array/219.go)
+- [228. 汇总区间](https://github.com/gooohlan/leetcode/blob/master/Array/228.go)
+- [268. 丢失的数字](https://github.com/gooohlan/leetcode/blob/master/Array/268.go)
+- [303. 区域和检索 - 数组不可变](https://github.com/gooohlan/leetcode/blob/master/Array/303.go)
+
 #### [1.1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/DoublePointer)
 
 - [5. 最长回文子串](https://github.com/gooohlan/leetcode/blob/master/Array/DoublePointer/5.go)
@@ -24,6 +32,9 @@
 - [反转链表前N个元素](https://github.com/gooohlan/leetcode/blob/master/LinkedList/reverseN.go)
 - [92. 反转链表 II](https://github.com/gooohlan/leetcode/blob/master/LinkedList/92.go)
 - [25. K 个一组翻转链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/25.go)
+- [234. 回文链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/234.go)
+
+
 #### [2.1. 双指针技巧解法](https://github.com/gooohlan/leetcode/tree/master/LinkedList/DoublePointer)
 
 
