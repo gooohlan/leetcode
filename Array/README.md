@@ -9,6 +9,9 @@
 - [268. 丢失的数字](https://github.com/gooohlan/leetcode/blob/master/Array/268.go)
 - [303. 区域和检索 - 数组不可变](https://github.com/gooohlan/leetcode/blob/master/Array/303.go)
 - [304. 二维区域和检索 - 矩阵不可变](https://github.com/gooohlan/leetcode/blob/master/Array/304.go)
+- [370. 区间加法](https://github.com/gooohlan/leetcode/blob/master/Array/370.go)
+- [1109. 航班预订统计](https://github.com/gooohlan/leetcode/blob/master/Array/1109.go)
+- [1094. 拼车](https://github.com/gooohlan/leetcode/blob/master/Array/1094.go)
 
 ### [1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/LinkedList)
 

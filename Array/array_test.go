@@ -43,3 +43,11 @@ func Test1109(t *testing.T) {
 	}
 	fmt.Println(corpFlightBookings(bookings, 2))
 }
+
+func Test1094(t *testing.T) {
+	trips := [][]int{
+		[]int{9, 0, 1},
+		[]int{3, 3, 7},
+	}
+	fmt.Println(carPooling(trips, 4))
+}

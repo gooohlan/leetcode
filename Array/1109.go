@@ -5,7 +5,7 @@ func corpFlightBookings(bookings [][]int, n int) []int {
 	for _, booking := range bookings {
 		diff[booking[0]-1] += booking[2]
 		if booking[1] < n {
-			diff[booking[1]] -= booking[2]
+			diff[booking[1]-1] -= booking[2]
 		}
 	}
 
