@@ -72,3 +72,8 @@ func Test599(t *testing.T) {
 func Test645(t *testing.T) {
 	fmt.Println(findErrorNums2([]int{1, 2, 2, 4}))
 }
+
+func Test151(t *testing.T) {
+	str := "     xxxx  cccc   aaaa   cd sc "
+	fmt.Println(reverseWords(str))
+}
