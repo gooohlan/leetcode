@@ -51,3 +51,18 @@ func Test1094(t *testing.T) {
 	}
 	fmt.Println(carPooling(trips, 4))
 }
+
+func Test151(t *testing.T) {
+	str := "     xxxx  cccc   aaaa   cd sc "
+	fmt.Println(reverseWords(str))
+}
+
+func Test48(t *testing.T) {
+	matrix := [][]int{
+		[]int{1, 1, 1},
+		[]int{2, 2, 2},
+		[]int{3, 3, 3},
+	}
+	rotate(matrix)
+	fmt.Println(matrix)
+}
