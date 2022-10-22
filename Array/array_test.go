@@ -66,3 +66,13 @@ func Test48(t *testing.T) {
 	rotate(matrix)
 	fmt.Println(matrix)
 }
+
+func Test54(t *testing.T) {
+	matrix := [][]int{
+		[]int{1, 2, 3, 4},
+		[]int{5, 6, 7, 8},
+		[]int{9, 10, 11, 12},
+	}
+
+	fmt.Println(spiralOrder(matrix))
+}
