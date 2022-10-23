@@ -32,6 +32,15 @@
 - [15. 三数之和](https://github.com/gooohlan/leetcode/blob/master/Array/DoublePointer/15.go)
 - [18. 四数之和](https://github.com/gooohlan/leetcode/blob/master/Array/DoublePointer/18.go)
 
+#### [1.2.滑动窗口](https://github.com/gooohlan/leetcode/tree/master/Array/SlidingWindow)
+- [76. 最小覆盖子串](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/76.go)
+- [567. 字符串的排列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/567.go)
+- [438. 找到字符串中所有字母异位词](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/438.go)
+- [3. 无重复字符的最长子串](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/3.go)
+- [1004. 最大连续1的个数 III](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/1004.go)
+- [187. 重复的DNA序列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/187.go)
+- [28. 找出字符串中第一个匹配项的下标](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/28.go)
+
 ### [2. 链表](https://github.com/gooohlan/leetcode/tree/master/LinkedList)
 
 - [206. 反转链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/206.go)
@@ -97,12 +106,4 @@
 ### [7. 二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
    - [704. 二分查找](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/704.go)
    - [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/34.go)
-### [8. 双指针](https://github.com/gooohlan/leetcode/tree/master/DoublePointer)
-
-#### [8.1. 滑动窗口](https://github.com/gooohlan/leetcode/tree/master/DoublePointer/SlidingWindow)
-- [76. 最小覆盖子串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/76.go)
-- [567. 字符串的排列](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/567.go)
-- [438. 找到字符串中所有字母异位词](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/438.go)
-- [3. 无重复字符的最长子串](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/3.go)
-- [1004. 最大连续1的个数 III](https://github.com/gooohlan/leetcode/blob/master/DoublePointer/SlidingWindow/1004.go)
      

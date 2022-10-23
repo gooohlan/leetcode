@@ -32,3 +32,5 @@
 - [438. 找到字符串中所有字母异位词](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/438.go)
 - [3. 无重复字符的最长子串](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/3.go)
 - [1004. 最大连续1的个数 III](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/1004.go)
+- [187. 重复的DNA序列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/187.go)
+- [28. 找出字符串中第一个匹配项的下标](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/28.go)
