@@ -36,3 +36,9 @@ func Test187(t *testing.T) {
 	str := "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
 	fmt.Println(findRepeatedDnaSequences2(str))
 }
+
+func Test28(t *testing.T) {
+	haystack := "iicadbutcad"
+	needle := "cad"
+	fmt.Println(strStr2(haystack, needle))
+}
