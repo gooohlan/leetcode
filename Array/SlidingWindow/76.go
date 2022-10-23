@@ -45,3 +45,45 @@ func minWindow(s string, t string) string {
 	}
 	return s[start : start+length]
 }
+
+func minWindow2(s, t string) string {
+	window, need := map[byte]int{}, map[byte]int{}
+	for _, v := range t {
+		need[byte(v)]++
+	}
+
+	l, r := 0, 0
+	valid := 0                      // 记录符合条件的字符数
+	start, length := 0, math.MaxInt // 开始位置和长度
+
+	for r < len(s) {
+		c := s[r]
+		r++
+
+		if _, ok := need[c]; ok {
+			window[c]++
+			if need[c] == window[c] {
+				valid++
+			}
+		}
+
+		for valid == len(need) {
+			d := s[l]
+			if _, ok := need[d]; ok {
+				if r-l < length {
+					length = r - l
+					start = l
+				}
+				if window[d] == need[d] {
+					valid--
+				}
+				window[d]--
+			}
+			l++
+		}
+	}
+	if length == math.MaxInt {
+		return ""
+	}
+	return s[start : start+length]
+}

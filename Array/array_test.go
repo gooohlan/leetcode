@@ -76,3 +76,8 @@ func Test54(t *testing.T) {
 
 	fmt.Println(spiralOrder(matrix))
 }
+
+func Test59(t *testing.T) {
+	matrix := generateMatrix(2)
+	fmt.Println(matrix)
+}
