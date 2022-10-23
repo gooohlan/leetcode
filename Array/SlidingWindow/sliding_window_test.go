@@ -34,5 +34,5 @@ func Test1004(t *testing.T) {
 
 func Test187(t *testing.T) {
 	str := "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
-	fmt.Println()
+	fmt.Println(findRepeatedDnaSequences2(str))
 }
