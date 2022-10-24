@@ -81,3 +81,12 @@ func Test59(t *testing.T) {
 	matrix := generateMatrix(2)
 	fmt.Println(matrix)
 }
+
+func Test528(t *testing.T) {
+	s := Constructor528([]int{1, 3, 2})
+	numMap := make(map[int]int)
+	for i := 0; i < 10000; i++ {
+		numMap[s.PickIndex()+1]++
+	}
+	fmt.Println(numMap)
+}
