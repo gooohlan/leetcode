@@ -18,14 +18,10 @@ func leftSearch(nums []int, target int) int {
 
 	for l < r {
 		mid := l + (r-l)/2
-		if nums[mid] == target {
+		if nums[mid] >= target { // nums[mid] == target 与 nums[mid] > target合并
 			r = mid
-			continue
-		}
-		if nums[mid] < target {
-			l = mid + 1
 		} else {
-			r = mid
+			l = mid + 1
 		}
 	}
 	return l
@@ -36,11 +32,7 @@ func rightSearch(nums []int, target int) int {
 
 	for l < r {
 		mid := l + (r-l)/2
-		if nums[mid] == target {
-			l = mid + 1
-			continue
-		}
-		if nums[mid] < target {
+		if nums[mid] <= target { // nums[mid] == target 与 nums[mid] < target合并
 			l = mid + 1
 		} else {
 			r = mid

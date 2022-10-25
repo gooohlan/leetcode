@@ -13,7 +13,7 @@ func search(nums []int, target int) int {
 			r = mid - 1
 		}
 	}
-	return -1
+	return l
 }
 
 // 递归

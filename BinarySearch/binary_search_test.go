@@ -17,3 +17,12 @@ func TestSearchRange(t *testing.T) {
 	fmt.Println(rightSearch(nums, 10))
 	fmt.Println(searchRange(nums, 4))
 }
+
+func Test875(t *testing.T) {
+	fmt.Println(minEatingSpeed([]int{312884470}, 968709470))
+}
+
+func Test1011(t *testing.T) {
+	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	fmt.Println(shipWithinDays(nums, 5))
+}
