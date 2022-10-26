@@ -26,3 +26,8 @@ func Test1011(t *testing.T) {
 	nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	fmt.Println(shipWithinDays(nums, 5))
 }
+
+func Test410(t *testing.T) {
+	nums := []int{7, 2, 5, 10, 8}
+	fmt.Println(splitArrayDP(nums, 3))
+}
