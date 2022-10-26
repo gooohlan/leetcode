@@ -41,3 +41,7 @@ func Test337(t *testing.T) {
 	}
 	fmt.Println(rob337(node))
 }
+func Test410(t *testing.T) {
+	nums := []int{7, 2, 5, 10, 8}
+	fmt.Println(splitArrayDP(nums, 2))
+}
