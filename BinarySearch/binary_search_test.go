@@ -29,5 +29,5 @@ func Test1011(t *testing.T) {
 
 func Test410(t *testing.T) {
 	nums := []int{7, 2, 5, 10, 8}
-	fmt.Println(splitArrayDP(nums, 3))
+	fmt.Println(splitArray(nums, 3))
 }
