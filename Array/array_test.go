@@ -90,3 +90,9 @@ func Test528(t *testing.T) {
 	}
 	fmt.Println(numMap)
 }
+
+func Test870(t *testing.T) {
+	nums1 := []int{12, 24, 8, 32}
+	nums2 := []int{13, 25, 32, 11}
+	fmt.Println(advantageCount(nums1, nums2))
+}
