@@ -13,7 +13,9 @@
 - [1109. 航班预订统计](https://github.com/gooohlan/leetcode/blob/master/Array/1109.go)
 - [1094. 拼车](https://github.com/gooohlan/leetcode/blob/master/Array/1094.go)
 - [151. 翻转字符串里的单词](https://github.com/gooohlan/leetcode/blob/master/Array/151.go)
+- [48. 旋转图像](https://github.com/gooohlan/leetcode/blob/master/Array/48.go)
 - [528. 按权重随机选择](https://github.com/gooohlan/leetcode/blob/master/Array/528.go)
+- [870. 优势洗牌](https://github.com/gooohlan/leetcode/blob/master/Array/870.go)
 
 ### [1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/LinkedList)
 
