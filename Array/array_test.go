@@ -96,3 +96,16 @@ func Test870(t *testing.T) {
 	nums2 := []int{13, 25, 32, 11}
 	fmt.Println(advantageCount(nums1, nums2))
 }
+
+func Test380(t *testing.T) {
+	constructor := Constructor380()
+	fmt.Println(constructor.Insert(1))
+	fmt.Println(constructor.Insert(2))
+	fmt.Println(constructor.Insert(3))
+	fmt.Println(constructor.Insert(4))
+	fmt.Println(constructor.Insert(5))
+	fmt.Println(constructor.Insert(5))
+	fmt.Println(constructor.Remove(5))
+	fmt.Println(constructor.Insert(5))
+
+}
