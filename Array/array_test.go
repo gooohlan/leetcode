@@ -114,7 +114,12 @@ func Test710(t *testing.T) {
 	fmt.Println(constructor.Pick())
 }
 
-func Test316(t *testing.T) {
+func Test1081(t *testing.T) {
 	str := "cbacdcbc"
 	fmt.Println(smallestSubsequence(str))
+}
+
+func Test316(t *testing.T) {
+	str := "cbacdcbc"
+	fmt.Println(removeDuplicateLetters(str))
 }

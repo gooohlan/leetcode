@@ -18,6 +18,7 @@
 - [870. 优势洗牌](https://github.com/gooohlan/leetcode/blob/master/Array/870.go)
 - [380. O(1) 时间插入、删除和获取随机元素](https://github.com/gooohlan/leetcode/blob/master/Array/380.go)
 - [710. 黑名单中的随机数](https://github.com/gooohlan/leetcode/blob/master/Array/710.go)
+- [316. 去除重复字母](https://github.com/gooohlan/leetcode/blob/master/Array/316.go)
 - [1081. 不同字符的最小子序列](https://github.com/gooohlan/leetcode/blob/master/Array/1081.go)
 
 ### [1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/LinkedList)
