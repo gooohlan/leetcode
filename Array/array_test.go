@@ -113,3 +113,8 @@ func Test710(t *testing.T) {
 	constructor := Constructor710(5, []int{1, 4})
 	fmt.Println(constructor.Pick())
 }
+
+func Test316(t *testing.T) {
+	str := "cbacdcbc"
+	fmt.Println(smallestSubsequence(str))
+}
