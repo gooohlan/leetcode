@@ -34,6 +34,7 @@ func (r *RandomizedSet) Remove(val int) bool {
 	return true
 }
 
+// GetRandom
 func (r *RandomizedSet) GetRandom() int {
 	return r.nums[rand.Intn(len(r.nums))]
 }

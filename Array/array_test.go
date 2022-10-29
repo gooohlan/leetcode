@@ -107,5 +107,9 @@ func Test380(t *testing.T) {
 	fmt.Println(constructor.Insert(5))
 	fmt.Println(constructor.Remove(5))
 	fmt.Println(constructor.Insert(5))
+}
 
+func Test710(t *testing.T) {
+	constructor := Constructor710(5, []int{1, 4})
+	fmt.Println(constructor.Pick())
 }
