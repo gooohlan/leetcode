@@ -65,3 +65,14 @@ func TestConnect(t *testing.T) {
 
 	connect(node)
 }
+
+func Test114(t *testing.T) {
+	node := &TreeNode{
+		1,
+		&TreeNode{2, &TreeNode{3, nil, nil}, &TreeNode{4, nil, nil}},
+		&TreeNode{5, &TreeNode{6, nil, nil}, nil},
+	}
+
+	flatten(node)
+	fmt.Println(node)
+}
