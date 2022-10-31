@@ -19,3 +19,5 @@
 - [145. 二叉树的后序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/145.go)
 - [226. 翻转二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/226.go)
 - [543. 二叉树的直径](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/543.go)
+- [114. 二叉树的直径](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/114.go)
+- [654. 最大二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/654.go)

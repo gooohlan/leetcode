@@ -76,3 +76,9 @@ func Test114(t *testing.T) {
 	flatten(node)
 	fmt.Println(node)
 }
+
+func Test654(t *testing.T) {
+	nums := []int{3, 2, 1, 6, 0, 5}
+	node := constructMaximumBinaryTree2(nums)
+	fmt.Println(node)
+}
