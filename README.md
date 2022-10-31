@@ -80,6 +80,9 @@
    - [145. 二叉树的后序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/145.go)
    - [226. 翻转二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/226.go)
    - [543. 二叉树的直径](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/543.go)
+   - [114. 二叉树展开为链表](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/114.go)
+   - [654. 最大二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/654.go)
+   - [105. 从前序与中序遍历序列构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/105.go)
 
 ### [4. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
