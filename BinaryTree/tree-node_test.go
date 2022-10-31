@@ -82,3 +82,10 @@ func Test654(t *testing.T) {
 	node := constructMaximumBinaryTree2(nums)
 	fmt.Println(node)
 }
+
+func Test105(t *testing.T) {
+	preorder := []int{1, 2}
+	inorder := []int{2, 1}
+	node := buildTree(preorder, inorder)
+	fmt.Println(node)
+}
