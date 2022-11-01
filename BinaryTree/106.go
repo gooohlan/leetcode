@@ -4,7 +4,7 @@ package BinaryTree
 // 后续遍历: [[左子树的前序遍历结果], [右子树的前序遍历结果] 根节点 ]
 // 中序遍历 [[左子树的前序遍历结果], 根节点, [右子树的前序遍历结果] ]
 func buildTree106(inorder []int, postorder []int) *TreeNode {
-	if len(inorder) == 0 || len(postorder) == 0 {
+	if len(inorder) == 0 {
 		return nil
 	}
 	root := &TreeNode{postorder[len(postorder)-1], nil, nil}

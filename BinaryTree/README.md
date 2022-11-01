@@ -22,3 +22,5 @@
 - [114. 二叉树展开为链表](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/114.go)
 - [654. 最大二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/654.go)
 - [105. 从前序与中序遍历序列构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/105.go)
+- [106. 从中序与后序遍历序列构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/106.go)
+- [889. 根据前序和后序遍历构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/889.go)
