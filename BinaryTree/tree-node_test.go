@@ -89,3 +89,10 @@ func Test105(t *testing.T) {
 	node := buildTree(preorder, inorder)
 	fmt.Println(node)
 }
+
+func Test106(t *testing.T) {
+	inorder := []int{9, 3, 15, 20, 7}
+	postorder := []int{9, 15, 7, 20, 3}
+	node := buildTree106(inorder, postorder)
+	fmt.Println(node)
+}
