@@ -117,3 +117,13 @@ func Test297(t *testing.T) {
 	fmt.Println(data)
 	fmt.Println(ans)
 }
+
+func Test102(t *testing.T) {
+	node := &TreeNode{
+		1,
+		&TreeNode{2, nil, &TreeNode{4, nil, nil}},
+		&TreeNode{3, nil, nil},
+	}
+
+	fmt.Println(levelOrder(node))
+}
