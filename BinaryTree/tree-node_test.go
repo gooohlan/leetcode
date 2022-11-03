@@ -105,15 +105,11 @@ func Test889(t *testing.T) {
 }
 
 func Test297(t *testing.T) {
-	node := &TreeNode{
-		1,
-		&TreeNode{2, nil, &TreeNode{4, nil, nil}},
-		&TreeNode{3, nil, nil},
-	}
+	// node := &TreeNode{}
 	ser := Constructor()
 	deser := Constructor()
-	data := ser.serializePostorder(node)
-	ans := deser.deserializePostorder(data)
+	data := ser.serializeLevelOrder(nil)
+	ans := deser.deserializeLevelOrder(data)
 	fmt.Println(data)
 	fmt.Println(ans)
 }
