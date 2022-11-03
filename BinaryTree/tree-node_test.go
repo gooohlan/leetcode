@@ -103,3 +103,17 @@ func Test889(t *testing.T) {
 	node := constructFromPrePost(preorder, postorder)
 	fmt.Println(node)
 }
+
+func Test297(t *testing.T) {
+	node := &TreeNode{
+		1,
+		&TreeNode{2, nil, &TreeNode{4, nil, nil}},
+		&TreeNode{3, nil, nil},
+	}
+	ser := Constructor()
+	deser := Constructor()
+	data := ser.serializePostorder(node)
+	ans := deser.deserializePostorder(data)
+	fmt.Println(data)
+	fmt.Println(ans)
+}
