@@ -52,7 +52,7 @@ func (m *MyBst) kthSmallest(k int) int {
 		if leftNodeNum < k-1 { // 左侧不够,去右边找
 			node = node.Right
 			k -= leftNodeNum + 1
-		} else if leftNodeNum == k-1 {
+		} else if leftNodeNum == k-1 { // 找到直接返回
 			return node.Val
 		} else {
 			node = node.Left
