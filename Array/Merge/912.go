@@ -5,41 +5,41 @@ func sortArray(nums []int) []int {
 	if len(nums) < 2 {
 		return nums
 	}
-	l, r := 0, len(nums)-1
-	mid := l + (r-l)/2
+	mid := len(nums) / 2
 	left := sortArray(nums[:mid])
-	right := sortArray(nums[mid+1:])
+	right := sortArray(nums[mid:])
 
 	return merge(left, right)
 }
 
 func merge(left, right []int) []int {
 	ln, rn := len(left), len(right)
-	tmp := make([]int, ln+rn-1)
+	res := make([]int, ln+rn)
 
 	var cnt int
 	i, j := 0, 0
 	for i < ln && j < ln {
 		if left[i] <= right[j] {
-			tmp[cnt] = left[i]
+			res[cnt] = left[i]
 			i++
 		} else {
-			tmp[cnt] = right[j]
+			res[cnt] = right[j]
 			j++
 		}
 		cnt++
 	}
 
-	if i < ln {
-		tmp[cnt] = left[i]
-		i++
-		cnt++
-	}
-
-	if j < ln {
-		tmp[cnt] = right[j]
-		j++
-		cnt++
-	}
-	return tmp
+	copy(res[cnt:], left[i:]) // 复制左边为使用的
+	// if i < ln {
+	// 	res[cnt] = left[i]
+	// 	i++
+	// 	cnt++
+	// }
+	copy(res[cnt+len(left)-i:], right[j:])
+	// if j < ln {
+	// 	res[cnt] = right[j]
+	// 	j++
+	// 	cnt++
+	// }
+	return res
 }

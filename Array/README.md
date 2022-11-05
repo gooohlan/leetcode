@@ -40,3 +40,6 @@
 - [1004. 最大连续1的个数 III](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/1004.go)
 - [187. 重复的DNA序列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/187.go)
 - [28. 找出字符串中第一个匹配项的下标](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/28.go)
+
+### [归并](https://github.com/gooohlan/leetcode/tree/master/Array/Merge)
+- [912. 排序数组](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/912.go)
