@@ -123,3 +123,15 @@ func Test102(t *testing.T) {
 
 	fmt.Println(levelOrder(node))
 }
+
+func Test652(t *testing.T) {
+	l := &TreeNode{4, nil, nil}
+	ll := &TreeNode{2, l, nil}
+	node := &TreeNode{
+		Val:   1,
+		Left:  ll,
+		Right: &TreeNode{3, ll, &TreeNode{4, nil, nil}},
+	}
+	subtrees := findDuplicateSubtrees(node)
+	fmt.Println(subtrees)
+}

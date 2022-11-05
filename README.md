@@ -85,6 +85,9 @@
    - [105. 从前序与中序遍历序列构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/105.go)
    - [106. 从中序与后序遍历序列构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/106.go)
    - [889. 根据前序和后序遍历构造二叉树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/889.go)
+   - [102. 二叉树的层序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/102.go)
+   - [297. 二叉树的序列化与反序列化](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/297.go)
+   - [652. 寻找重复的子树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/652.go)
 
 ### [4. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
