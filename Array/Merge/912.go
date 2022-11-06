@@ -18,7 +18,7 @@ func merge(left, right []int) []int {
 
 	var cnt int
 	i, j := 0, 0
-	for i < ln && j < ln {
+	for i < ln && j < rn {
 		if left[i] <= right[j] {
 			res[cnt] = left[i]
 			i++

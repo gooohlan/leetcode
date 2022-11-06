@@ -13,11 +13,11 @@ type Pair struct {
 }
 
 var tmp []Pair
-var count []int
+var countList []int
 
 func countSmaller(nums []int) []int {
 	tmp = make([]Pair, len(nums))
-	count = make([]int, len(nums))
+	countList = make([]int, len(nums))
 	arr := make([]Pair, len(nums))
 	for i, num := range nums {
 		arr[i] = Pair{
@@ -26,7 +26,7 @@ func countSmaller(nums []int) []int {
 		}
 	}
 	sort(arr, 0, len(nums)-1)
-	return count
+	return countList
 }
 
 func sort(arr []Pair, l, r int) {
@@ -52,8 +52,8 @@ func merge315(arr []Pair, l, mid, r int) {
 			arr[cnt] = tmp[i]
 			i++
 			// 记录右侧比tmp[i]的个数, arr[cnt].Index保留这原始下标
-			count[arr[cnt].Index] += j - mid - 1
-			fmt.Println(count)
+			countList[arr[cnt].Index] += j - mid - 1
+			fmt.Println(countList)
 		} else {
 			arr[cnt] = tmp[j]
 			j++
@@ -65,8 +65,8 @@ func merge315(arr []Pair, l, mid, r int) {
 		arr[cnt] = tmp[i]
 		i++
 		// 记录右侧比tmp[i]的个数, arr[cnt].Index保留这原始下标
-		count[arr[cnt].Index] += j - mid - 1
-		fmt.Println(count)
+		countList[arr[cnt].Index] += j - mid - 1
+		fmt.Println(countList)
 		cnt++
 	}
 
