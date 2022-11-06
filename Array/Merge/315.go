@@ -1,7 +1,5 @@
 package Merge
 
-import "fmt"
-
 // 在归并排序的基础上,我们在和的时候做文章
 // 在合并时,左侧元素小于右侧元素时,此时右侧元素到中间为止的距离,是比比他小的元素个数
 // 举个例子, L = [1, 1, 3, 5]; R = [2, 4, 6, 7]
@@ -51,9 +49,8 @@ func merge315(arr []Pair, l, mid, r int) {
 		if tmp[i].Val <= tmp[j].Val {
 			arr[cnt] = tmp[i]
 			i++
-			// 记录右侧比tmp[i]的个数, arr[cnt].Index保留这原始下标
+			// 记录右侧比tmp[i]的个数
 			countList[arr[cnt].Index] += j - mid - 1
-			fmt.Println(countList)
 		} else {
 			arr[cnt] = tmp[j]
 			j++
@@ -64,9 +61,8 @@ func merge315(arr []Pair, l, mid, r int) {
 	for i <= mid {
 		arr[cnt] = tmp[i]
 		i++
-		// 记录右侧比tmp[i]的个数, arr[cnt].Index保留这原始下标
+		// 记录右侧比tmp[i]的个数
 		countList[arr[cnt].Index] += j - mid - 1
-		fmt.Println(countList)
 		cnt++
 	}
 

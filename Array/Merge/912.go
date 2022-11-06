@@ -9,37 +9,17 @@ func sortArray(nums []int) []int {
 	left := sortArray(nums[:mid])
 	right := sortArray(nums[mid:])
 
-	return merge(left, right)
-}
-
-func merge(left, right []int) []int {
-	ln, rn := len(left), len(right)
-	res := make([]int, ln+rn)
-
-	var cnt int
-	i, j := 0, 0
-	for i < ln && j < rn {
-		if left[i] <= right[j] {
-			res[cnt] = left[i]
-			i++
+	res := make([]int, len(left)+len(right))
+	l, r := 0, 0
+	for i := range nums {
+		if l < len(left) && (r == len(right) || left[l] <= right[r]) {
+			res[i] = left[l]
+			l++
 		} else {
-			res[cnt] = right[j]
-			j++
+			res[i] = right[r]
+			r++
 		}
-		cnt++
 	}
 
-	copy(res[cnt:], left[i:]) // 复制左边为使用的
-	// if i < ln {
-	// 	res[cnt] = left[i]
-	// 	i++
-	// 	cnt++
-	// }
-	copy(res[cnt+len(left)-i:], right[j:])
-	// if j < ln {
-	// 	res[cnt] = right[j]
-	// 	j++
-	// 	cnt++
-	// }
 	return res
 }
