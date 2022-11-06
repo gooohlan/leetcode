@@ -38,7 +38,7 @@
 - [15. 三数之和](https://github.com/gooohlan/leetcode/blob/master/Array/DoublePointer/15.go)
 - [18. 四数之和](https://github.com/gooohlan/leetcode/blob/master/Array/DoublePointer/18.go)
 
-#### [1.2.滑动窗口](https://github.com/gooohlan/leetcode/tree/master/Array/SlidingWindow)
+#### [1.2. 滑动窗口](https://github.com/gooohlan/leetcode/tree/master/Array/SlidingWindow)
 - [76. 最小覆盖子串](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/76.go)
 - [567. 字符串的排列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/567.go)
 - [438. 找到字符串中所有字母异位词](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/438.go)
@@ -47,8 +47,11 @@
 - [187. 重复的DNA序列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/187.go)
 - [28. 找出字符串中第一个匹配项的下标](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/28.go)
 
-### [1.3.归并](https://github.com/gooohlan/leetcode/tree/master/Array/Merge)
+### [1.3. 归并](https://github.com/gooohlan/leetcode/tree/master/Array/Merge)
 - [912. 排序数组](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/912.go)
+- [315. 计算右侧小于当前元素的个数](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/315.go)
+- [493. 翻转对](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/493.go)
+- [327. 就计算右侧小于当前元素的个数](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/327.go)
 
 ### [2. 链表](https://github.com/gooohlan/leetcode/tree/master/LinkedList)
 

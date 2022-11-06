@@ -19,3 +19,8 @@ func Test493(t *testing.T) {
 	nums := []int{2, 4, 3, 5, 1}
 	fmt.Println(reversePairs(nums))
 }
+
+func Test327(t *testing.T) {
+	nums := []int{-2, 5, -1}
+	fmt.Println(countRangeSum(nums, -2, 2))
+}
