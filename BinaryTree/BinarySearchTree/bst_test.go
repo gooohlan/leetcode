@@ -45,5 +45,5 @@ func deserializeLevelOrder(data string) *TreeNode {
 
 func Test230(t *testing.T) {
 	node := deserializeLevelOrder("3,1,4,-,2")
-	fmt.Println(kthSmallest(node, 3))
+	fmt.Println(kthSmallest2(node, 3))
 }
