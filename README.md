@@ -94,6 +94,10 @@
    - [102. 二叉树的层序遍历](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/102.go)
    - [297. 二叉树的序列化与反序列化](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/297.go)
    - [652. 寻找重复的子树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/652.go)
+#### [3.1. 二叉搜索树](https://github.com/gooohlan/leetcode/tree/master/BinaryTree/BinarySearchTree)
+- [230. 二叉搜索树中第K小的元素](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/230.go)
+- [538. 把二叉搜索树转换为累加树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/538.go)
+- [1038. 把二叉搜索树转换为累加树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/1038.go)
 
 ### [4. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
