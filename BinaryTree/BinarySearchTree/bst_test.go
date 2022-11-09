@@ -21,7 +21,7 @@ func deserializeLevelOrder(data string) *TreeNode {
 		parent := q[0]
 		q = q[1:]
 		// 父节点对应的左侧子节点的值
-		if list[i] != "-" {
+		if list[i] != "null" {
 			val, _ := strconv.Atoi(list[i])
 			parent.Left = &TreeNode{Val: val}
 			q = append(q, parent.Left)
@@ -31,7 +31,7 @@ func deserializeLevelOrder(data string) *TreeNode {
 		i++
 
 		// 父节点对应的右侧子节点的值
-		if list[i] != "-" {
+		if list[i] != "null" {
 			val, _ := strconv.Atoi(list[i])
 			parent.Right = &TreeNode{Val: val}
 			q = append(q, parent.Right)
@@ -46,4 +46,9 @@ func deserializeLevelOrder(data string) *TreeNode {
 func Test230(t *testing.T) {
 	node := deserializeLevelOrder("3,1,4,-,2")
 	fmt.Println(kthSmallest2(node, 3))
+}
+
+func Test538(t *testing.T) {
+	root := deserializeLevelOrder("4,1,6,0,2,5,7,null,null,null,3,null,null,null,8")
+	convertBST(root)
 }
