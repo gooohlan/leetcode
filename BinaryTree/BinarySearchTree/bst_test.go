@@ -66,3 +66,8 @@ func Test701(t *testing.T) {
 	root := deserializeLevelOrder("4,2,7,1,3")
 	fmt.Println(insertIntoBST(root, 9))
 }
+
+func Test450(t *testing.T) {
+	root := deserializeLevelOrder("5,3,6,2,4,null,7")
+	fmt.Println(deleteNode(root, 3))
+}
