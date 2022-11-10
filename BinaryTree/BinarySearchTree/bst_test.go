@@ -52,3 +52,8 @@ func Test538(t *testing.T) {
 	root := deserializeLevelOrder("4,1,6,0,2,5,7,null,null,null,3,null,null,null,8")
 	convertBST(root)
 }
+
+func Test98(t *testing.T) {
+	root := deserializeLevelOrder("3,1,5,0,2,4,6")
+	fmt.Println(isValidBST(root))
+}
