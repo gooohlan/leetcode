@@ -62,3 +62,7 @@ func Test700(t *testing.T) {
 	root := deserializeLevelOrder("4,2,7,1,3")
 	fmt.Println(searchBST(root, 2))
 }
+func Test701(t *testing.T) {
+	root := deserializeLevelOrder("4,2,7,1,3")
+	fmt.Println(insertIntoBST(root, 9))
+}
