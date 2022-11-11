@@ -37,3 +37,5 @@
 - [700. 二叉搜索树中的搜索](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/700.go)
 - [701. 二叉搜索树中的插入操作](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/701.go)
 - [450. 删除二叉搜索树中的节点](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/450.go)
+- [96. 不同的二叉搜索树](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/96.go)
+- [95. 不同的二叉搜索树 II](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/BinarySearchTree/95.go)
