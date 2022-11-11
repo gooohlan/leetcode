@@ -76,3 +76,7 @@ func Test96(t *testing.T) {
 	fmt.Println(numTrees(3))
 	fmt.Println(numTreesDP(3))
 }
+
+func Test95(t *testing.T) {
+	fmt.Println(generateTrees(3))
+}
