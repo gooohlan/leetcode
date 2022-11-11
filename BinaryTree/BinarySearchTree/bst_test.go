@@ -74,4 +74,5 @@ func Test450(t *testing.T) {
 
 func Test96(t *testing.T) {
 	fmt.Println(numTrees(3))
+	fmt.Println(numTreesDP(3))
 }
