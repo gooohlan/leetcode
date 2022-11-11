@@ -71,3 +71,7 @@ func Test450(t *testing.T) {
 	root := deserializeLevelOrder("5,3,6,2,4,null,7")
 	fmt.Println(deleteNode(root, 3))
 }
+
+func Test96(t *testing.T) {
+	fmt.Println(numTrees(3))
+}
