@@ -1,4 +1,5 @@
 # go日常算法学习
+
 ## 解题思路
 
 [日刷LeetCode](https://www.inkdp.cn/leetcode.html)
