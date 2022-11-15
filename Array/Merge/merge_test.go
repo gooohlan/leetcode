@@ -7,7 +7,8 @@ import (
 
 func Test912(t *testing.T) {
 	nums := []int{4, 1, 7, 2, 1}
-	fmt.Println(sortArray(nums))
+	// fmt.Println(sortArray(nums))
+	fmt.Println(sortArrayFast(nums))
 }
 
 func Test315(t *testing.T) {
