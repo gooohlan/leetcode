@@ -25,3 +25,8 @@ func Test327(t *testing.T) {
 	nums := []int{-2, 5, -1}
 	fmt.Println(countRangeSum(nums, -2, 2))
 }
+
+func Test215(t *testing.T) {
+	nums := []int{3, 2, 3, 1, 2, 4, 5, 5, 6}
+	fmt.Println(findKthLargest(nums, 4))
+}
