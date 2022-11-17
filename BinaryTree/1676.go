@@ -8,7 +8,7 @@ func lowestCommonAncestor4(root *TreeNode, nodes []*TreeNode) *TreeNode {
 		nodeMap[node] = true
 	}
 
-	var find func(node *TreeNode, nodeMap map[*TreeNode]bool) *TreeNode
+	var find func(*TreeNode, map[*TreeNode]bool) *TreeNode
 
 	find = func(node *TreeNode, nodeMap map[*TreeNode]bool) *TreeNode {
 		if node == nil {

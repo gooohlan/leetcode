@@ -6,7 +6,7 @@ package BinaryTree
 func lowestCommonAncestor2(root, p, q *TreeNode) *TreeNode {
 	var existP, existQ bool // 记录p,q是否存在
 
-	var find func(root *TreeNode) *TreeNode
+	var find func(*TreeNode) *TreeNode
 	find = func(node *TreeNode) *TreeNode {
 		if node == nil {
 			return nil
