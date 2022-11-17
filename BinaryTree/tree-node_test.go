@@ -2,8 +2,46 @@ package BinaryTree
 
 import (
 	"fmt"
+	"strconv"
+	"strings"
 	"testing"
 )
+
+func deserializeLevelOrder(data string) *TreeNode {
+	list := strings.Split(data, ",")
+	val, err := strconv.Atoi(list[0])
+	if err != nil {
+		return nil
+	}
+	root := &TreeNode{Val: val}
+
+	q := []*TreeNode{root}
+	for i := 1; i < len(list)-1; {
+		// 队列中存的都是父节点
+		parent := q[0]
+		q = q[1:]
+		// 父节点对应的左侧子节点的值
+		if list[i] != "null" {
+			val, _ := strconv.Atoi(list[i])
+			parent.Left = &TreeNode{Val: val}
+			q = append(q, parent.Left)
+		} else {
+			parent.Left = nil
+		}
+		i++
+
+		// 父节点对应的右侧子节点的值
+		if list[i] != "null" {
+			val, _ := strconv.Atoi(list[i])
+			parent.Right = &TreeNode{Val: val}
+			q = append(q, parent.Right)
+		} else {
+			parent.Right = nil
+		}
+		i++
+	}
+	return root
+}
 
 func TestMaxDepth(t *testing.T) {
 	node := &TreeNode{
@@ -134,4 +172,16 @@ func Test652(t *testing.T) {
 	}
 	subtrees := findDuplicateSubtrees(node)
 	fmt.Println(subtrees)
+}
+
+func Test236(t *testing.T) {
+	p := deserializeLevelOrder("2,null")
+	q := deserializeLevelOrder("1,4,null")
+
+	node := &TreeNode{
+		Val:   1,
+		Left:  &TreeNode{2, p, nil},
+		Right: &TreeNode{3, nil, q},
+	}
+	fmt.Println(lowestCommonAncestor(node, p, q))
 }
