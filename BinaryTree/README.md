@@ -32,6 +32,7 @@
 - [1644. 二叉树的最近公共祖先 II](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/1644.go)
 - [235. 二叉搜索树的最近公共祖先](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/235.go)
 - [1650. 二叉树的最近公共祖先 III](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/1650.go)
+- [222. 完全二叉树的节点个数](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/222.go)
 
 
 ### [1. 二叉搜索树](https://github.com/gooohlan/leetcode/tree/master/BinaryTree/BinarySearchTree)
