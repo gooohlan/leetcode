@@ -185,3 +185,8 @@ func Test236(t *testing.T) {
 	}
 	fmt.Println(lowestCommonAncestor(node, p, q))
 }
+
+func Test222(t *testing.T) {
+	node := deserializeLevelOrder("1,2,3,4,5,6,null")
+	fmt.Println(countNodes(node))
+}
