@@ -17,5 +17,15 @@ func Test797(t *testing.T) {
 }
 
 func Test207(t *testing.T) {
-	fmt.Println(canFinish2(2, [][]int{[]int{1, 0}}))
+	fmt.Println(canFinish(2, [][]int{[]int{1, 0}}))
+}
+
+func Test210(t *testing.T) {
+	res := findOrder(4, [][]int{
+		[]int{1, 0},
+		[]int{2, 0},
+		[]int{3, 1},
+		[]int{3, 2},
+	})
+	fmt.Println(res)
 }
