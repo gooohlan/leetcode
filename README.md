@@ -120,6 +120,9 @@
 
 ### [4. 图](https://github.com/gooohlan/leetcode/tree/master/Graph)
 - [797. 所有可能的路径](https://github.com/gooohlan/leetcode/blob/master/Graph/797.go)
+- [207. 课程表](https://github.com/gooohlan/leetcode/blob/master/Graph/207.go)
+- [210. 课程表 II](https://github.com/gooohlan/leetcode/blob/master/Graph/210.go)
+
 
 ### [5. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
@@ -148,10 +151,12 @@
    - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/40.go)
    - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/47.go)
    - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/Backtrack/39.go)
+
 ### [7. BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
    - [111. 二叉树的最小深度](https://github.com/gooohlan/leetcode/blob/master/BFS/111.go)
    - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
    - [773. 滑动谜题](https://github.com/gooohlan/leetcode/blob/master/BFS/773.go)
+
 ### [8. 二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
    - [704. 二分查找](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/704.go)
    - [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/34.go)
