@@ -17,7 +17,7 @@ func Test797(t *testing.T) {
 }
 
 func Test207(t *testing.T) {
-	fmt.Println(canFinish(2, [][]int{[]int{1, 0}}))
+	fmt.Println(canFinishBFS(2, [][]int{[]int{1, 0}}))
 }
 
 func Test210(t *testing.T) {
