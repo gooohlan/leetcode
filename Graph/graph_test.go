@@ -21,7 +21,7 @@ func Test207(t *testing.T) {
 }
 
 func Test210(t *testing.T) {
-	res := findOrder(4, [][]int{
+	res := findOrderBFS(4, [][]int{
 		[]int{1, 0},
 		[]int{2, 0},
 		[]int{3, 1},

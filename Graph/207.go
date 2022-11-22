@@ -49,7 +49,7 @@ func canFinishBFS(numCourses int, prerequisites [][]int) bool {
 		graph    = make([][]int, numCourses) // 领接表
 		indegree = make([]int, numCourses)   // 入度数
 		queue    []int                       // 队列
-		count    int                         // 记录过的节点
+		count    int                         // 记录过的节点数
 	)
 
 	for _, item := range prerequisites {
