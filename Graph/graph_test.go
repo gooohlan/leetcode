@@ -39,5 +39,6 @@ func Test785(t *testing.T) {
 	}
 
 	fmt.Println(isBipartite(graph))
+	fmt.Println(isBipartiteBFS(graph))
 
 }
