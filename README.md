@@ -122,6 +122,8 @@
 - [797. 所有可能的路径](https://github.com/gooohlan/leetcode/blob/master/Graph/797.go)
 - [207. 课程表](https://github.com/gooohlan/leetcode/blob/master/Graph/207.go)
 - [210. 课程表 II](https://github.com/gooohlan/leetcode/blob/master/Graph/210.go)
+- [785. 判断二分图](https://github.com/gooohlan/leetcode/blob/master/Graph/785.go)
+- [886. 可能的二分法](https://github.com/gooohlan/leetcode/blob/master/Graph/886.go)
 
 
 ### [5. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
