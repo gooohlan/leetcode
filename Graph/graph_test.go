@@ -37,8 +37,15 @@ func Test785(t *testing.T) {
 		[]int{0, 1, 3},
 		[]int{0, 2},
 	}
-
 	fmt.Println(isBipartite(graph))
 	fmt.Println(isBipartiteBFS(graph))
+}
 
+func Test886(t *testing.T) {
+	dislikes := [][]int{
+		[]int{1, 2},
+		[]int{1, 3},
+		[]int{2, 3},
+	}
+	fmt.Println(possibleBipartition(3, dislikes))
 }
