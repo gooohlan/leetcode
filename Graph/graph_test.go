@@ -29,3 +29,15 @@ func Test210(t *testing.T) {
 	})
 	fmt.Println(res)
 }
+
+func Test785(t *testing.T) {
+	graph := [][]int{
+		[]int{1, 2, 3},
+		[]int{0, 2},
+		[]int{0, 1, 3},
+		[]int{0, 2},
+	}
+
+	fmt.Println(isBipartite(graph))
+
+}
