@@ -5,3 +5,6 @@
 - [210. 课程表 II](https://github.com/gooohlan/leetcode/blob/master/Graph/210.go)
 - [785. 判断二分图](https://github.com/gooohlan/leetcode/blob/master/Graph/785.go)
 - [886. 可能的二分法](https://github.com/gooohlan/leetcode/blob/master/Graph/886.go)
+- [323. 无向图中连通分量的数目](https://github.com/gooohlan/leetcode/blob/master/Graph/323.go)
+- [130. 被围绕的区域](https://github.com/gooohlan/leetcode/blob/master/Graph/130.go)
+- [990. 等式方程的可满足性](https://github.com/gooohlan/leetcode/blob/master/Graph/990.go)
