@@ -61,3 +61,15 @@ func Test323(t *testing.T) {
 	fmt.Println(countComponentsBfs(5, edges))
 	fmt.Println(countComponentsBfsUF(5, edges))
 }
+
+func Test130(t *testing.T) {
+	board := [][]byte{
+		[]byte{'X', 'X', 'X', 'X'},
+		[]byte{'X', 'O', 'O', 'X'},
+		[]byte{'X', 'X', 'O', 'X'},
+		[]byte{'X', 'O', 'X', 'X'}}
+	solveDFS(board)
+	for _, bytes := range board {
+		fmt.Println(string(bytes))
+	}
+}
