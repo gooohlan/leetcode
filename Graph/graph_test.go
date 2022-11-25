@@ -64,11 +64,11 @@ func Test323(t *testing.T) {
 
 func Test130(t *testing.T) {
 	board := [][]byte{
-		[]byte{'X', 'X', 'X', 'X'},
-		[]byte{'X', 'O', 'O', 'X'},
-		[]byte{'X', 'X', 'O', 'X'},
-		[]byte{'X', 'O', 'X', 'X'}}
-	solveDFS(board)
+		[]byte{'X', 'O', 'X'},
+		[]byte{'X', 'O', 'X'},
+		[]byte{'X', 'O', 'X'},
+	}
+	solve(board)
 	for _, bytes := range board {
 		fmt.Println(string(bytes))
 	}
