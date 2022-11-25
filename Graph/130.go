@@ -7,11 +7,10 @@ func solve(board [][]byte) {
 	}
 
 	var (
-		parent    []int // 父节点
-		find      func(int) int
-		union     func(int, int)
-		connected func(int, int) bool
-		xy        = [4][2]int{[2]int{1, 0}, [2]int{-1, 0}, [2]int{0, 1}, [2]int{0, -1}}
+		parent []int // 父节点
+		find   func(int) int
+		union  func(int, int)
+		xy     = [4][2]int{[2]int{1, 0}, [2]int{-1, 0}, [2]int{0, 1}, [2]int{0, -1}}
 	)
 
 	find = func(x int) int {
@@ -28,11 +27,6 @@ func solve(board [][]byte) {
 		}
 
 		parent[rootQ] = rootP
-	}
-
-	connected = func(p int, q int) bool {
-		rootP, rootQ := find(p), find(q)
-		return rootP == rootQ
 	}
 
 	n, m := len(board), len(board[0])
@@ -79,7 +73,7 @@ func solve(board [][]byte) {
 	// 有不和 dummy 连通的 O，都要被替换
 	for i := 1; i < n-1; i++ {
 		for j := 1; j < m-1; j++ {
-			if !connected(dummy, i*m+j) {
+			if find(dummy) != find(i*m+j) {
 				board[i][j] = 'X'
 			}
 		}

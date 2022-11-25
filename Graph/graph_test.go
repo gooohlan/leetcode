@@ -73,3 +73,10 @@ func Test130(t *testing.T) {
 		fmt.Println(string(bytes))
 	}
 }
+
+func Test990(t *testing.T) {
+	equations := []string{
+		"c==c", "b==d", "x!=z",
+	}
+	fmt.Println(equationsPossible(equations))
+}
