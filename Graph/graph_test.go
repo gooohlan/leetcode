@@ -58,4 +58,5 @@ func Test323(t *testing.T) {
 		[]int{3, 4},
 	}
 	fmt.Println(countComponents(5, edges))
+	fmt.Println(countComponentsBfs(5, edges))
 }
