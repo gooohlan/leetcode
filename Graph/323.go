@@ -65,3 +65,40 @@ func countComponentsBfs(n int, edges [][]int) int {
 
 	return res
 }
+
+func countComponentsBfsUF(n int, edges [][]int) int {
+	var (
+		count  = n
+		parent = make([]int, n) // 父节点
+		find   func(int) int
+		union  func(int, int)
+		// connected func(int, int) bool
+	)
+
+	find = func(x int) int {
+		if parent[x] != x {
+			parent[x] = find(parent[x])
+		}
+		return parent[x]
+	}
+
+	union = func(p int, q int) {
+		rootP, rootQ := find(p), find(q)
+		if rootP == rootQ {
+			return
+		}
+
+		parent[rootQ] = rootP
+		count--
+	}
+
+	for i := 0; i < n; i++ {
+		parent[i] = i // 父节点指针初始指向自己
+	}
+
+	for _, edge := range edges {
+		union(edge[0], edge[1])
+	}
+
+	return count
+}
