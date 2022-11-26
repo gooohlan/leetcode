@@ -85,10 +85,11 @@ func Test261(t *testing.T) {
 	edges := [][]int{
 		[]int{0, 1},
 		[]int{1, 2},
-		// []int{2, 3},
+		[]int{2, 3},
 		[]int{1, 3},
 		[]int{1, 4},
 	}
 	fmt.Println(validTreeDFS(5, edges))
 	fmt.Println(validTreeBFS(5, edges))
+	fmt.Println(validTreeUF(5, edges))
 }

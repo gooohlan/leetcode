@@ -78,3 +78,42 @@ func validTreeBFS(n int, edges [][]int) bool {
 
 	return true
 }
+
+// UF
+// 使用并查集的思路,如果两个节点本身就处于同一连通分量重,再添加这条边必产生环,反之不会产生环
+func validTreeUF(n int, edges [][]int) bool {
+	var (
+		parent = make([]int, n) // 父节点
+		find   func(int) int
+		union  func(int, int)
+	)
+	find = func(x int) int {
+		if parent[x] != x {
+			parent[x] = find(parent[x])
+		}
+		return parent[x]
+	}
+
+	union = func(p int, q int) {
+		rootP, rootQ := find(p), find(q)
+		if rootP == rootQ {
+			return
+		}
+
+		parent[rootQ] = rootP
+		n--
+	}
+
+	for i := 0; i < n; i++ {
+		parent[i] = i // 父节点指针初始指向自己
+	}
+
+	for _, edge := range edges {
+		if find(edge[0]) == find(edge[1]) {
+			return false
+		}
+		union(edge[0], edge[1])
+	}
+
+	return n == 1
+}
