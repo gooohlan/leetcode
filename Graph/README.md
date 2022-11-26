@@ -8,3 +8,6 @@
 - [323. 无向图中连通分量的数目](https://github.com/gooohlan/leetcode/blob/master/Graph/323.go)
 - [130. 被围绕的区域](https://github.com/gooohlan/leetcode/blob/master/Graph/130.go)
 - [990. 等式方程的可满足性](https://github.com/gooohlan/leetcode/blob/master/Graph/990.go)
+- [261. 以图判树](https://github.com/gooohlan/leetcode/blob/master/Graph/261.go)
+- [1135. 最低成本联通所有城市](https://github.com/gooohlan/leetcode/blob/master/Graph/1135.go)
+- [1584. 连接所有点的最小费用](https://github.com/gooohlan/leetcode/blob/master/Graph/1584.go)
