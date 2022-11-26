@@ -93,3 +93,11 @@ func Test261(t *testing.T) {
 	fmt.Println(validTreeBFS(5, edges))
 	fmt.Println(validTreeUF(5, edges))
 }
+
+func Test1135(t *testing.T) {
+	conections := [][]int{
+		[]int{1, 2, 3},
+		[]int{3, 4, 4},
+	}
+	fmt.Println(minimumCost(4, conections))
+}
