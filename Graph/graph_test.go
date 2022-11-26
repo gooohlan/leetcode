@@ -101,3 +101,8 @@ func Test1135(t *testing.T) {
 	}
 	fmt.Println(minimumCost(4, conections))
 }
+
+func Test1584(t *testing.T) {
+	points := [][]int{[]int{0, 0}, []int{2, 2}, []int{3, 10}, []int{5, 2}, []int{7, 0}}
+	fmt.Println(minCostConnectPoints(points))
+}

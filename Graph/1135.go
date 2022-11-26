@@ -22,12 +22,12 @@ func minimumCost(n int, connections [][]int) int {
 		edge++
 		uf.Union(connection[0], connection[1])
 
-		if edge == n-1 { // 已连接所有边
+		if edge == n-1 { // 已连接所有边,直接返回费用
 			return total
 		}
 	}
 
-	return -1
+	return -1 // 无法全部连通
 }
 
 type UF struct {
