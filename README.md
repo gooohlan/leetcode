@@ -1,12 +1,24 @@
 # go日常算法学习
 
+---
+## 目录
+
+- [解题思路](#解题思路)
+- [学习路线](#学习路线)
+  - [数组](#[1.数组](https://github.com/gooohlan/leetcode/tree/master/Array))
+- [周赛](#周赛)
+  - [321](#周赛321)
+
+----
+
+
 ## 解题思路
 
 [日刷LeetCode](https://www.inkdp.cn/leetcode.html)
 
 ## 学习路线
 
-### [1. 数组](https://github.com/gooohlan/leetcode/tree/master/Array)
+### [1.数组](https://github.com/gooohlan/leetcode/tree/master/Array)
 
 - [1. 两数之和](https://github.com/gooohlan/leetcode/blob/master/Array/1.go)
 - [169. 多数元素](https://github.com/gooohlan/leetcode/blob/master/Array/169.go)
@@ -49,12 +61,12 @@
 - [187. 重复的DNA序列](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/187.go)
 - [28. 找出字符串中第一个匹配项的下标](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/28.go)
 
-### [1.3. 归并](https://github.com/gooohlan/leetcode/tree/master/Array/Merge)
+#### [1.3. 归并](https://github.com/gooohlan/leetcode/tree/master/Array/Merge)
 - [912. 排序数组](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/912.go)
 - [315. 计算右侧小于当前元素的个数](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/315.go)
 - [493. 翻转对](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/493.go)
 - [327. 就计算右侧小于当前元素的个数](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/327.go)
-### 1.4. 快速排序
+#### 1.4. 快速排序
 - [215. 数组中的第K个最大元素](https://github.com/gooohlan/leetcode/blob/master/Array/SlidingWindow/215.go)
 
 ### [2. 链表](https://github.com/gooohlan/leetcode/tree/master/LinkedList)
@@ -144,7 +156,7 @@
   - [714. 买卖股票的最佳时机含手续费](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/714.go)
   - [123. 买卖股票的最佳时机 III](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/123.go)
   - [188. 买卖股票的最佳时机 IV](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/188.go)
-   
+
 ### [6. 回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
    - [78. 子集](https://github.com/gooohlan/leetcode/blob/master/Backtrack/78.go)
    - [77. 组合](https://github.com/gooohlan/leetcode/blob/master/Backtrack/77.go)
@@ -167,5 +179,12 @@
    - [875. 爱吃香蕉的珂珂](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/875.go)
    - [1011. 在 D 天内送达包裹的能力](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/1011.go)
    - [410. 分割数组的最大值](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/410.go)
-    
- 
+
+
+## 周赛
+
+### 周赛321
+- [6245. 找出中枢整数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6245.go)
+- [6246. 追加字符以获得子序列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6246.go)
+- [6247. 从链表中移除节点](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6247.go)
+- [6248. 统计中位数为 K 的子数组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6248.go)
