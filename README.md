@@ -5,11 +5,8 @@
 
 - [解题思路](#解题思路)
 - [学习路线](#学习路线)
-  - [数组](#[1.数组](https://github.com/gooohlan/leetcode/tree/master/Array))
 - [周赛](#周赛)
   - [321](#周赛321)
-
-----
 
 
 ## 解题思路
