@@ -25,3 +25,27 @@ func removeNodes(head *ListNode) *ListNode {
 	}
 	return node.Next
 }
+
+func removeNodes2(head *ListNode) *ListNode {
+	var (
+		max      int
+		traverse func(*ListNode) *ListNode
+	)
+
+	traverse = func(node *ListNode) *ListNode {
+		if node == nil {
+			return nil
+		}
+
+		node.Next = traverse(node.Next)
+		if max > node.Val {
+			return node.Next
+		} else {
+			max = node.Val
+			return node
+		}
+	}
+
+	head = traverse(head)
+	return head
+}

@@ -31,5 +31,7 @@ func Test6247(t *testing.T) {
 		},
 	}
 
-	fmt.Println(removeNodes(head))
+	// fmt.Println(removeNodes(head))
+	head = removeNodes2(head)
+	fmt.Println(1)
 }
