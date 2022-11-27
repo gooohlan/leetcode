@@ -35,3 +35,8 @@ func Test6247(t *testing.T) {
 	head = removeNodes2(head)
 	fmt.Println(1)
 }
+
+func Test6248(t *testing.T) {
+	nums := []int{5, 1, 7, 4, 2, 6, 3}
+	fmt.Println(countSubarrays(nums, 4))
+}
