@@ -1,6 +1,7 @@
 package Graph
 
 import (
+	"container/heap"
 	"sort"
 )
 
@@ -47,4 +48,49 @@ func abs(a, b int) int {
 		return a - b
 	}
 	return b - a
+}
+
+func minCostConnectPointsPrim(points [][]int) int {
+	var (
+		total int // 记录总距离
+		n     = len(points)
+		graph = make([][][]int, n) // 与传统邻接表不同的是,数值中加入了长度改变为了数组存储
+		inMst = make([]bool, n)
+		cut   func(int)
+		pq    PriorityQueue
+	)
+
+	cut = func(s int) {
+		for _, v := range graph[s] {
+			if inMst[v[1]] {
+				continue
+			}
+			heap.Push(&pq, v)
+		}
+	}
+	for i := 0; i < n; i++ {
+		for j := i + 1; j < n; j++ {
+			xi, yi := points[i][0], points[i][1] // 第i个点
+			xj, yj := points[j][0], points[j][1] // 第j个点
+			weight := abs(xi, xj) + abs(yi, yj)
+			graph[i] = append(graph[i], []int{i, j, weight})
+			graph[j] = append(graph[j], []int{j, i, weight})
+		}
+	}
+
+	inMst[0] = true
+	cut(0)
+
+	for pq.Len() > 0 {
+		cur := heap.Pop(&pq).([]int)
+		to, weight := cur[1], cur[2]
+		if inMst[to] {
+			continue
+		}
+
+		total += weight
+		inMst[to] = true
+		cut(to)
+	}
+	return total
 }

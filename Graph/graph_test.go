@@ -96,13 +96,16 @@ func Test261(t *testing.T) {
 
 func Test1135(t *testing.T) {
 	conections := [][]int{
-		[]int{1, 2, 3},
-		[]int{3, 4, 4},
+		[]int{3, 4, 2},
+		[]int{2, 3, 1},
+		[]int{1, 4, 1},
 	}
 	fmt.Println(minimumCost(4, conections))
+	fmt.Println(minimumCostPrim(4, conections))
 }
 
 func Test1584(t *testing.T) {
 	points := [][]int{[]int{0, 0}, []int{2, 2}, []int{3, 10}, []int{5, 2}, []int{7, 0}}
 	fmt.Println(minCostConnectPoints(points))
+	fmt.Println(minCostConnectPointsPrim(points))
 }

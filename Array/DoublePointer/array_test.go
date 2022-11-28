@@ -53,3 +53,7 @@ func Test1(t *testing.T) {
 	sort.Ints(nums)
 	fmt.Println(nums)
 }
+
+func Test557(t *testing.T) {
+	fmt.Println(reverseWords("Let's take LeetCode contest"))
+}
