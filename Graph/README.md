@@ -11,3 +11,6 @@
 - [261. 以图判树](https://github.com/gooohlan/leetcode/blob/master/Graph/261.go)
 - [1135. 最低成本联通所有城市](https://github.com/gooohlan/leetcode/blob/master/Graph/1135.go)
 - [1584. 连接所有点的最小费用](https://github.com/gooohlan/leetcode/blob/master/Graph/1584.go)
+- [743. 网络延迟时间](https://github.com/gooohlan/leetcode/blob/master/Graph/743.go)
+- [1631. 最小体力消耗路径](https://github.com/gooohlan/leetcode/blob/master/Graph/1631.go)
+- [1514. 概率最大的路径](https://github.com/gooohlan/leetcode/blob/master/Graph/1514.go)
