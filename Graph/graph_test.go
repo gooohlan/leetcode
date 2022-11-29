@@ -119,3 +119,12 @@ func Test743(t *testing.T) {
 
 	fmt.Println(networkDelayTime(times, 2, 2))
 }
+
+func Test1631(t *testing.T) {
+	heights := [][]int{
+		[]int{1, 2, 2},
+		[]int{3, 8, 2},
+		[]int{5, 3, 5},
+	}
+	fmt.Println(minimumEffortPath(heights))
+}
