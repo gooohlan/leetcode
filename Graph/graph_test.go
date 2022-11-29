@@ -76,7 +76,7 @@ func Test130(t *testing.T) {
 
 func Test990(t *testing.T) {
 	equations := []string{
-		"c==c", "b==d", "x!=z",
+		"c==c", "b==d", "id!=z",
 	}
 	fmt.Println(equationsPossible(equations))
 }
@@ -108,4 +108,14 @@ func Test1584(t *testing.T) {
 	points := [][]int{[]int{0, 0}, []int{2, 2}, []int{3, 10}, []int{5, 2}, []int{7, 0}}
 	fmt.Println(minCostConnectPoints(points))
 	fmt.Println(minCostConnectPointsPrim(points))
+}
+
+func Test743(t *testing.T) {
+	times := [][]int{
+		[]int{1, 2, 1},
+		// []int{2, 3, 1},
+		// []int{3, 4, 1},
+	}
+
+	fmt.Println(networkDelayTime(times, 2, 2))
 }

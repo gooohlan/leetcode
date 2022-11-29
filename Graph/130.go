@@ -122,7 +122,7 @@ func solveDFS(board [][]byte) {
 }
 
 func solveBFS(board [][]byte) {
-	var ( // x,y分别代表当前元素的4个方向
+	var ( // id,y分别代表当前元素的4个方向
 		xy = [4][2]int{[2]int{1, 0}, [2]int{-1, 0}, [2]int{0, 1}, [2]int{0, -1}}
 	)
 	if len(board) == 0 || len(board[0]) == 0 {
