@@ -128,3 +128,13 @@ func Test1631(t *testing.T) {
 	}
 	fmt.Println(minimumEffortPath(heights))
 }
+
+func Test1514(t *testing.T) {
+	edges := [][]int{
+		[]int{0, 1},
+	}
+
+	succProb := []float64{0.5}
+
+	fmt.Println(maxProbability(3, edges, succProb, 0, 2))
+}
