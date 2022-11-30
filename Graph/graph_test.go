@@ -139,3 +139,7 @@ func Test1514(t *testing.T) {
 
 	fmt.Println(maxProbability(3, edges, succProb, 0, 2))
 }
+
+func Test277(t *testing.T) {
+	fmt.Println(findCelebrity(4))
+}
