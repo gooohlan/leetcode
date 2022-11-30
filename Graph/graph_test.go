@@ -127,6 +127,7 @@ func Test1631(t *testing.T) {
 		[]int{5, 3, 5},
 	}
 	fmt.Println(minimumEffortPath(heights))
+	fmt.Println(minimumEffortPathUF(heights))
 }
 
 func Test1514(t *testing.T) {
