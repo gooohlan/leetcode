@@ -138,7 +138,11 @@
 - [990. 等式方程的可满足性](https://github.com/gooohlan/leetcode/blob/master/Graph/990.go)
 - [277. 搜寻名人](https://github.com/gooohlan/leetcode/blob/master/Graph/277.go)g
 
-### [5. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
+### [5. 数据额结构](https://github.com/gooohlan/leetcode/tree/master/DataStructure)
+
+- [146. LRU缓存](https://github.com/gooohlan/leetcode/blob/master/DataStructure/146.go)
+
+### [6. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
    - [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)
    - [192. 打家劫舍](https://github.com/gooohlan/leetcode/blob/master/DP/198.go)
@@ -147,7 +151,7 @@
    - [410. 分割数组的最大值](https://github.com/gooohlan/leetcode/blob/master/DP/410.go)
 
 
-#### [5.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
+#### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
   - [121. 买卖股票的最佳时机](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/121.go)
   - [122. 买卖股票的最佳时机 II](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/122.go)
   - [309. 最佳买卖股票时机含冷冻期](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/309.go)
@@ -155,7 +159,7 @@
   - [123. 买卖股票的最佳时机 III](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/123.go)
   - [188. 买卖股票的最佳时机 IV](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/188.go)
 
-### [6. 回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
+### [7. 回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
    - [78. 子集](https://github.com/gooohlan/leetcode/blob/master/Backtrack/78.go)
    - [77. 组合](https://github.com/gooohlan/leetcode/blob/master/Backtrack/77.go)
    - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/master/Backtrack/216.go)
@@ -166,12 +170,12 @@
    - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/47.go)
    - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/Backtrack/39.go)
 
-### [7. BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
+### [8. BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
    - [111. 二叉树的最小深度](https://github.com/gooohlan/leetcode/blob/master/BFS/111.go)
    - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
    - [773. 滑动谜题](https://github.com/gooohlan/leetcode/blob/master/BFS/773.go)
 
-### [8. 二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
+### [9. 二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
    - [704. 二分查找](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/704.go)
    - [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/34.go)
    - [875. 爱吃香蕉的珂珂](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/875.go)
