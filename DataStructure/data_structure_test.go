@@ -12,3 +12,12 @@ func TestLRU(t *testing.T) {
 	constructor.Get(2)
 	constructor.Put(5, 5)
 }
+
+func TestLFU(t *testing.T) {
+	constructor := Constructor460(0)
+	constructor.Put(0, 0)
+	constructor.Put(2, 2)
+	constructor.Put(1, 1111)
+	constructor.Get(2)
+	constructor.Put(3, 3)
+}
