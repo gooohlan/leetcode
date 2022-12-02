@@ -35,13 +35,21 @@ func Test208(t *testing.T) {
 	fmt.Println(trie.ShortestPrefixOf("adpbbccs"))
 }
 
-//      fbaonsiaxpruyg mzspoittzlhuhrys stumtch qgsgoptlmxko ydemhbfh fzufzzvjn o ywvtywdsmirgfwmiapf wynfwbi azayqvzvrkjwgxydozdv lpioshhwxqgnqsqdj b aqxvaycvb hkejxyxy ggz"
-//      fbaonsiaxpruyg mzspoittzlhuhrys stumtch qgsgoptlmxko ydemhbfh fzufzzvjn o ywvtywdsmirgfwmiapf wynfwbi azayqvzvrkjwgxydozdv lpioshhwxqgnqsqdj bs aqxvaycvb hkejxyxy ggz
-
-
 func Test648(t *testing.T) {
 	dictionary := []string{
-		"bsmlto",
+		"a", "b", "c",
 	}
-	fmt.Println(replaceWords(dictionary, "bs"))
+	fmt.Println(replaceWords(dictionary, "aadsfasf absbs bbab cadsfafs"))
+	fmt.Println(replaceWords2(dictionary, "aadsfasf absbs bbab cadsfafs"))
+}
+
+func Test211(t *testing.T) {
+	wordDictionary := Constructor211()
+	wordDictionary.AddWord("bad")
+	wordDictionary.AddWord("dad")
+	wordDictionary.AddWord("mad")
+	fmt.Println(wordDictionary.Search("pad"))
+	fmt.Println(wordDictionary.Search("bad"))
+	fmt.Println(wordDictionary.Search(".ad"))
+	fmt.Println(wordDictionary.Search("b.."))
 }
