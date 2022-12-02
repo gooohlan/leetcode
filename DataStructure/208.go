@@ -13,7 +13,6 @@ func Constructor208() Trie {
 
 
 func (t *Trie) Insert(word string)  {
-    // node := t
     for _, ch := range word {
         ch -= 'a'
         if t.children[ch] == nil {
@@ -35,7 +34,7 @@ func (t *Trie) StartsWith(prefix string) bool {
     return node != nil
 }
 
-// SearchPrefix 查找节点是否存在
+// SearchPrefix 查找指定前缀节点
 func (t *Trie) SearchPrefix(prefix string) *Trie {
     // node := t
     for _, ch := range prefix {

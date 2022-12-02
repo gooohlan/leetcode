@@ -53,3 +53,22 @@ func Test211(t *testing.T) {
 	fmt.Println(wordDictionary.Search(".ad"))
 	fmt.Println(wordDictionary.Search("b.."))
 }
+
+func Test1804(t *testing.T) {
+	trie := Constructor1804()
+	trie.Insert("abbce")
+	trie.Insert("abbce")
+	trie.Insert("abb")
+	fmt.Println(trie.CountWordsEqualTo("abbce"))
+	fmt.Println(trie.CountWordsStartingWith("abb"))
+	trie.Erase("abbce")
+	fmt.Println(trie.CountWordsEqualTo("abbce"))
+	fmt.Println(trie.CountWordsStartingWith("abb"))
+	trie.Erase("abb")
+	fmt.Println(trie.CountWordsEqualTo("abbce"))
+	fmt.Println(trie.CountWordsStartingWith("abb"))
+	trie.Erase("abbce")
+	fmt.Println(trie.CountWordsEqualTo("abbce"))
+	fmt.Println(trie.CountWordsStartingWith("abb"))
+	
+}
