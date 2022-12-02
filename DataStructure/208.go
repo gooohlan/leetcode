@@ -48,3 +48,18 @@ func (t *Trie) SearchPrefix(prefix string) *Trie {
     return t
 }
 
+
+
+func (t *Trie) ShortestPrefixOf(word string) string {
+    for i, ch := range word {
+        ch -= 'a'
+        if t.children[ch] == nil {
+            return ""
+        }
+        if t.children[ch].isEnd{
+           return  word[:i+1]
+        }
+        t = t.children[ch]
+    }
+    return ""
+}
