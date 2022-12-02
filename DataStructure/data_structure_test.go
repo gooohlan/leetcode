@@ -1,6 +1,9 @@
 package DataStructure
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestLRU(t *testing.T) {
 	constructor := Constructor2(3)
@@ -20,4 +23,13 @@ func TestLFU(t *testing.T) {
 	constructor.Put(1, 1111)
 	constructor.Get(2)
 	constructor.Put(3, 3)
+}
+
+func Test208(t *testing.T) {
+	trie  := Constructor208()
+	trie.Insert("apple")
+	fmt.Println(trie.Search("app"))
+	fmt.Println(trie.StartsWith("app"))
+	trie.Insert("app")
+	fmt.Println(trie.Search("app"))
 }
