@@ -70,5 +70,13 @@ func Test1804(t *testing.T) {
 	trie.Erase("abbce")
 	fmt.Println(trie.CountWordsEqualTo("abbce"))
 	fmt.Println(trie.CountWordsStartingWith("abb"))
-	
+}
+
+func Test677(t *testing.T) {
+	mapSum := Constructor677()
+	mapSum.Insert("apple", 3)
+	fmt.Println(mapSum.Sum("ap"))
+	mapSum.Insert("app", 2)
+	mapSum.Insert("apple", 2)
+	fmt.Println(mapSum.Sum("ap"))
 }
