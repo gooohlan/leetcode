@@ -40,3 +40,26 @@ func Test6248(t *testing.T) {
 	nums := []int{5, 1, 7, 4, 2, 6, 3}
 	fmt.Println(countSubarrays(nums, 4))
 }
+
+func Test6255(t *testing.T) {
+	roads := [][]int{
+		[]int{1, 2, 9},
+		[]int{2, 3, 6},
+		[]int{2, 4, 5},
+		[]int{1, 4, 7},
+	}
+
+	fmt.Println(minScore(4, roads))
+}
+
+func Test6256(t *testing.T) {
+	edges := [][]int{
+		[]int{1, 2},
+		[]int{1, 4},
+		[]int{1, 5},
+		[]int{2, 6},
+		[]int{2, 3},
+		[]int{4, 6},
+	}
+	fmt.Println(magnificentSets(6, edges))
+}
