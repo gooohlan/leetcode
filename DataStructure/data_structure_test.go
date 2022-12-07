@@ -26,7 +26,7 @@ func TestLFU(t *testing.T) {
 }
 
 func Test208(t *testing.T) {
-	trie  := Constructor208()
+	trie := Constructor208()
 	trie.Insert("apple")
 	fmt.Println(trie.Search("app"))
 	fmt.Println(trie.StartsWith("app"))
@@ -79,4 +79,14 @@ func Test677(t *testing.T) {
 	mapSum.Insert("app", 2)
 	mapSum.Insert("apple", 2)
 	fmt.Println(mapSum.Sum("ap"))
+}
+
+func Test295(t *testing.T) {
+	this := Constructor295()
+	this.AddNum(1)
+	this.AddNum(2)
+	this.AddNum(3)
+	this.AddNum(4)
+	this.AddNum(5)
+	fmt.Println(this.FindMedian())
 }
