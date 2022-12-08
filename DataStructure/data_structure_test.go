@@ -98,5 +98,6 @@ func Test496(t *testing.T) {
 }
 
 func Test739(t *testing.T) {
-
+	nums := []int{73, 74, 75, 71, 69, 76}
+	fmt.Println(dailyTemperatures2(nums))
 }
