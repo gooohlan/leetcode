@@ -101,3 +101,8 @@ func Test739(t *testing.T) {
 	nums := []int{73, 74, 75, 71, 69, 76}
 	fmt.Println(dailyTemperatures2(nums))
 }
+
+func Test503(t *testing.T) {
+	nums := []int{1, 1, 1, 1}
+	fmt.Println(nextGreaterElements(nums))
+}
