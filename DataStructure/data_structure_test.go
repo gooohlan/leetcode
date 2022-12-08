@@ -90,3 +90,13 @@ func Test295(t *testing.T) {
 	this.AddNum(5)
 	fmt.Println(this.FindMedian())
 }
+
+func Test496(t *testing.T) {
+	nums1 := []int{4, 1, 2}
+	nums2 := []int{1, 3, 4, 2}
+	fmt.Println(nextGreaterElement(nums1, nums2))
+}
+
+func Test739(t *testing.T) {
+
+}
