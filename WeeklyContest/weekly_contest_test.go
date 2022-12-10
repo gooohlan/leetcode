@@ -63,3 +63,34 @@ func Test6256(t *testing.T) {
 	}
 	fmt.Println(magnificentSets(6, edges))
 }
+
+func Test6261(t *testing.T) {
+	strs := []string{"1", "01", "001", "0001"}
+	fmt.Println(maximumValue(strs))
+}
+
+func Test6262(t *testing.T) {
+	vals := []int{
+		17, 49, -34, -17, -7, -23, 24,
+	}
+	edges := [][]int{
+		[]int{3, 1},
+		[]int{5, 1},
+		[]int{0, 3},
+		[]int{4, 6},
+		[]int{1, 4},
+		[]int{3, 4},
+		[]int{6, 3},
+		[]int{2, 6},
+		[]int{5, 2},
+		[]int{1, 6},
+		[]int{6, 0},
+		[]int{2, 3},
+		[]int{3, 5},
+		[]int{2, 1},
+		[]int{0, 2},
+		[]int{5, 0},
+		[]int{0, 4},
+	}
+	fmt.Println(maxStarSum(vals, edges, 6))
+}
