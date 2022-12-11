@@ -71,26 +71,19 @@ func Test6261(t *testing.T) {
 
 func Test6262(t *testing.T) {
 	vals := []int{
-		17, 49, -34, -17, -7, -23, 24,
+		1, 2, 3, -4, 10, -10, 20,
 	}
 	edges := [][]int{
-		[]int{3, 1},
-		[]int{5, 1},
-		[]int{0, 3},
-		[]int{4, 6},
-		[]int{1, 4},
+		[]int{0, 1},
+		[]int{1, 2},
+		[]int{1, 3},
 		[]int{3, 4},
-		[]int{6, 3},
-		[]int{2, 6},
-		[]int{5, 2},
-		[]int{1, 6},
-		[]int{6, 0},
-		[]int{2, 3},
 		[]int{3, 5},
-		[]int{2, 1},
-		[]int{0, 2},
-		[]int{5, 0},
-		[]int{0, 4},
+		[]int{3, 6},
 	}
-	fmt.Println(maxStarSum(vals, edges, 6))
+	fmt.Println(maxStarSum(vals, edges, 2))
+}
+
+func Test6263(t *testing.T) {
+	fmt.Println(maxJump([]int{0, 2, 5, 6, 15}))
 }
