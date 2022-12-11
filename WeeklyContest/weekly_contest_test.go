@@ -117,10 +117,10 @@ func Test6259(t *testing.T) {
 
 func Test6260(t *testing.T) {
 	grid := [][]int{
-		[]int{4, 3, 4, 5, 1, 3, 5},
-		[]int{2, 5, 7, 6, 4, 5, 1},
-		[]int{5, 9, 4, 1, 3, 7, 2},
+		[]int{1, 2, 3},
+		[]int{2, 5, 7},
+		[]int{3, 5, 1},
 	}
 	queries := []int{5, 6, 2}
-	fmt.Println(maxPoints(grid, queries))
+	fmt.Println(maxPoints2(grid, queries))
 }
