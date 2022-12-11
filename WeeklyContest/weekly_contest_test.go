@@ -100,3 +100,17 @@ func Test6258(t *testing.T) {
 	nums := []int{4, 3, 6, 16, 8, 2}
 	fmt.Println(longestSquareStreak(nums))
 }
+
+func Test6259(t *testing.T) {
+	loc := Constructor(10)
+	fmt.Println(loc.Allocate(1, 1))
+	fmt.Println(loc.Allocate(1, 2))
+	fmt.Println(loc.Allocate(1, 3))
+	fmt.Println(loc.Free(2))
+	fmt.Println(loc.Allocate(3, 4))
+	fmt.Println(loc.Allocate(1, 1))
+	fmt.Println(loc.Allocate(1, 1))
+	fmt.Println(loc.Free(1))
+	fmt.Println(loc.Allocate(10, 2))
+	fmt.Println(loc.Free(7))
+}
