@@ -95,3 +95,8 @@ func Test6257(t *testing.T) {
 
 	fmt.Println(deleteGreatestValue(grid))
 }
+
+func Test6258(t *testing.T) {
+	nums := []int{4, 3, 6, 16, 8, 2}
+	fmt.Println(longestSquareStreak(nums))
+}
