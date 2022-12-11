@@ -87,3 +87,11 @@ func Test6262(t *testing.T) {
 func Test6263(t *testing.T) {
 	fmt.Println(maxJump([]int{0, 2, 5, 6, 15}))
 }
+
+func Test6257(t *testing.T) {
+	grid := [][]int{
+		[]int{10},
+	}
+
+	fmt.Println(deleteGreatestValue(grid))
+}
