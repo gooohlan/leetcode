@@ -124,3 +124,7 @@ func Test6260(t *testing.T) {
 	queries := []int{5, 6, 2}
 	fmt.Println(maxPoints2(grid, queries))
 }
+
+func Test6264(t *testing.T) {
+	fmt.Println(minimumTotalCost([]int{1, 2, 3, 4, 5}, []int{1, 2, 3, 4, 5}))
+}

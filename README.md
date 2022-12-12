@@ -210,3 +210,10 @@
 - [6254. 划分技能点相等的团队](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6254.go)
 - [6255. 两个城市间路径的最小分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6255.go)
 - [6256. 将节点分成尽可能多的组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6256.go)
+
+### 周赛323
+
+- [6257. 删除每行中的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6257.go)
+- [6258. 数组中最长的方波](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6258.go)
+- [6259. 设计内存分配器](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6259.go)
+- [6260. 矩阵查询可获得的最大分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6260.go)
