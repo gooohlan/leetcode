@@ -8,6 +8,9 @@
 - [周赛](#周赛)
   - [321](#周赛321)
   - [322](#周赛322)
+  - [323](#周赛323)
+- [双周赛](#双周赛)
+  - [93](#双周赛93)
 
 
 ## 解题思路
@@ -217,3 +220,11 @@
 - [6258. 数组中最长的方波](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6258.go)
 - [6259. 设计内存分配器](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6259.go)
 - [6260. 矩阵查询可获得的最大分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6260.go)
+
+## 双周赛
+
+### 双周赛93
+- [6261. 数组中字符串的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6261.go)
+- [6262. 图中最大星和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6262.go)
+- [6263. 青蛙过河 II](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6263.go)
+- [6264. 让数组不相等的最小总代价](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6264.go)
