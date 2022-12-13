@@ -86,7 +86,7 @@ func (t *Twitter) Follow(followerId int, followeeId int) {
     
     user1 := t.getUser(followerId)
     user2 := t.getUser(followeeId)
-    user1.followed[followerId] = user2
+    user1.followed[followeeId] = user2
 }
 
 func (t *Twitter) Unfollow(followerId int, followeeId int) {

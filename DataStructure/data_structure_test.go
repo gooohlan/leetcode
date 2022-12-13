@@ -113,5 +113,12 @@ func Test239(t *testing.T) {
 }
 
 func Test355(t *testing.T) {
-    
+    twitter := Constructor355()
+    twitter.PostTweet(1, 5)
+    fmt.Println(twitter.GetNewsFeed(1))
+    twitter.Follow(1, 2)
+    twitter.PostTweet(2, 6)
+    fmt.Println(twitter.GetNewsFeed(1))
+    twitter.Unfollow(1, 2)
+    fmt.Println(twitter.GetNewsFeed(1))
 }
