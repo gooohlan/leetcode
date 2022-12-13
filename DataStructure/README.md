@@ -1,4 +1,4 @@
-## 数据额结构
+## 数据结构
 
 - [146. LRU缓存](https://github.com/gooohlan/leetcode/blob/master/DataStructure/146.go)
 - [460. LFU 缓存](https://github.com/gooohlan/leetcode/blob/master/DataStructure/460.go)
@@ -12,3 +12,6 @@
 - [739. 每日温度](https://github.com/gooohlan/leetcode/blob/master/DataStructure/739.go)
 - [503. 下一个更大元素 II](https://github.com/gooohlan/leetcode/blob/master/DataStructure/503.go)
 - [239. 滑动窗口最大值](https://github.com/gooohlan/leetcode/blob/master/DataStructure/239.go)
+- [225. 用队列实现栈](https://github.com/gooohlan/leetcode/blob/master/DataStructure/225.go)
+- [232. 用栈实现队列](https://github.com/gooohlan/leetcode/blob/master/DataStructure/232.go)
+- [355. 设计推特](https://github.com/gooohlan/leetcode/blob/master/DataStructure/355.go)

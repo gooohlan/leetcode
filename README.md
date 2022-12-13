@@ -142,7 +142,7 @@
 - [990. 等式方程的可满足性](https://github.com/gooohlan/leetcode/blob/master/Graph/990.go)
 - [277. 搜寻名人](https://github.com/gooohlan/leetcode/blob/master/Graph/277.go)g
 
-### [5. 数据额结构](https://github.com/gooohlan/leetcode/tree/master/DataStructure)
+### [5. 数据结构](https://github.com/gooohlan/leetcode/tree/master/DataStructure)
 
 - [146. LRU缓存](https://github.com/gooohlan/leetcode/blob/master/DataStructure/146.go)
 - [460. LFU 缓存](https://github.com/gooohlan/leetcode/blob/master/DataStructure/460.go)
@@ -156,6 +156,9 @@
 - [739. 每日温度](https://github.com/gooohlan/leetcode/blob/master/DataStructure/739.go)
 - [503. 下一个更大元素 II](https://github.com/gooohlan/leetcode/blob/master/DataStructure/503.go)
 - [239. 滑动窗口最大值](https://github.com/gooohlan/leetcode/blob/master/DataStructure/239.go)
+- [225. 用队列实现栈](https://github.com/gooohlan/leetcode/blob/master/DataStructure/225.go)
+- [232. 用栈实现队列](https://github.com/gooohlan/leetcode/blob/master/DataStructure/232.go)
+- [355. 设计推特](https://github.com/gooohlan/leetcode/blob/master/DataStructure/355.go)
 
 ### [6. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
    - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
