@@ -50,3 +50,14 @@ func Test300(t *testing.T) {
     nums := []int{0, 1, 0, 3, 2, 3}
     fmt.Println(lengthOfLIS2(nums))
 }
+
+func Test354(t *testing.T) {
+    envelopes := [][]int{
+        []int{4, 5},
+        []int{4, 6},
+        []int{6, 7},
+        []int{2, 3},
+        []int{1, 1},
+    }
+    fmt.Println(maxEnvelopes(envelopes))
+}
