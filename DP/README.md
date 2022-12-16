@@ -16,6 +16,8 @@
 - [213. 打家劫舍 II](https://github.com/gooohlan/leetcode/blob/master/DP/213.go)
 - [337. 打家劫舍 III](https://github.com/gooohlan/leetcode/blob/master/DP/337.go)
 - [410. 分割数组的最大值](https://github.com/gooohlan/leetcode/blob/master/DP/410.go)
+- [300. 最长递增子序列](https://github.com/gooohlan/leetcode/blob/master/DP/300.go)
+- [354. 俄罗斯套娃信封问题](https://github.com/gooohlan/leetcode/blob/master/DP/354.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
