@@ -20,6 +20,13 @@
 - [6259. 设计内存分配器](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6259.go)
 - [6260. 矩阵查询可获得的最大分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6260.go)
 
+### 周赛324
+
+- [6265. 统计相似字符串对的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6265.go)
+- [6266. 使用质因数之和替换后可以取到的最小值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6266.go)
+- [6267. 添加边使所有节点度数都为偶数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6267.go)
+- [6268. 查询树中环的长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6268.go)
+
 ## 双周赛
 
 ## 双周赛
