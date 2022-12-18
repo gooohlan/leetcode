@@ -132,6 +132,7 @@ func Test6264(t *testing.T) {
 func Test6265(t *testing.T) {
     words := []string{"aba", "aabb", "ab", "bbaa", "aabc"}
     fmt.Println(similarPairs(words))
+    fmt.Println(similarPairs2(words))
 }
 
 func Test6266(t *testing.T) {
