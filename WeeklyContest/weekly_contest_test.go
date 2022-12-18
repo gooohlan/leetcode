@@ -136,7 +136,7 @@ func Test6265(t *testing.T) {
 }
 
 func Test6266(t *testing.T) {
-    fmt.Println(smallestValue(4))
+    fmt.Println(smallestValue(15))
 }
 
 func Test6267(t *testing.T) {

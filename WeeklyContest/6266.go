@@ -1,69 +1,21 @@
 package WeeklyContest
 
-import (
-    "math"
-)
-
-var primeNumbers = make(map[int]int)
-
-func isPrime(n int) bool {
-    
-    if n > 2 && n%2 == 0 {
-        primeNumbers[n] = 2
-        return false
-    }
-    
-    for i := 2; i < int(math.Ceil(math.Sqrt(float64(n)))); i++ {
-        if n%i == 0 {
-            primeNumbers[n] = 2
-            return false
-        }
-    }
-    primeNumbers[n] = 1
-    return true
-}
+// 不断循环,计算n的质因数之和s,如果s==n说明无法再继续减小n了,返回n,否则更新n为s,继续循环
 
 func smallestValue(n int) int {
-    primeNumbers = make(map[int]int)
-    min := n
-    for !isPrime(n) {
-        newN := printPrime(n)
-        if newN == n {
-            return n
-        }
-        if min > newN {
-            min = newN
-        }
-    }
-    
-    return min
-}
-
-func printPrime(n int) int {
-    var sum int
-    for j := 2; j < n; j++ {
-        if isPrime(n) {
-            return n
-        }
-        if n%j == 0 && isPrime(j) {
-            n /= j
-            sum += j
-            j--
-        }
-    }
-    return sum
-}
-
-func factor(n int) int {
-    var sum int
-    for i := n / 2; i >= 2 && n > 1; i-- {
-        if isPrime(i) {
-            if n%i == 0 {
-                sum += i
-                n = n / i
-                i++
+    for {
+        x, s := n, 0
+        for i := 2; i*i <= x; i++ {
+            for ; x%i == 0; x /= i {
+                s += i
             }
         }
+        if x > 1 {
+            s += x
+        }
+        if s == n {
+            return n
+        }
+        n = s
     }
-    return sum
 }
