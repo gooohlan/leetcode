@@ -61,3 +61,8 @@ func Test354(t *testing.T) {
     }
     fmt.Println(maxEnvelopes(envelopes))
 }
+
+func Test72(t *testing.T) {
+    fmt.Println(minDistance("horse", "ros"))
+    fmt.Println(minDistanceDP("horse", "ros"))
+}
