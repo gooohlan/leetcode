@@ -169,6 +169,7 @@
 - [410. 分割数组的最大值](https://github.com/gooohlan/leetcode/blob/master/DP/410.go)
 - [300. 最长递增子序列](https://github.com/gooohlan/leetcode/blob/master/DP/300.go)
 - [354. 俄罗斯套娃信封问题](https://github.com/gooohlan/leetcode/blob/master/DP/354.go)
+- [72. 编辑距离](https://github.com/gooohlan/leetcode/blob/master/DP/72.go)g
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
