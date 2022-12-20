@@ -66,3 +66,13 @@ func Test72(t *testing.T) {
     fmt.Println(minDistance("horse", "ros"))
     fmt.Println(minDistanceDP("horse", "ros"))
 }
+
+func Test931(t *testing.T) {
+    matrix := [][]int{
+        {2, 1, 3},
+        {6, 5, 4},
+        {7, 8, 9},
+    }
+    fmt.Println(minFallingPathSum(matrix))
+    fmt.Println(minFallingPathSumDP(matrix))
+}
