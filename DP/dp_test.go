@@ -93,3 +93,8 @@ func Test583(t *testing.T) {
     fmt.Println(minDistance583DP("sea", "eat"))
     fmt.Println(minDistance583DP("leetcode", "etco"))
 }
+
+func Test712(t *testing.T) {
+    fmt.Println(minimumDeleteSumDP("sea", "eat"))
+    fmt.Println(minimumDeleteSumDP("delete", "leet"))
+}
