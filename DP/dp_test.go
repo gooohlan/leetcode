@@ -88,3 +88,8 @@ func Test1143(t *testing.T) {
     fmt.Println(longestCommonSubsequence("abcde", "ace"))
     fmt.Println(longestCommonSubsequenceDP("abcde", "ace"))
 }
+
+func Test583(t *testing.T) {
+    fmt.Println(minDistance583DP("sea", "eat"))
+    fmt.Println(minDistance583DP("leetcode", "etco"))
+}
