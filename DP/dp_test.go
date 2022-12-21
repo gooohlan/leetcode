@@ -83,3 +83,8 @@ func Test53(t *testing.T) {
     fmt.Println(maxSubArray(nums))
     fmt.Println(maxSubArrayPreSum(nums))
 }
+
+func Test1143(t *testing.T) {
+    fmt.Println(longestCommonSubsequence("abcde", "ace"))
+    fmt.Println(longestCommonSubsequenceDP("abcde", "ace"))
+}
