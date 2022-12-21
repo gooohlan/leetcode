@@ -24,6 +24,8 @@
 - [1143. 最长公共子序列](https://github.com/gooohlan/leetcode/blob/master/DP/1143.go)
 - [583. 两个字符串的删除操作](https://github.com/gooohlan/leetcode/blob/master/DP/583.go)
 - [712. 两个字符串的最小ASCII删除和](https://github.com/gooohlan/leetcode/blob/master/DP/712.go)
+- [516. 最长回文子序列](https://github.com/gooohlan/leetcode/blob/master/DP/516.go)
+- [1312. 让字符串成为回文串的最少插入次数](https://github.com/gooohlan/leetcode/blob/master/DP/1312.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
