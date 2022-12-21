@@ -104,5 +104,10 @@ func Test516(t *testing.T) {
     fmt.Println(longestPalindromeSubseq("cbbd"))
     fmt.Println(longestPalindromeSubseqDP("bbbab"))
     fmt.Println(longestPalindromeSubseqDP("cbbd"))
-    
+}
+
+func Test1312(t *testing.T) {
+    fmt.Println(minInsertions("mbadm"))
+    fmt.Println(minInsertions("zzazz"))
+    fmt.Println(minInsertions("leetcode"))
 }
