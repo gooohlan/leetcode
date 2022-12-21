@@ -76,3 +76,10 @@ func Test931(t *testing.T) {
     fmt.Println(minFallingPathSum(matrix))
     fmt.Println(minFallingPathSumDP(matrix))
 }
+
+func Test53(t *testing.T) {
+    nums := []int{-2, 1, -3, 4, -1, 2, 1, -5, 4}
+    fmt.Println(maxSubArrayDP(nums))
+    fmt.Println(maxSubArray(nums))
+    fmt.Println(maxSubArrayPreSum(nums))
+}
