@@ -20,6 +20,10 @@
 - [354. 俄罗斯套娃信封问题](https://github.com/gooohlan/leetcode/blob/master/DP/354.go)
 - [72. 编辑距离](https://github.com/gooohlan/leetcode/blob/master/DP/72.go)
 - [931. 下降路径最小和](https://github.com/gooohlan/leetcode/blob/master/DP/931.go)
+- [53. 最大子数组和](https://github.com/gooohlan/leetcode/blob/master/DP/53.go)
+- [1143. 最长公共子序列](https://github.com/gooohlan/leetcode/blob/master/DP/1143.go)
+- [583. 两个字符串的删除操作](https://github.com/gooohlan/leetcode/blob/master/DP/583.go)
+- [712. 两个字符串的最小ASCII删除和](https://github.com/gooohlan/leetcode/blob/master/DP/712.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
