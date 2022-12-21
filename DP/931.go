@@ -1,7 +1,7 @@
 package DP
 
 func minFallingPathSum(matrix [][]int) int {
-    var dp func(int, int) int
+    var dfs func(int, int) int
     m, n := len(matrix), len(matrix[0])
     memo := make([][]int, m)
     for i := range memo {
@@ -11,7 +11,7 @@ func minFallingPathSum(matrix [][]int) int {
         }
     }
     
-    dp = func(i int, j int) int {
+    dfs = func(i int, j int) int {
         if i < 0 || j < 0 || i >= m || j >= n {
             return 10001
         }
@@ -22,9 +22,9 @@ func minFallingPathSum(matrix [][]int) int {
         
         if memo[i][j] == 10001 {
             memo[i][j] = matrix[i][j] + min(
-                dp(i+1, j),
-                dp(i+1, j-1),
-                dp(i+1, j+1),
+                dfs(i+1, j),
+                dfs(i+1, j-1),
+                dfs(i+1, j+1),
             )
         }
         return memo[i][j]
@@ -33,7 +33,7 @@ func minFallingPathSum(matrix [][]int) int {
     res := 10001
     // 起点可能是第一排的任何一列
     for j := 0; j < n; j++ {
-        res = min(res, dp(0, j))
+        res = min(res, dfs(0, j))
     }
     return res
 }

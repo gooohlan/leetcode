@@ -1,7 +1,7 @@
 package DP
 
 func minimumDeleteSum(s1 string, s2 string) int {
-    var dp func(int, int) int
+    var dfs func(int, int) int
     memo := make([][]int, len(s1))
     for i := 0; i < len(s1); i++ {
         memo[i] = make([]int, len(s2))
@@ -10,7 +10,7 @@ func minimumDeleteSum(s1 string, s2 string) int {
         }
     }
     
-    dp = func(i int, j int) int {
+    dfs = func(i int, j int) int {
         var res int
         if i == len(s1) {
             for ; j < len(s2); j++ {
@@ -26,11 +26,11 @@ func minimumDeleteSum(s1 string, s2 string) int {
         }
         if memo[i][j] == -1 {
             if s1[i] == s2[j] {
-                memo[i][j] = dp(i+1, j+1)
+                memo[i][j] = dfs(i+1, j+1)
             } else {
                 memo[i][j] = min(
-                    int(s1[i])+dp(i+1, j),
-                    int(s2[j])+dp(i, j+1),
+                    int(s1[i])+dfs(i+1, j),
+                    int(s2[j])+dfs(i, j+1),
                 )
             }
         }
@@ -38,7 +38,7 @@ func minimumDeleteSum(s1 string, s2 string) int {
         return memo[i][j]
     }
     
-    return dp(0, 0)
+    return dfs(0, 0)
 }
 
 func minimumDeleteSumDP(s1, s2 string) int {

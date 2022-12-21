@@ -98,3 +98,11 @@ func Test712(t *testing.T) {
     fmt.Println(minimumDeleteSumDP("sea", "eat"))
     fmt.Println(minimumDeleteSumDP("delete", "leet"))
 }
+
+func Test516(t *testing.T) {
+    fmt.Println(longestPalindromeSubseq("bbbab"))
+    fmt.Println(longestPalindromeSubseq("cbbd"))
+    fmt.Println(longestPalindromeSubseqDP("bbbab"))
+    fmt.Println(longestPalindromeSubseqDP("cbbd"))
+    
+}

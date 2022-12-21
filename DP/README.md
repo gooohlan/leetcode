@@ -8,7 +8,7 @@
 
 这里提供一个思维框架，辅助你思考状态转移方程：
 
-**明确 base case -> 明确「状态」-> 明确「选择」 -> 定义 `dp` 数组/函数的含义**。
+**明确 base case -> 明确「状态」-> 明确「选择」 -> 定义 `dfs` 数组/函数的含义**。
 
 - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
 - [509. 菲波那切数列](https://github.com/gooohlan/leetcode/blob/master/DP/509.go)

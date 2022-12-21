@@ -1,7 +1,7 @@
 package DP
 
 func longestCommonSubsequence(text1 string, text2 string) int {
-    var dp func(int, int) int
+    var dfs func(int, int) int
     memo := make([][]int, len(text1))
     for i := 0; i < len(text1); i++ {
         memo[i] = make([]int, len(text2))
@@ -10,25 +10,25 @@ func longestCommonSubsequence(text1 string, text2 string) int {
         }
     }
     
-    dp = func(i int, j int) int {
+    dfs = func(i int, j int) int {
         if i == len(text1) || j == len(text2) {
             return 0
         }
         if memo[i][j] == -1 {
             if text1[i] == text2[j] {
-                memo[i][j] = 1 + dp(i+1, j+1)
+                memo[i][j] = 1 + dfs(i+1, j+1)
             } else {
                 memo[i][j] = max(
-                    dp(i+1, j),
-                    dp(i, j+1),
-                    // dp(i+1, j+1)
+                    dfs(i+1, j),
+                    dfs(i, j+1),
+                    // dfs(i+1, j+1)
                 )
             }
         }
         return memo[i][j]
     }
     
-    return dp(0, 0)
+    return dfs(0, 0)
 }
 
 func max(arr ...int) int {

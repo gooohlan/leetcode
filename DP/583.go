@@ -1,7 +1,7 @@
 package DP
 
 func minDistance583(word1 string, word2 string) int {
-    var dp func(int, int) int
+    var dfs func(int, int) int
     memo := make([][]int, len(word1))
     for i := 0; i < len(word1); i++ {
         memo[i] = make([]int, len(word2))
@@ -10,7 +10,7 @@ func minDistance583(word1 string, word2 string) int {
         }
     }
     
-    dp = func(i int, j int) int {
+    dfs = func(i int, j int) int {
         if i == len(word1) {
             return len(word2) - j
         }
@@ -19,15 +19,15 @@ func minDistance583(word1 string, word2 string) int {
         }
         if memo[i][j] == -1 {
             if word1[i] == word2[j] {
-                memo[i][j] = dp(i+1, j+1)
+                memo[i][j] = dfs(i+1, j+1)
             } else {
-                memo[i][j] = min(dp(i+1, j), dp(i, j+1)) + 1
+                memo[i][j] = min(dfs(i+1, j), dfs(i, j+1)) + 1
             }
         }
         return memo[i][j]
     }
     
-    return dp(0, 0)
+    return dfs(0, 0)
 }
 
 func minDistance583DP(word1 string, word2 string) int {
