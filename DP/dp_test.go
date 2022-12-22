@@ -122,3 +122,9 @@ func Test518(t *testing.T) {
     fmt.Println(change(10, nums))
     fmt.Println(change2(10, nums))
 }
+
+func Test494(t *testing.T) {
+    nums := []int{1, 1, 1, 1, 1}
+    fmt.Println(findTargetSumWays(nums, 3))
+    fmt.Println(findTargetSumWaysDFS(nums, 3))
+}
