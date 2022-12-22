@@ -116,3 +116,9 @@ func Test416(t *testing.T) {
     nums := []int{1, 2, 3, 6}
     fmt.Println(canPartition(nums))
 }
+
+func Test518(t *testing.T) {
+    nums := []int{1, 2, 5}
+    fmt.Println(change(10, nums))
+    fmt.Println(change2(10, nums))
+}
