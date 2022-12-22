@@ -177,6 +177,9 @@
 - [712. 两个字符串的最小ASCII删除和](https://github.com/gooohlan/leetcode/blob/master/DP/712.go)
 - [516. 最长回文子序列](https://github.com/gooohlan/leetcode/blob/master/DP/516.go)
 - [1312. 让字符串成为回文串的最少插入次数](https://github.com/gooohlan/leetcode/blob/master/DP/1312.go)
+- [416. 分割等和子集](https://github.com/gooohlan/leetcode/blob/master/DP/416.go)
+- [518. 零钱兑换 II](https://github.com/gooohlan/leetcode/blob/master/DP/518.go)
+- [494. 目标和](https://github.com/gooohlan/leetcode/blob/master/DP/494.go)
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
