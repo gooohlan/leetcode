@@ -127,4 +127,5 @@ func Test494(t *testing.T) {
     nums := []int{1, 1, 1, 1, 1}
     fmt.Println(findTargetSumWays(nums, 3))
     fmt.Println(findTargetSumWaysDFS(nums, 3))
+    fmt.Println(findTargetSumWaysDP(nums, 3))
 }
