@@ -111,3 +111,8 @@ func Test1312(t *testing.T) {
     fmt.Println(minInsertions("zzazz"))
     fmt.Println(minInsertions("leetcode"))
 }
+
+func Test416(t *testing.T) {
+    nums := []int{1, 2, 3, 5}
+    fmt.Println(canPartition(nums))
+}
