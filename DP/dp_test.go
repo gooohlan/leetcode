@@ -128,4 +128,5 @@ func Test494(t *testing.T) {
     fmt.Println(findTargetSumWays(nums, 3))
     fmt.Println(findTargetSumWaysDFS(nums, 3))
     fmt.Println(findTargetSumWaysDP(nums, 3))
+    fmt.Println(findTargetSumWaysDP2(nums, 3))
 }

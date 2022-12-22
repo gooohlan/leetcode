@@ -92,4 +92,25 @@ func findTargetSumWaysDP(nums []int, target int) int {
     return dp[n][target]
 }
 
-// 优化为以为
+// 优化为一维数组
+func findTargetSumWaysDP2(nums []int, target int) int {
+    sum := 0
+    for _, num := range nums {
+        sum += num
+    }
+    diff := sum - target
+    if diff < 0 || diff%2 != 0 {
+        return 0
+    }
+    target = diff / 2
+    n := len(nums)
+    dp := make([]int, target+1) // dp[i][j] 使用前i个元素凑出j的方法
+    
+    dp[0] = 1 // 一个元素不使用凑出0的方法是1
+    for i := 0; i < n; i++ {
+        for j := target; j >= nums[i]; j-- {
+            dp[j] = dp[j] + dp[j-nums[i]]
+        }
+    }
+    return dp[target]
+}

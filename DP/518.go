@@ -10,7 +10,7 @@ func change(amount int, coins []int) int {
     
     for i := 1; i <= n; i++ {
         for j := 1; j <= amount; j++ {
-            if j-coins[i-1] >= 0 {
+            if j >= coins[i-1] {
                 // 不放入面值为coins[i-1]的金币,就继承dp[i-1][j], 放入则为dp[i][j-coins[i-1]], 因为求得是共有多少种,所以把两个相加
                 dp[i][j] = dp[i-1][j] + dp[i][j-coins[i-1]]
             } else {
@@ -28,7 +28,7 @@ func change2(amount int, coins []int) int {
     dp[0] = 1
     
     for i := 0; i < len(coins); i++ {
-        for j := coins[i]; j <= amount; j++ {
+        for j := coins[i]; j <= amount; j++ { // 完全背包需要从前往后遍历
             dp[j] += dp[j-coins[i]]
         }
     }
