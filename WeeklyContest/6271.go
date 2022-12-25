@@ -28,3 +28,19 @@ func maximumTastiness(price []int, k int) int {
     }
     return l
 }
+
+func maximumTastiness2(price []int, k int) int {
+    sort.Ints(price)
+    return sort.Search(price[len(price)-1], func(x int) bool {
+        x++      // 边界问题
+        cnt := 1 // 记录取到的数字
+        prev := price[0]
+        for _, p := range price[1:] {
+            if p-prev >= x { // 两次取的差应该大于等于x
+                cnt++
+                prev = p
+            }
+        }
+        return cnt < k // 与正常二分反着来
+    })
+}

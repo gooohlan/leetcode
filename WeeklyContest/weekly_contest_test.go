@@ -159,4 +159,5 @@ func Test6270(t *testing.T) {
 
 func Test6271(t *testing.T) {
     fmt.Println(maximumTastiness([]int{13, 5, 1, 8, 21, 2}, 3))
+    fmt.Println(maximumTastiness2([]int{13, 5, 1, 8, 21, 2}, 3))
 }
