@@ -161,3 +161,8 @@ func Test6271(t *testing.T) {
     fmt.Println(maximumTastiness([]int{13, 5, 1, 8, 21, 2}, 3))
     fmt.Println(maximumTastiness2([]int{13, 5, 1, 8, 21, 2}, 3))
 }
+
+func Test6272(t *testing.T) {
+    nums := []int{1, 2, 3, 4}
+    fmt.Println(countPartitions(nums, 4))
+}
