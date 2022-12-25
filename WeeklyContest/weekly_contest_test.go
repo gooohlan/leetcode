@@ -147,3 +147,16 @@ func Test6267(t *testing.T) {
     }
     fmt.Println(isPossible(4, edges))
 }
+
+func Test6269(t *testing.T) {
+    words := []string{"a", "b", "c", "c", "d", "e", "f", "g", "h", "j"}
+    fmt.Println(closetTarget(words, "c", 8))
+}
+
+func Test6270(t *testing.T) {
+    fmt.Println(takeCharacters("aabaaaacaabc", 2))
+}
+
+func Test6271(t *testing.T) {
+    fmt.Println(maximumTastiness([]int{13, 5, 1, 8, 21, 2}, 3))
+}
