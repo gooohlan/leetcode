@@ -27,9 +27,15 @@
 - [6267. 添加边使所有节点度数都为偶数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6267.go)
 - [6268. 查询树中环的长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6268.go)
 
-## 双周赛
+### 周赛325
+
+- [6269. 统计相似字到目标字符串的最短距离符串对的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6269.go)
+- [6270. 每种字符至少取 K 个](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6270.go)
+- [6271. 礼盒的最大甜蜜度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6271.go)
+- [6272. 好分区的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6272.go)
 
 ## 双周赛
+
 
 ### 双周赛93
 - [6261. 数组中字符串的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6261.go)
