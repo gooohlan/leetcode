@@ -166,3 +166,8 @@ func Test6272(t *testing.T) {
     nums := []int{1, 2, 3, 4}
     fmt.Println(countPartitions(nums, 4))
 }
+
+func Test6273(t *testing.T) {
+    num := 1248
+    fmt.Println(countDigits(num))
+}
