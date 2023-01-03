@@ -171,3 +171,8 @@ func Test6273(t *testing.T) {
     num := 1248
     fmt.Println(countDigits(num))
 }
+
+func Test6274(t *testing.T) {
+    nums := []int{2, 4, 3, 7, 10, 6}
+    fmt.Println(distinctPrimeFactors(nums))
+}
