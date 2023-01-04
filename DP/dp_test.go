@@ -138,4 +138,5 @@ func Test64(t *testing.T) {
     }
     fmt.Println(minPathSum(grid))
     fmt.Println(minPathSumDP(grid))
+    fmt.Println(minPathSumDP2(grid))
 }
