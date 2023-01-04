@@ -176,3 +176,7 @@ func Test6274(t *testing.T) {
     nums := []int{2, 4, 3, 7, 10, 6}
     fmt.Println(distinctPrimeFactors(nums))
 }
+
+func Test6275(t *testing.T) {
+    fmt.Println(minimumPartition("165462", 60))
+}
