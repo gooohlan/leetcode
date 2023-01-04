@@ -34,8 +34,17 @@
 - [6271. 礼盒的最大甜蜜度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6271.go)
 - [6272. 好分区的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6272.go)
 
-## 双周赛
+### 周赛326
 
+- [6273. 统计能整除数字的位数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6273.go)
+- [6274. 数组乘积中的不同质因数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
+- [6275. 将字符串分割成值不超过 K 的子字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6275.go)
+- [6276. 范围内最接近的两个质数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
+
+
+
+
+## 双周赛
 
 ### 双周赛93
 - [6261. 数组中字符串的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6261.go)
