@@ -130,3 +130,12 @@ func Test494(t *testing.T) {
     fmt.Println(findTargetSumWaysDP(nums, 3))
     fmt.Println(findTargetSumWaysDP2(nums, 3))
 }
+
+func Test64(t *testing.T) {
+    grid := [][]int{
+        []int{1, 2, 3},
+        []int{4, 5, 6},
+    }
+    fmt.Println(minPathSum(grid))
+    fmt.Println(minPathSumDP(grid))
+}
