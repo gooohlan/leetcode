@@ -180,3 +180,7 @@ func Test6274(t *testing.T) {
 func Test6275(t *testing.T) {
     fmt.Println(minimumPartition("165462", 60))
 }
+
+func Test7276(t *testing.T) {
+    fmt.Println(closestPrimes(10, 19))
+}
