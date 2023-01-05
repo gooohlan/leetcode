@@ -42,25 +42,46 @@ func calculateMinimumHP(dungeon [][]int) int {
 
 func calculateMinimumHPDP(dungeon [][]int) int {
     m, n := len(dungeon), len(dungeon[0])
-    dp := make([][]int, m)
+    dp := make([][]int, m+1)
     for i := range dp {
-        dp[i] = make([]int, n)
+        dp[i] = make([]int, n+1)
+        dp[i][n] = math.MaxInt
     }
+    
+    for i := 0; i < n; i++ {
+        dp[m][i] = math.MaxInt
+    }
+    
     dp[m-1][n-1] = max(0, -dungeon[m-1][n-1])
-    
-    for i := m - 2; i >= 0; i-- {
-        dp[i][n-1] = max(0, dp[i+1][n-1]-dungeon[i][n-1])
-    }
-    
-    for i := n - 2; i >= 0; i-- {
-        dp[m-1][i] = max(0, dp[m-1][i+1]-dungeon[m-1][i])
-    }
     
     for i := m - 1; i >= 0; i-- {
         for j := n - 1; j >= 0; j-- {
+            if i == m-1 && j == n-1 {
+                continue
+            }
             dp[i][j] = max(0, min(dp[i+1][j], dp[i][j+1])-dungeon[i][j])
         }
     }
     
     return dp[0][0] + 1
+}
+
+func calculateMinimumHPDP2(dungeon [][]int) int {
+    m, n := len(dungeon), len(dungeon[0])
+    dp := make([]int, n+1)
+    for i := range dp {
+        dp[i] = math.MaxInt
+    }
+    
+    dp[n-1] = max(0, -dungeon[m-1][n-1])
+    for i := m - 1; i >= 0; i-- {
+        for j := n - 1; j >= 0; j-- {
+            if i == m-1 && j == n-1 {
+                continue
+            }
+            dp[j] = max(0, min(dp[j], dp[j+1])-dungeon[i][j])
+        }
+    }
+    
+    return dp[0] + 1
 }

@@ -154,4 +154,5 @@ func Test174(t *testing.T) {
     
     fmt.Println(calculateMinimumHP(dungeon2))
     fmt.Println(calculateMinimumHPDP(dungeon))
+    fmt.Println(calculateMinimumHPDP2(dungeon))
 }
