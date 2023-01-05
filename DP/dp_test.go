@@ -145,8 +145,13 @@ func Test174(t *testing.T) {
     dungeon := [][]int{
         []int{-2, -3, 3},
         []int{-5, -10, 1},
-        []int{10, 30, 5},
+        []int{10, 30, -5},
+    }
+    dungeon2 := [][]int{
+        []int{-1, -5},
+        []int{-4, -3},
     }
     
-    fmt.Println(calculateMinimumHP(dungeon))
+    fmt.Println(calculateMinimumHP(dungeon2))
+    fmt.Println(calculateMinimumHPDP(dungeon))
 }
