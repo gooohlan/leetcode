@@ -158,6 +158,8 @@ func Test174(t *testing.T) {
 }
 
 func Test514(t *testing.T) {
-    fmt.Println(findRotateSteps("godding", "gd"))
     fmt.Println(findRotateSteps("godding", "godding"))
+    fmt.Println(findRotateStepsDP1("godding", "godding"))
+    fmt.Println(findRotateStepsDP2("godding", "godding"))
+    fmt.Println(findRotateStepsDP2_2("godding", "gd"))
 }
