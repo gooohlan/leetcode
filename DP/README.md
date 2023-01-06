@@ -34,6 +34,8 @@ table」来优化穷举过程，避免不必要的计算。
 - [518. 零钱兑换 II](https://github.com/gooohlan/leetcode/blob/master/DP/518.go)
 - [494. 目标和](https://github.com/gooohlan/leetcode/blob/master/DP/494.go)
 - [64. 最小路径和](https://github.com/gooohlan/leetcode/blob/master/DP/64.go)
+- [174. 地下城游戏](https://github.com/gooohlan/leetcode/blob/master/DP/174.go)
+- [514. 自由之路](https://github.com/gooohlan/leetcode/blob/master/DP/514.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 

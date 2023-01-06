@@ -181,6 +181,8 @@
 - [518. 零钱兑换 II](https://github.com/gooohlan/leetcode/blob/master/DP/518.go)
 - [494. 目标和](https://github.com/gooohlan/leetcode/blob/master/DP/494.go)
 - [64. 最小路径和](https://github.com/gooohlan/leetcode/blob/master/DP/64.go)
+- [174. 地下城游戏](https://github.com/gooohlan/leetcode/blob/master/DP/174.go)
+- [514. 自由之路](https://github.com/gooohlan/leetcode/blob/master/DP/514.go)
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
