@@ -156,3 +156,8 @@ func Test174(t *testing.T) {
     fmt.Println(calculateMinimumHPDP(dungeon))
     fmt.Println(calculateMinimumHPDP2(dungeon))
 }
+
+func Test514(t *testing.T) {
+    fmt.Println(findRotateSteps("godding", "gd"))
+    fmt.Println(findRotateSteps("godding", "godding"))
+}
