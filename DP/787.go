@@ -52,3 +52,17 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
     
     return dfs(dst, k)
 }
+
+// dijkstra 解法
+func findCheapestPrice2(n int, flights [][]int, src int, dst int, k int) int {
+    type edge struct { // 记录指向他的节点
+        to, price int
+    }
+    graph := make([][]edge, n)
+    
+    for _, flight := range flights {
+        graph[flight[0]] = append(graph[flight[0]], edge{flight[1], flight[2]})
+    }
+    k++
+    
+}
