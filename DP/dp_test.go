@@ -163,3 +163,13 @@ func Test514(t *testing.T) {
     fmt.Println(findRotateStepsDP2("godding", "godding"))
     fmt.Println(findRotateStepsDP2_2("godding", "gd"))
 }
+
+func Test787(t *testing.T) {
+    edges := [][]int{
+        []int{0, 1, 100},
+        []int{1, 2, 100},
+        []int{0, 2, 500},
+    }
+    
+    fmt.Println(findCheapestPrice(3, edges, 0, 2, 0))
+}
