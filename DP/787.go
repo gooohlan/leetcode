@@ -83,6 +83,34 @@ func findCheapestPriceDP(n int, flights [][]int, src int, dst int, k int) int {
     return res
 }
 
+// DP解法-压缩
+func findCheapestPriceDP2(n int, flights [][]int, src int, dst int, k int) int {
+    dp := make([]int, n) //
+    for i := range dp {
+        dp[i] = math.MaxInt / 2
+    }
+    dp[src] = 0
+    
+    res := math.MaxInt / 2
+    for t := 1; t < k+2; t++ {
+        pre := make([]int, n)
+        for i := range dp {
+            pre[i] = math.MaxInt / 2
+        }
+        for _, flight := range flights {
+            i, j, cost := flight[0], flight[1], flight[2]
+            // dp[t][j] = min(dp[t][j], dp[t-1][i]+cost)
+            pre[j] = min(pre[j], dp[i]+cost)
+        }
+        dp = pre
+        res = min(res, dp[dst])
+    }
+    if res == math.MaxInt/2 {
+        return -1
+    }
+    return res
+}
+
 // dijkstra 解法
 // https://leetcode.cn/problems/cheapest-flights-within-k-stops/solution/c-kzhan-zhong-zhuan-nei-zui-bian-yi-de-h-ou4d/
 func findCheapestPriceDijkstra(n int, flights [][]int, src int, dst int, k int) int {
