@@ -175,5 +175,6 @@ func Test787(t *testing.T) {
     }
     
     fmt.Println(findCheapestPrice(5, edges, 0, 2, 2))
-    fmt.Println(findCheapestPrice2(5, edges, 0, 2, 2))
+    fmt.Println(findCheapestPriceDP(5, edges, 0, 2, 2))
+    fmt.Println(findCheapestPriceDijkstra(5, edges, 0, 2, 2))
 }

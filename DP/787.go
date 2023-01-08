@@ -56,7 +56,35 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
     return dfs(dst, k)
 }
 
+// DP解法
+func findCheapestPriceDP(n int, flights [][]int, src int, dst int, k int) int {
+    dp := make([][]int, k+2) // dp[t][j]表示遍历t条边到达目的地j的最短路径
+    for i := range dp {
+        dp[i] = make([]int, n)
+        for j := 0; j < n; j++ {
+            dp[i][j] = math.MaxInt / 2
+        }
+    }
+    dp[0][src] = 0
+    
+    res := math.MaxInt / 2
+    for t := 1; t < k+2; t++ {
+        for _, flight := range flights {
+            i, j, cost := flight[0], flight[1], flight[2]
+            dp[t][j] = min(dp[t][j], dp[t-1][i]+cost)
+            if j == dst { // 到达终点
+                res = min(res, dp[t][j])
+            }
+        }
+    }
+    if res == math.MaxInt/2 {
+        return -1
+    }
+    return res
+}
+
 // dijkstra 解法
+// https://leetcode.cn/problems/cheapest-flights-within-k-stops/solution/c-kzhan-zhong-zhuan-nei-zui-bian-yi-de-h-ou4d/
 func findCheapestPriceDijkstra(n int, flights [][]int, src int, dst int, k int) int {
     type edge struct { // 记录指向他的节点
         to, price int
@@ -110,8 +138,8 @@ type state struct {
 }
 type hp []state
 
-func (h *hp) Len() int             { return len(h) }
-func (h *hp) Less(i, j int) bool   { return h[i].cost < h[j].cost }
-func (h *hp) Swap(i, j int)        { h[i], h[j] = h[j], h[i] }
+func (h hp) Len() int              { return len(h) }
+func (h hp) Less(i, j int) bool    { return h[i].cost < h[j].cost }
+func (h hp) Swap(i, j int)         { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(x interface{})   { *h = append(*h, x.(state)) }
 func (h *hp) Pop() (v interface{}) { old := *h; *h, v = old[:len(old)-1], old[len(old)-1]; return }
