@@ -1,6 +1,9 @@
 package DP
 
-import "math"
+import (
+    "container/heap"
+    "math"
+)
 
 func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
     type edge struct { // 记录指向他的节点
@@ -54,7 +57,7 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 }
 
 // dijkstra 解法
-func findCheapestPrice2(n int, flights [][]int, src int, dst int, k int) int {
+func findCheapestPriceDijkstra(n int, flights [][]int, src int, dst int, k int) int {
     type edge struct { // 记录指向他的节点
         to, price int
     }
@@ -65,4 +68,50 @@ func findCheapestPrice2(n int, flights [][]int, src int, dst int, k int) int {
     }
     k++
     
+    costs := make([]int, n)    // 记录到指定节点最低消费
+    nodeNums := make([]int, n) // 记录到当前节点最小步数
+    for i := range costs {
+        costs[i] = math.MaxInt
+        nodeNums[i] = math.MaxInt
+    }
+    costs[src] = 0    // 起点消费为0
+    nodeNums[src] = 0 // 起点步数为0
+    
+    pq := &hp{{src, 0, 0}}
+    for pq.Len() > 0 {
+        cur := heap.Pop(pq).(state)
+        if cur.id == dst { // 找到最短路径,返回总消费
+            return cur.cost
+        }
+        
+        if cur.nodeNum == k { // 中转次数耗尽
+            continue
+        }
+        
+        // 将cur能访问的节点加入队列
+        for _, next := range graph[cur.id] {
+            nextCost := next.price + cur.cost                                 // 到达下个节点的消费加上当前节点总消费
+            nextNodeNum := cur.nodeNum + 1                                    // 中转次数消耗+1
+            if costs[next.to] < nextCost && nodeNums[next.to] < nextNodeNum { // 剪枝，如果中转次数更多，花费还更大，那必然不会是最短路径
+                continue
+            }
+            costs[next.to] = nextCost       // 更新节点最小消耗
+            nodeNums[next.to] = nextNodeNum // 更新节点最小消耗
+            heap.Push(pq, state{next.to, nextCost, nextNodeNum})
+        }
+    }
+    return -1
 }
+
+type state struct {
+    id      int // 图节点id
+    cost    int // 从src到当前节点的消费
+    nodeNum int // 经过的节点数
+}
+type hp []state
+
+func (h *hp) Len() int             { return len(h) }
+func (h *hp) Less(i, j int) bool   { return h[i].cost < h[j].cost }
+func (h *hp) Swap(i, j int)        { h[i], h[j] = h[j], h[i] }
+func (h *hp) Push(x interface{})   { *h = append(*h, x.(state)) }
+func (h *hp) Pop() (v interface{}) { old := *h; *h, v = old[:len(old)-1], old[len(old)-1]; return }

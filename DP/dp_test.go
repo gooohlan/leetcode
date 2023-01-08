@@ -166,10 +166,14 @@ func Test514(t *testing.T) {
 
 func Test787(t *testing.T) {
     edges := [][]int{
-        []int{0, 1, 100},
-        []int{1, 2, 100},
-        []int{0, 2, 500},
+        []int{0, 1, 5},
+        []int{1, 2, 5},
+        []int{0, 3, 2},
+        []int{3, 1, 2},
+        []int{1, 4, 1},
+        []int{4, 2, 1},
     }
     
-    fmt.Println(findCheapestPrice(3, edges, 0, 2, 0))
+    fmt.Println(findCheapestPrice(5, edges, 0, 2, 2))
+    fmt.Println(findCheapestPrice2(5, edges, 0, 2, 2))
 }
