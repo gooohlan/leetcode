@@ -192,3 +192,7 @@ func Test6283(t *testing.T) {
 func Test6285(t *testing.T) {
     fmt.Println(maxKelements([]int{10, 10, 10, 10, 10}, 5))
 }
+
+func Test6284(t *testing.T) {
+    fmt.Println(isItPossible("abcc", "aab"))
+}
