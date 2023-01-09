@@ -184,3 +184,7 @@ func Test6275(t *testing.T) {
 func Test7276(t *testing.T) {
     fmt.Println(closestPrimes(10, 19))
 }
+
+func Test6283(t *testing.T) {
+    fmt.Println(maximumCount2([]int{-3, -2, -1, 0, 0, 1, 2}))
+}
