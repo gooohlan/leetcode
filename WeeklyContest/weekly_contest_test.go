@@ -188,3 +188,7 @@ func Test7276(t *testing.T) {
 func Test6283(t *testing.T) {
     fmt.Println(maximumCount2([]int{-3, -2, -1, 0, 0, 1, 2}))
 }
+
+func Test6285(t *testing.T) {
+    fmt.Println(maxKelements([]int{10, 10, 10, 10, 10}, 5))
+}
