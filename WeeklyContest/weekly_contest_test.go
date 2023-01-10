@@ -196,3 +196,7 @@ func Test6285(t *testing.T) {
 func Test6284(t *testing.T) {
     fmt.Println(isItPossible("abcc", "aab"))
 }
+
+func Test6295(t *testing.T) {
+    fmt.Println(minimizeSet(2, 4, 8, 2))
+}
