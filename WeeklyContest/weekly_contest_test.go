@@ -184,3 +184,17 @@ func Test6275(t *testing.T) {
 func Test7276(t *testing.T) {
     fmt.Println(closestPrimes(10, 19))
 }
+
+func Test62844(t *testing.T) {
+    time := [][]int{
+        []int{1, 1, 2, 1},
+        []int{1, 1, 3, 1},
+        []int{1, 1, 4, 1},
+    }
+    fmt.Println(findCrossingTime(1, 3, time))
+    time = [][]int{
+        []int{1, 9, 1, 8},
+        []int{10, 10, 10, 10},
+    }
+    fmt.Println(findCrossingTime(3, 2, time))
+}
