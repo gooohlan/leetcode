@@ -199,4 +199,6 @@ func Test6284(t *testing.T) {
 
 func Test6295(t *testing.T) {
     fmt.Println(minimizeSet(2, 4, 8, 2))
+    fmt.Println(minimizeSet2(2, 4, 8, 2))
+    fmt.Println(minimizeSet3(2, 4, 8, 2))
 }
