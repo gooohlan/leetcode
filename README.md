@@ -269,3 +269,9 @@
 - [6262. 图中最大星和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6262.go)
 - [6263. 青蛙过河 II](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6263.go)
 - [6264. 让数组不相等的最小总代价](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6264.go)
+
+### 双周赛94
+- [6273. 最多可以摧毁的敌人城堡数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6273.go)
+- [6274. 奖励最顶尖的 K 名学生](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
+- [6295. 最小化两个数组中的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6295.go)
+- [6276. 统计同位异构字符串数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
