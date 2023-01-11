@@ -198,3 +198,26 @@ func Test62844(t *testing.T) {
     }
     fmt.Println(findCrossingTime(3, 2, time))
 }
+
+func Test2511(t *testing.T) {
+    forts := []int{1, 0, 0, -1, 0, 0, 0, 0, 1}
+    fmt.Println(captureForts(forts))
+    forts = []int{0, 0, 1, -1}
+    fmt.Println(captureForts(forts))
+    forts = []int{1, 0, 0, -1}
+    fmt.Println(captureForts(forts))
+}
+
+func Test2512(t *testing.T) {
+    positive_feedback := []string{"smart", "brilliant", "studious"}
+    negative_feedback := []string{"not"}
+    report := []string{"this student is studious", "the student is smart"}
+    student_id := []int{1, 2}
+    k := 2
+    fmt.Println(topStudents(positive_feedback, negative_feedback, report, student_id, k))
+    positive_feedback = []string{"smart", "brilliant", "studious"}
+    negative_feedback = []string{"not"}
+    report = []string{"this student is not studious", "the student is smart"}
+    student_id = []int{1, 2}
+    fmt.Println(topStudents(positive_feedback, negative_feedback, report, student_id, k))
+}
