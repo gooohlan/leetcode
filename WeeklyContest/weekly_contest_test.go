@@ -243,3 +243,8 @@ func Test6274(t *testing.T) {
 func Test2525(t *testing.T) {
     fmt.Println(categorizeBox(1000, 35, 700, 300))
 }
+
+func Test2527(t *testing.T) {
+    fmt.Println(xorBeauty([]int{1,4}))
+    fmt.Println(xorBeauty2([]int{1,4}))
+}
