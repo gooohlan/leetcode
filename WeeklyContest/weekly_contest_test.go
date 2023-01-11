@@ -239,3 +239,7 @@ func Test6274(t *testing.T) {
     student_id = []int{1, 2}
     fmt.Println(topStudents(positive_feedback, negative_feedback, report, student_id, k))
 }
+
+func Test2525(t *testing.T) {
+    fmt.Println(categorizeBox(1000, 35, 700, 300))
+}
