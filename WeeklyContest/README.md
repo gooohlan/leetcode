@@ -57,3 +57,9 @@
 - [6274. 奖励最顶尖的 K 名学生](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
 - [6295. 最小化两个数组中的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6295.go)
 - [6276. 统计同位异构字符串数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
+
+### 双周赛95
+- [2525. 根据规则将箱子分类](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2525.go)
+- [2526. 找到数据流中的连续整数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2526.go)
+- [2527. 查询数组 Xor 美丽值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2527.go)
+- [2528. 最大化城市的最小供电站数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2528.go)

@@ -245,6 +245,11 @@ func Test2525(t *testing.T) {
 }
 
 func Test2527(t *testing.T) {
-    fmt.Println(xorBeauty([]int{1,4}))
-    fmt.Println(xorBeauty2([]int{1,4}))
+    fmt.Println(xorBeauty([]int{1, 4}))
+    fmt.Println(xorBeauty2([]int{1, 4}))
+}
+
+func Test2528(t *testing.T) {
+    stations := []int{1, 2, 4, 5, 0}
+    fmt.Println(maxPower(stations, 1, 2))
 }
