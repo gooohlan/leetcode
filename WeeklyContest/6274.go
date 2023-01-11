@@ -1,21 +1,41 @@
 package WeeklyContest
 
-func distinctPrimeFactors(nums []int) int {
-    set := map[int]struct{}{}
+import (
+    "sort"
+    "strings"
+)
+
+func topStudents(positive_feedback []string, negative_feedback []string, report []string, student_id []int, k int) []int {
+    score := map[string]int{}
+    for _, s := range positive_feedback {
+        score[s] = 3
+    }
+    for _, s := range negative_feedback {
+        score[s] = -1
+    }
     
-    for _, num := range nums {
-        for i := 2; i*i <= num; i++ {
-            if num%i == 0 {
-                set[i] = struct{}{}
-                num /= i
-                for num%i == 0 {
-                    num /= i
-                }
-            }
-        }
-        if num > 1 {
-            set[num] = struct{}{}
+    type pair struct {
+        id, score int
+    }
+    
+    pairs := make([]pair, len(report))
+    
+    for i, r := range report {
+        pairs[i] = pair{student_id[i], 0}
+        
+        for _, w := range strings.Split(r, " ") {
+            pairs[i].score += score[w]
         }
     }
-    return len(set)
+    
+    sort.Slice(pairs, func(i, j int) bool {
+        return pairs[i].score > pairs[j].score || pairs[i].score == pairs[j].score && pairs[i].id < pairs[j].id
+    })
+    
+    res := make([]int, k)
+    
+    for i, p := range pairs[:k] {
+        res[i] = p.id
+    }
+    return res
 }

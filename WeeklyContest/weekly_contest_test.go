@@ -167,22 +167,40 @@ func Test6272(t *testing.T) {
     fmt.Println(countPartitions(nums, 4))
 }
 
-func Test6273(t *testing.T) {
+func Test6278(t *testing.T) {
     num := 1248
     fmt.Println(countDigits(num))
 }
 
-func Test6274(t *testing.T) {
+func Test6279(t *testing.T) {
     nums := []int{2, 4, 3, 7, 10, 6}
     fmt.Println(distinctPrimeFactors(nums))
 }
 
-func Test6275(t *testing.T) {
+func Test6196(t *testing.T) {
     fmt.Println(minimumPartition("165462", 60))
 }
 
-func Test7276(t *testing.T) {
+func Test6280(t *testing.T) {
     fmt.Println(closestPrimes(10, 19))
+}
+
+func Test6283(t *testing.T) {
+    fmt.Println(maximumCount2([]int{-3, -2, -1, 0, 0, 1, 2}))
+}
+
+func Test6285(t *testing.T) {
+    fmt.Println(maxKelements([]int{10, 10, 10, 10, 10}, 5))
+}
+
+func Test6284(t *testing.T) {
+    fmt.Println(isItPossible("abcc", "aab"))
+}
+
+func Test6295(t *testing.T) {
+    fmt.Println(minimizeSet(2, 4, 8, 2))
+    fmt.Println(minimizeSet2(2, 4, 8, 2))
+    fmt.Println(minimizeSet3(2, 4, 8, 2))
 }
 
 func Test62844(t *testing.T) {
@@ -199,7 +217,7 @@ func Test62844(t *testing.T) {
     fmt.Println(findCrossingTime(3, 2, time))
 }
 
-func Test2511(t *testing.T) {
+func Test6273(t *testing.T) {
     forts := []int{1, 0, 0, -1, 0, 0, 0, 0, 1}
     fmt.Println(captureForts(forts))
     forts = []int{0, 0, 1, -1}
@@ -208,7 +226,7 @@ func Test2511(t *testing.T) {
     fmt.Println(captureForts(forts))
 }
 
-func Test2512(t *testing.T) {
+func Test6274(t *testing.T) {
     positive_feedback := []string{"smart", "brilliant", "studious"}
     negative_feedback := []string{"not"}
     report := []string{"this student is studious", "the student is smart"}

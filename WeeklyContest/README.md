@@ -36,10 +36,10 @@
 
 ### 周赛326
 
-- [6273. 统计能整除数字的位数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6273.go)
-- [6274. 数组乘积中的不同质因数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
-- [6275. 将字符串分割成值不超过 K 的子字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6275.go)
-- [6276. 范围内最接近的两个质数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
+- [6278. 统计能整除数字的位数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6273.go)
+- [6279. 数组乘积中的不同质因数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
+- [6196. 将字符串分割成值不超过 K 的子字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6275.go)
+- [6280. 范围内最接近的两个质数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
 
 
 
