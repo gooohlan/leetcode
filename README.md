@@ -262,6 +262,13 @@
 - [6275. 将字符串分割成值不超过 K 的子字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6275.go)
 - [6276. 范围内最接近的两个质数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
 
+### 周赛327
+
+- [6283. 正整数和负整数的最大计数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6283.go)
+- [6285. 执行 K 次操作后的最大分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6285.go)
+- [6284. 使字符串总不同字符的数目相等](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6284.go)
+- [6306. 过桥的时间](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6306.go)
+
 ## 双周赛
 
 ### 双周赛93
