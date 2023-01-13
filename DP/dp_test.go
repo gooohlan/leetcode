@@ -178,3 +178,11 @@ func Test787(t *testing.T) {
     fmt.Println(findCheapestPriceDP(5, edges, 0, 2, 2))
     fmt.Println(findCheapestPriceDijkstra(5, edges, 0, 2, 2))
 }
+
+func Test10(t *testing.T) {
+    fmt.Println(isMatch("aa", "a"))
+    fmt.Println(isMatch("aa", "a*"))
+    fmt.Println(isMatch("ab", ".*"))
+    fmt.Println(isMatch("cbbbaccbcacbcca", "b*.*b*a*.a*b*.a*"))
+    
+}
