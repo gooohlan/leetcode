@@ -253,3 +253,33 @@ func Test2528(t *testing.T) {
     stations := []int{1, 2, 4, 5, 0}
     fmt.Println(maxPower(stations, 1, 2))
 }
+
+func Test6292(t *testing.T) {
+    queries := [][]int{
+        {1, 1, 2, 2},
+        {0, 0, 1, 1},
+    }
+    fmt.Println(rangeAddQueries2(3, queries))
+}
+
+func Test6293(t *testing.T) {
+    nums := []int{3, 1, 4, 3, 2, 2, 4}
+    fmt.Println(countGood(nums, 2))
+}
+
+func Test6294(t *testing.T) {
+    edges := [][]int{
+        []int{2, 0},
+        []int{1, 3},
+        []int{0, 1},
+    }
+    fmt.Println(maxOutput(4, edges, []int{2, 3, 1, 1}))
+    edges = [][]int{
+        []int{0, 1},
+        []int{1, 2},
+        []int{1, 3},
+        []int{3, 4},
+        []int{3, 5},
+    }
+    fmt.Println(maxOutput(6, edges, []int{9, 8, 7, 6, 10, 5}))
+}

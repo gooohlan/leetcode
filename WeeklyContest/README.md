@@ -48,6 +48,13 @@
 - [6284. 使字符串总不同字符的数目相等](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6284.go)
 - [6306. 过桥的时间](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6306.go)
 
+### 周赛328
+
+- [6291. 数组元素和与数字和的绝对差](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6291.go)
+- [6292. 子矩阵元素加 1](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6292.go)
+- [6293. 统计好子数组的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6293.go)
+- [6294. 最大价值和与最小价值和的差值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6294.go)
+
 
 ## 双周赛
 
