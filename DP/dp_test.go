@@ -192,5 +192,12 @@ func Test10(t *testing.T) {
 }
 
 func Test887(t *testing.T) {
+    fmt.Println(superEggDrop(3, 26))
+    fmt.Println(superEggDrop2(3, 26))
+    fmt.Println(superEggDropDP(3, 26))
+    fmt.Println(superEggDropDP2(3, 26))
     fmt.Println(superEggDrop(3, 14))
+    fmt.Println(superEggDrop2(3, 14))
+    fmt.Println(superEggDropDP(3, 14))
+    fmt.Println(superEggDropDP2(3, 14))
 }
