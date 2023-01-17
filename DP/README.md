@@ -38,6 +38,7 @@ table」来优化穷举过程，避免不必要的计算。
 - [514. 自由之路](https://github.com/gooohlan/leetcode/blob/master/DP/514.go)
 - [787. K 站中转内最便宜的航班](https://github.com/gooohlan/leetcode/blob/master/DP/787.go)
 - [10. 正则表达式匹配](https://github.com/gooohlan/leetcode/blob/master/DP/10.go)
+- [887. 鸡蛋掉落](https://github.com/gooohlan/leetcode/blob/master/DP/887.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
