@@ -183,11 +183,14 @@ func Test10(t *testing.T) {
     fmt.Println(isMatch("aa", "a"))
     fmt.Println(isMatch("aa", "a*"))
     fmt.Println(isMatch("ab", ".*"))
-    fmt.Println(isMatch("mississippi","mis*is*p*."))
+    fmt.Println(isMatch("mississippi", "mis*is*p*."))
     fmt.Println("--------")
     fmt.Println(isMatchDP("aa", "a"))
     fmt.Println(isMatchDP("aa", "a*"))
     fmt.Println(isMatchDP("ab", ".*"))
-    fmt.Println(isMatchDP2("mississippi","mis*is*p*."))
-    
+    fmt.Println(isMatchDP2("mississippi", "mis*is*p*."))
+}
+
+func Test887(t *testing.T) {
+    fmt.Println(superEggDrop(3, 14))
 }
