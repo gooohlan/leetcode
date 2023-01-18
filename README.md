@@ -186,6 +186,7 @@
 - [787. K 站中转内最便宜的航班](https://github.com/gooohlan/leetcode/blob/master/DP/787.go)
 - [10. 正则表达式匹配](https://github.com/gooohlan/leetcode/blob/master/DP/10.go)
 - [887. 鸡蛋掉落](https://github.com/gooohlan/leetcode/blob/master/DP/887.go)
+- [312. 戳气球](https://github.com/gooohlan/leetcode/blob/master/DP/312.go)
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)

@@ -201,3 +201,7 @@ func Test887(t *testing.T) {
     fmt.Println(superEggDropDP(3, 14))
     fmt.Println(superEggDropDP2(3, 14))
 }
+
+func Test312(t *testing.T) {
+    fmt.Println(maxCoins([]int{3, 1, 5, 8}))
+}
