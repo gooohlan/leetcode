@@ -214,3 +214,8 @@ func Test486(t *testing.T) {
     fmt.Println(PredictTheWinnerDP2([]int{1, 5, 2}))
     fmt.Println(PredictTheWinnerDP2([]int{1, 5, 233, 7}))
 }
+
+func Test877(t *testing.T) {
+    fmt.Println(stoneGame([]int{5, 3, 4, 5}))
+    fmt.Println(stoneGame([]int{3, 7, 2, 3}))
+}

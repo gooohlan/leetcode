@@ -41,6 +41,7 @@ table」来优化穷举过程，避免不必要的计算。
 - [887. 鸡蛋掉落](https://github.com/gooohlan/leetcode/blob/master/DP/887.go)
 - [312. 戳气球](https://github.com/gooohlan/leetcode/blob/master/DP/312.go)
 - [486. 预测赢家](https://github.com/gooohlan/leetcode/blob/master/DP/486.go)
+- [877. 石子游戏](https://github.com/gooohlan/leetcode/blob/master/DP/887.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
