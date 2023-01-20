@@ -219,3 +219,10 @@ func Test877(t *testing.T) {
     fmt.Println(stoneGame([]int{5, 3, 4, 5}))
     fmt.Println(stoneGame([]int{3, 7, 2, 3}))
 }
+
+func Test651(t *testing.T) {
+    fmt.Println(maxA(3))
+    fmt.Println(maxA(7))
+    fmt.Println(maxA2(3))
+    fmt.Println(maxA2(7))
+}
