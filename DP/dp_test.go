@@ -205,3 +205,24 @@ func Test887(t *testing.T) {
 func Test312(t *testing.T) {
     fmt.Println(maxCoins([]int{3, 1, 5, 8}))
 }
+
+func Test486(t *testing.T) {
+    fmt.Println(PredictTheWinner([]int{1, 5, 2}))
+    fmt.Println(PredictTheWinner([]int{1, 5, 233, 7}))
+    fmt.Println(PredictTheWinnerDP([]int{1, 5, 2}))
+    fmt.Println(PredictTheWinnerDP([]int{1, 5, 233, 7}))
+    fmt.Println(PredictTheWinnerDP2([]int{1, 5, 2}))
+    fmt.Println(PredictTheWinnerDP2([]int{1, 5, 233, 7}))
+}
+
+func Test877(t *testing.T) {
+    fmt.Println(stoneGame([]int{5, 3, 4, 5}))
+    fmt.Println(stoneGame([]int{3, 7, 2, 3}))
+}
+
+func Test651(t *testing.T) {
+    fmt.Println(maxA(3))
+    fmt.Println(maxA(7))
+    fmt.Println(maxA2(3))
+    fmt.Println(maxA2(7))
+}

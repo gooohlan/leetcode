@@ -187,6 +187,9 @@
 - [10. 正则表达式匹配](https://github.com/gooohlan/leetcode/blob/master/DP/10.go)
 - [887. 鸡蛋掉落](https://github.com/gooohlan/leetcode/blob/master/DP/887.go)
 - [312. 戳气球](https://github.com/gooohlan/leetcode/blob/master/DP/312.go)
+- [486. 预测赢家](https://github.com/gooohlan/leetcode/blob/master/DP/486.go)
+- [877. 石子游戏](https://github.com/gooohlan/leetcode/blob/master/DP/887.go)
+- [651. 4键键盘](https://github.com/gooohlan/leetcode/blob/master/DP/651.go)
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
