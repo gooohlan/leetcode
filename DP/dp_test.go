@@ -226,3 +226,9 @@ func Test651(t *testing.T) {
     fmt.Println(maxA2(3))
     fmt.Println(maxA2(7))
 }
+
+func Test28(t *testing.T) {
+    haystack := "butsadsad"
+    needle := "sad"
+    fmt.Println(strStr(haystack, needle))
+}
