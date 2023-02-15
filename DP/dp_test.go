@@ -232,3 +232,14 @@ func Test28(t *testing.T) {
     needle := "sad"
     fmt.Println(strStr(haystack, needle))
 }
+
+func Test435(t *testing.T) {
+    intervals := [][]int{
+        {1, 2},
+        {1, 3},
+        {2, 3},
+        {3, 4},
+    }
+    fmt.Println(eraseOverlapIntervals(intervals))
+    fmt.Println(eraseOverlapIntervalsDP(intervals))
+}
