@@ -45,6 +45,8 @@ table」来优化穷举过程，避免不必要的计算。
 - [651. 4键键盘](https://github.com/gooohlan/leetcode/blob/master/DP/651.go)
 - [28. 找出字符串中第一个匹配项的下标](https://github.com/gooohlan/leetcode/blob/master/DP/28.go)
 - [435. 无重叠区间](https://github.com/gooohlan/leetcode/blob/master/DP/435.go)
+- [452. 用最少数量的箭引爆气球](https://github.com/gooohlan/leetcode/blob/master/DP/452.go)
+- [253. 会议室 II](https://github.com/gooohlan/leetcode/blob/master/DP/253.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
