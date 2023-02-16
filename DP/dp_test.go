@@ -261,3 +261,17 @@ func Test452(t *testing.T) {
     }
     fmt.Println(findMinArrowShots(points))
 }
+
+func Test253(t *testing.T) {
+    intervals := [][]int{
+        {0, 30},
+        {5, 10},
+        {15, 20},
+    }
+    fmt.Println(minMeetingRooms(intervals))
+    intervals = [][]int{
+        {7, 10},
+        {2, 4},
+    }
+    fmt.Println(minMeetingRooms(intervals))
+}
