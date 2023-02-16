@@ -243,3 +243,21 @@ func Test435(t *testing.T) {
     fmt.Println(eraseOverlapIntervals(intervals))
     fmt.Println(eraseOverlapIntervalsDP(intervals))
 }
+
+func Test452(t *testing.T) {
+    points := [][]int{
+        {10, 16},
+        {1, 6},
+        {2, 8},
+        {7, 12},
+    }
+    
+    fmt.Println(findMinArrowShots(points))
+    points = [][]int{
+        {1, 2},
+        {3, 4},
+        {5, 6},
+        {7, 8},
+    }
+    fmt.Println(findMinArrowShots(points))
+}
