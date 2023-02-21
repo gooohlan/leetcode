@@ -194,6 +194,7 @@
 - [435. 无重叠区间](https://github.com/gooohlan/leetcode/blob/master/DP/435.go)
 - [452. 用最少数量的箭引爆气球](https://github.com/gooohlan/leetcode/blob/master/DP/452.go)
 - [253. 会议室 II](https://github.com/gooohlan/leetcode/blob/master/DP/253.go)
+- [1024. 视频拼接](https://github.com/gooohlan/leetcode/blob/master/DP/1024.go)
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
