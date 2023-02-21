@@ -278,12 +278,9 @@ func Test253(t *testing.T) {
 
 func Test1024(t *testing.T) {
     clips := [][]int{
-        []int{0, 2},
-        []int{4, 6},
-        []int{8, 10},
-        []int{1, 9},
-        []int{1, 5},
-        []int{5, 9},
+        []int{0, 4},
+        []int{2, 8},
     }
-    fmt.Println(videoStitching(clips, 10))
+    fmt.Println(videoStitching(clips, 5))
+    fmt.Println(videoStitchingDP(clips, 5))
 }

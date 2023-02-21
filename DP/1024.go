@@ -1,6 +1,9 @@
 package DP
 
-import "sort"
+import (
+    "math"
+    "sort"
+)
 
 func videoStitching(clips [][]int, time int) (ans int) {
     // 按照起点升序排序,起点相同就用降序排列
@@ -28,4 +31,27 @@ func videoStitching(clips [][]int, time int) (ans int) {
         }
     }
     return -1
+}
+
+func videoStitchingDP(clips [][]int, time int) (ans int) {
+    dp := make([]int, time+1)
+    for i := range dp {
+        dp[i] = math.MaxInt - 1
+    }
+    dp[0] = 0
+    
+    for i := 1; i <= time; i++ {
+        for _, clip := range clips {
+            start, end := clip[0], clip[1]
+            // 若能剪出子区间 [l,i]，则可以从 dp[l] 转移到 dp[i]
+            if start < i && i <= end && dp[start]+1 < dp[i] {
+                dp[i] = dp[start] + 1
+            }
+        }
+        
+    }
+    if dp[time] == math.MaxInt-1 {
+        return -1
+    }
+    return dp[time]
 }
