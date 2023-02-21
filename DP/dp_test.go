@@ -275,3 +275,15 @@ func Test253(t *testing.T) {
     }
     fmt.Println(minMeetingRooms(intervals))
 }
+
+func Test1024(t *testing.T) {
+    clips := [][]int{
+        []int{0, 2},
+        []int{4, 6},
+        []int{8, 10},
+        []int{1, 9},
+        []int{1, 5},
+        []int{5, 9},
+    }
+    fmt.Println(videoStitching(clips, 10))
+}
