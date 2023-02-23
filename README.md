@@ -213,6 +213,7 @@
 - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/master/Backtrack/216.go)
 - [46. 全排列](https://github.com/gooohlan/leetcode/blob/master/Backtrack/46.go)
 - [51. N 皇后（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/51.go)
+- [52. N 皇后 II（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/52.go)
 - [90. 子集 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/90.go)
 - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/40.go)
 - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/47.go)

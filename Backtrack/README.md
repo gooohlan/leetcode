@@ -54,6 +54,7 @@ func bacjtrack(路径, 选择列表):
 - 排列（元素无重不可复选）
   - [46. 全排列](https://github.com/gooohlan/leetcode/blob/master/Backtrack/46.go)
   - [51. N 皇后（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/51.go)
+  - [52. N 皇后 II（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/52.go)
 - 子集/组合（元素可重不可复选）
   - [90. 子集 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/90.go)
   - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/40.go)
