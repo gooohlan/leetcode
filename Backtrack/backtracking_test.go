@@ -50,3 +50,7 @@ func TestCombinationSum(t *testing.T) {
 func Test52(t *testing.T) {
     fmt.Println(totalNQueens(4))
 }
+
+func Test698(t *testing.T) {
+    fmt.Println(canPartitionKSubsets2([]int{4, 3, 2, 3, 5, 2, 1}, 4))
+}
