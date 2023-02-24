@@ -213,11 +213,12 @@
 - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/master/Backtrack/216.go)
 - [46. 全排列](https://github.com/gooohlan/leetcode/blob/master/Backtrack/46.go)
 - [51. N 皇后（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/51.go)
-- [52. N 皇后 II（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/52.go)
 - [90. 子集 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/90.go)
 - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/40.go)
 - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/Backtrack/47.go)
 - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/Backtrack/39.go)
+- [52. N 皇后 II（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/Backtrack/52.go)
+- [698. 划分为k个相等的子集](https://github.com/gooohlan/leetcode/blob/master/Backtrack/698.go)
 
 ### [8. BFS](https://github.com/gooohlan/leetcode/tree/master/BFS)
 - [111. 二叉树的最小深度](https://github.com/gooohlan/leetcode/blob/master/BFS/111.go)
