@@ -29,3 +29,13 @@ func Test1020(t *testing.T) {
     
     fmt.Println(numEnclaves(grid))
 }
+
+func Test695(t *testing.T) {
+    grid := [][]int{
+        {1, 1, 0, 0, 0},
+        {1, 1, 0, 0, 0},
+        {0, 0, 1, 0, 0},
+        {0, 0, 0, 1, 1},
+    }
+    fmt.Println(maxAreaOfIsland(grid))
+}
