@@ -225,7 +225,15 @@
 - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
 - [773. 滑动谜题](https://github.com/gooohlan/leetcode/blob/master/BFS/773.go)
 
-### [9. 二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
+##  [9. DFS](https://github.com/gooohlan/leetcode/tree/master/DFS)
+- [200. 岛屿数量](https://github.com/gooohlan/leetcode/blob/master/DFS/200.go)
+- [1254. 统计封闭岛屿的数目](https://github.com/gooohlan/leetcode/blob/master/DFS/1254/go)
+- [1020. 飞地的数量](https://github.com/gooohlan/leetcode/blob/master/DFS/1020.go)
+- [695. 岛屿的最大面积](https://github.com/gooohlan/leetcode/blob/master/DFS/695.go)
+- [1905. 统计子岛屿](https://github.com/gooohlan/leetcode/blob/master/DFS/1905.go)
+- [694. 不同岛屿的数量](https://github.com/gooohlan/leetcode/blob/master/DFS/694.go)
+
+### [10. 二分查找](https://github.com/gooohlan/leetcode/tree/master/BinarySearch)
 - [704. 二分查找](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/704.go)
 - [34. 在排序数组中查找元素的第一个和最后一个位置](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/34.go)
 - [875. 爱吃香蕉的珂珂](https://github.com/gooohlan/leetcode/blob/master/BinarySearch/875.go)
