@@ -75,3 +75,5 @@ func bacjtrack(路径, 选择列表):
   ]
   ```
   46题的全排列使用`used`进行剪枝，避免使用重复元素，允许使用的话，去掉所有`used`不进行剪枝即可，代码就不做赘述了。
+
+- [37. 解数独](https://github.com/gooohlan/leetcode/blob/master/Backtrack/37.go)
