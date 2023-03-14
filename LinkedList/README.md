@@ -5,6 +5,7 @@
 - [92. 反转链表 II](https://github.com/gooohlan/leetcode/blob/master/LinkedList/92.go)
 - [25. K 个一组翻转链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/25.go)
 - [234. 回文链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/234.go)
+- [382. 链表随机节点](https://github.com/gooohlan/leetcode/blob/master/LinkedList/382.go)
 
 ### [双指针技巧解法](https://github.com/gooohlan/leetcode/tree/master/LinkedList/DoublePointer)
 
