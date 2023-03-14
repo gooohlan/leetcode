@@ -20,6 +20,7 @@
 - [710. 黑名单中的随机数](https://github.com/gooohlan/leetcode/blob/master/Array/710.go)
 - [316. 去除重复字母](https://github.com/gooohlan/leetcode/blob/master/Array/316.go)
 - [1081. 不同字符的最小子序列](https://github.com/gooohlan/leetcode/blob/master/Array/1081.go)
+- [384. 打乱数组](https://github.com/gooohlan/leetcode/blob/master/Array/384.go)
 
 ### [1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/LinkedList)
 
