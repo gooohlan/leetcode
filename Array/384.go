@@ -2,20 +2,20 @@ package Array
 
 import "math/rand"
 
-type Solution struct {
+type Solution384 struct {
     nums, original []int
 }
 
-func Constructor384(nums []int) Solution {
-    return Solution{nums, append([]int(nil), nums...)}
+func Constructor384(nums []int) Solution384 {
+    return Solution384{nums, append([]int(nil), nums...)}
 }
 
-func (s *Solution) Reset() []int {
+func (s *Solution384) Reset() []int {
     copy(s.nums, s.original)
     return s.nums
 }
 
-func (s *Solution) Shuffle() []int {
+func (s *Solution384) Shuffle() []int {
     n := len(s.nums)
     for i := range s.nums {
         j := i + rand.Intn(n-i)
