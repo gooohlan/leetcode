@@ -40,6 +40,8 @@
 - [710. 黑名单中的随机数](https://github.com/gooohlan/leetcode/blob/master/Array/710.go)
 - [316. 去除重复字母](https://github.com/gooohlan/leetcode/blob/master/Array/316.go)
 - [1081. 不同字符的最小子序列](https://github.com/gooohlan/leetcode/blob/master/Array/1081.go)
+- [384. 打乱数组](https://github.com/gooohlan/leetcode/blob/master/Array/384.go)
+- [398. 随机数索引](https://github.com/gooohlan/leetcode/blob/master/Array/398.go)
 
 #### [1.1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/DoublePointer)
 
@@ -77,6 +79,7 @@
 - [92. 反转链表 II](https://github.com/gooohlan/leetcode/blob/master/LinkedList/92.go)
 - [25. K 个一组翻转链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/25.go)
 - [234. 回文链表](https://github.com/gooohlan/leetcode/blob/master/LinkedList/234.go)
+- [382. 链表随机节点](https://github.com/gooohlan/leetcode/blob/master/LinkedList/382.go)
 
 
 #### [2.1. 双指针技巧解法](https://github.com/gooohlan/leetcode/tree/master/LinkedList/DoublePointer)
