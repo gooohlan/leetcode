@@ -124,5 +124,9 @@ func Test355(t *testing.T) {
 }
 
 func Test172(t *testing.T) {
-    fmt.Println(trailingZeroes(125))
+    fmt.Println(trailingZeroes(19))
+}
+
+func Test793(t *testing.T) {
+    fmt.Println(preimageSizeFZF(3))
 }
