@@ -122,3 +122,7 @@ func Test355(t *testing.T) {
     twitter.Unfollow(1, 2)
     fmt.Println(twitter.GetNewsFeed(1))
 }
+
+func Test172(t *testing.T) {
+    fmt.Println(trailingZeroes(125))
+}
