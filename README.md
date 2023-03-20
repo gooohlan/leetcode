@@ -168,6 +168,7 @@
 - [268. 丢失的数字](https://github.com/gooohlan/leetcode/blob/master/DataStructure/268.go)
 - [172. 阶乘后的零](https://github.com/gooohlan/leetcode/blob/master/DataStructure/172.go)
 - [793. 阶乘函数后 K 个零](https://github.com/gooohlan/leetcode/blob/master/DataStructure/793.go)
+- [204. 计数质数](https://github.com/gooohlan/leetcode/blob/master/DataStructure/204.go)
 
 ### [6. 动态规划](https://github.com/gooohlan/leetcode/tree/master/DP)
 - [322. 零钱兑换](https://github.com/gooohlan/leetcode/blob/master/DP/322.go)
