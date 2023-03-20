@@ -134,3 +134,7 @@ func Test793(t *testing.T) {
 func Test204(t *testing.T) {
     fmt.Println(countPrimes(10))
 }
+
+func Test645(t *testing.T) {
+    fmt.Println(findErrorNums([]int{1, 2, 3, 3, 5}))
+}
