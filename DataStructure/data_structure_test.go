@@ -130,3 +130,7 @@ func Test172(t *testing.T) {
 func Test793(t *testing.T) {
     fmt.Println(preimageSizeFZF(3))
 }
+
+func Test204(t *testing.T) {
+    fmt.Println(countPrimes(10))
+}
