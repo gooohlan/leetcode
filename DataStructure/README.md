@@ -23,3 +23,5 @@
 - [793. 阶乘函数后 K 个零](https://github.com/gooohlan/leetcode/blob/master/DataStructure/793.go)
 - [204. 计数质数](https://github.com/gooohlan/leetcode/blob/master/DataStructure/204.go)
 - [645. 错误的集合](https://github.com/gooohlan/leetcode/blob/master/DataStructure/645.go)
+- [292. Nim 游戏](https://github.com/gooohlan/leetcode/blob/master/DataStructure/292.go)
+- [877. 石子游戏](https://github.com/gooohlan/leetcode/blob/master/DataStructure/877.go)
