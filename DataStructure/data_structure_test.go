@@ -138,3 +138,7 @@ func Test204(t *testing.T) {
 func Test645(t *testing.T) {
     fmt.Println(findErrorNums([]int{1, 2, 3, 3, 5}))
 }
+
+func Test241(t *testing.T) {
+    fmt.Println(diffWaysToCompute("2-1-1"))
+}

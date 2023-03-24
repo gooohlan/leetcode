@@ -25,3 +25,4 @@
 - [645. 错误的集合](https://github.com/gooohlan/leetcode/blob/master/DataStructure/645.go)
 - [292. Nim 游戏](https://github.com/gooohlan/leetcode/blob/master/DataStructure/292.go)
 - [877. 石子游戏](https://github.com/gooohlan/leetcode/blob/master/DataStructure/877.go)
+- [241. 为运算表达式设计优先级](https://github.com/gooohlan/leetcode/blob/master/DataStructure/241.go)
