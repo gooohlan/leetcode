@@ -138,3 +138,7 @@ func Test204(t *testing.T) {
 func Test645(t *testing.T) {
     fmt.Println(findErrorNums([]int{1, 2, 3, 3, 5}))
 }
+
+func Test1288(t *testing.T) {
+    fmt.Println(removeCoveredIntervals([][]int{{1, 4}, {3, 6}, {2, 8}}))
+}
