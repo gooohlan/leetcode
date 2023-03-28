@@ -141,4 +141,5 @@ func Test645(t *testing.T) {
 
 func Test1288(t *testing.T) {
     fmt.Println(removeCoveredIntervals([][]int{{1, 4}, {3, 6}, {2, 8}}))
+    fmt.Println(removeCoveredIntervals2([][]int{{1, 4}, {3, 6}, {2, 8}}))
 }
