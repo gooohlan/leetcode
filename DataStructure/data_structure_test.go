@@ -150,3 +150,9 @@ func Test56(t *testing.T) {
     intervals = [][]int{{1, 4}, {4, 5}}
     fmt.Println(merge(intervals))
 }
+
+func Test986(t *testing.T) {
+    firstList := [][]int{{0, 2}, {5, 10}, {13, 23}, {24, 25}}
+    secondList := [][]int{{1, 5}, {8, 12}, {15, 24}, {25, 26}}
+    fmt.Println(intervalIntersection(firstList, secondList))
+}
