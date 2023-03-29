@@ -143,3 +143,10 @@ func Test1288(t *testing.T) {
     fmt.Println(removeCoveredIntervals([][]int{{1, 4}, {3, 6}, {2, 8}}))
     fmt.Println(removeCoveredIntervals2([][]int{{1, 4}, {3, 6}, {2, 8}}))
 }
+
+func Test56(t *testing.T) {
+    intervals := [][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}
+    fmt.Println(merge(intervals))
+    intervals = [][]int{{1, 4}, {4, 5}}
+    fmt.Println(merge(intervals))
+}
