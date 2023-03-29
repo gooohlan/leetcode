@@ -25,4 +25,6 @@
 - [645. 错误的集合](https://github.com/gooohlan/leetcode/blob/master/DataStructure/645.go)
 - [292. Nim 游戏](https://github.com/gooohlan/leetcode/blob/master/DataStructure/292.go)
 - [877. 石子游戏](https://github.com/gooohlan/leetcode/blob/master/DataStructure/877.go)
-- [1288. 删除被覆盖区间(https://github.com/gooohlan/leetcode/blob/master/DataStructure/1288.go)
+- [1288. 删除被覆盖区间](https://github.com/gooohlan/leetcode/blob/master/DataStructure/1288.go)
+- [56. 合并区间](https://github.com/gooohlan/leetcode/blob/master/DataStructure/56.go)
+- [986. 区间列表的交集](https://github.com/gooohlan/leetcode/blob/master/DataStructure/986.go)
