@@ -289,7 +289,9 @@ func Test139(t *testing.T) {
     s := "leetcode"
     wordDictate := []string{"leet", "code"}
     fmt.Println(wordBreak(s, wordDictate))
+    fmt.Println(wordBreak2(s, wordDictate))
     s = "applepenapple"
     wordDictate = []string{"apple", "pen"}
     fmt.Println(wordBreak(s, wordDictate))
+    fmt.Println(wordBreak2(s, wordDictate))
 }
