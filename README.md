@@ -213,6 +213,7 @@
 - [1024. 视频拼接](https://github.com/gooohlan/leetcode/blob/master/DP/1024.go)
 - [55. 跳跃游戏](https://github.com/gooohlan/leetcode/blob/master/DP/55.go)
 - [45. 跳跃游戏 II](https://github.com/gooohlan/leetcode/blob/master/DP/45.go)
+- [139. 单词拆分](https://github.com/gooohlan/leetcode/blob/master/DP/139.go)
 
 
 #### [6.1. 买卖股票](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)

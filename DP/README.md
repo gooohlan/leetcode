@@ -50,6 +50,7 @@ table」来优化穷举过程，避免不必要的计算。
 - [1024. 视频拼接](https://github.com/gooohlan/leetcode/blob/master/DP/1024.go)
 - [55. 跳跃游戏](https://github.com/gooohlan/leetcode/blob/master/DP/55.go)
 - [45. 跳跃游戏 II](https://github.com/gooohlan/leetcode/blob/master/DP/45.go)
+- [139. 单词拆分](https://github.com/gooohlan/leetcode/blob/master/DP/139.go)
 
 ### [1. 使用动态规划解决股票问题](https://github.com/gooohlan/leetcode/tree/master/DP/Stock)
 
