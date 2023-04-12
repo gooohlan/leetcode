@@ -284,3 +284,12 @@ func Test1024(t *testing.T) {
     fmt.Println(videoStitching(clips, 5))
     fmt.Println(videoStitchingDP(clips, 5))
 }
+
+func Test139(t *testing.T) {
+    s := "leetcode"
+    wordDictate := []string{"leet", "code"}
+    fmt.Println(wordBreak(s, wordDictate))
+    s = "applepenapple"
+    wordDictate = []string{"apple", "pen"}
+    fmt.Println(wordBreak(s, wordDictate))
+}
