@@ -295,3 +295,9 @@ func Test139(t *testing.T) {
     fmt.Println(wordBreak(s, wordDictate))
     fmt.Println(wordBreak2(s, wordDictate))
 }
+
+func Test140(t *testing.T) {
+    s := "catsanddog"
+    wordDict := []string{"cat", "cats", "and", "sand", "dog"}
+    fmt.Println(wordBreak140(s, wordDict))
+}
