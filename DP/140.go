@@ -1,6 +1,9 @@
 package DP
 
-import "strings"
+import (
+    "container/list"
+    "strings"
+)
 
 // 回溯1
 func wordBreak140(s string, wordDict []string) []string {
@@ -57,5 +60,50 @@ func wordBreak1402(s string, wordDict []string) []string {
         }
     }
     backtrack(0)
+    return res
+}
+
+func wordBreak140DP(s string, wordDict []string) []string {
+    wordMap := make(map[string]bool)
+    for _, word := range wordDict {
+        wordMap[word] = true
+    }
+    // 备忘录，-1 代表未计算，0 代表无法凑出，1 代表可以凑出
+    memo := make([]*list.List, len(s))
+    
+    var dp func(i int) *list.List
+    dp = func(i int) *list.List {
+        if i == len(s) {
+            res := list.New()
+            res.PushBack("")
+            return res
+        }
+        
+        if memo[i] != nil {
+            return memo[i]
+        }
+        
+        res := list.New()
+        for length := 1; length+i <= len(s); length++ {
+            sub := s[i : i+length]
+            if wordMap[sub] {
+                subProblem := dp(i + length)
+                for e := subProblem.Front(); e != nil; e = e.Next() {
+                    str := e.Value.(string)
+                    if str == "" {
+                        res.PushBack(sub)
+                    } else {
+                        res.PushBack(sub + " " + str)
+                    }
+                }
+            }
+        }
+        memo[i] = res
+        return res
+    }
+    var res []string
+    for e := dp(0).Front(); e != nil; e = e.Next() {
+        res = append(res, e.Value.(string))
+    }
     return res
 }
