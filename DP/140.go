@@ -69,6 +69,46 @@ func wordBreak140DP(s string, wordDict []string) []string {
         wordMap[word] = true
     }
     // 备忘录，-1 代表未计算，0 代表无法凑出，1 代表可以凑出
+    memo := make([][]string, len(s))
+    
+    var dp func(i int) []string
+    dp = func(i int) []string {
+        if i == len(s) { // 区分匹配结束还是没有匹配结束标识
+            return []string{""}
+        }
+        
+        if len(memo[i]) != 0 {
+            return memo[i]
+        }
+        
+        var res []string
+        for length := 1; length+i <= len(s); length++ {
+            prefix := s[i : i+length]
+            if wordMap[prefix] {
+                subProblem := dp(i + length)
+                
+                for _, sub := range subProblem {
+                    if sub == "" {
+                        res = append(res, prefix)
+                    } else {
+                        res = append(res, prefix+" "+sub)
+                    }
+                    
+                }
+            }
+        }
+        memo[i] = res
+        return res
+    }
+    return dp(0)
+}
+
+func wordBreak140DP2(s string, wordDict []string) []string {
+    wordMap := make(map[string]bool)
+    for _, word := range wordDict {
+        wordMap[word] = true
+    }
+    // 备忘录，-1 代表未计算，0 代表无法凑出，1 代表可以凑出
     memo := make([]*list.List, len(s))
     
     var dp func(i int) *list.List

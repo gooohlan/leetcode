@@ -304,8 +304,7 @@ func Test140(t *testing.T) {
         fmt.Println(s2)
     }
     fmt.Println("---------")
-    s = "pineapplepenapple"
-    wordDict = []string{"apple", "pen", "applepen", "pine", "pineapple"}
+    // s = "catsandog"//
     list = wordBreak140DP(s, wordDict)
     for _, s2 := range list {
         fmt.Println(s2)
