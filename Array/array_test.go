@@ -130,3 +130,8 @@ func Test398(t *testing.T) {
     fmt.Println(solution.Pick(1))
     fmt.Println(solution.Pick(3))
 }
+
+func Test659(t *testing.T) {
+    nums := []int{1, 2, 3, 4, 4, 5}
+    fmt.Println(isPossible(nums))
+}
