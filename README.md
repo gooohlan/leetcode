@@ -42,6 +42,7 @@
 - [1081. 不同字符的最小子序列](https://github.com/gooohlan/leetcode/blob/master/Array/1081.go)
 - [384. 打乱数组](https://github.com/gooohlan/leetcode/blob/master/Array/384.go)
 - [398. 随机数索引](https://github.com/gooohlan/leetcode/blob/master/Array/398.go)
+- [659. 分割数组为连续子序列](https://github.com/gooohlan/leetcode/blob/master/Array/659.go)
 
 #### [1.1. 双指针](https://github.com/gooohlan/leetcode/tree/master/Array/DoublePointer)
 
