@@ -132,6 +132,7 @@ func Test398(t *testing.T) {
 }
 
 func Test659(t *testing.T) {
-    nums := []int{1, 2, 3, 4, 4, 5}
+    nums := []int{1, 2, 3, 3, 4, 5}
     fmt.Println(isPossible(nums))
+    getPossible(nums)
 }
