@@ -136,3 +136,9 @@ func Test659(t *testing.T) {
     fmt.Println(isPossible(nums))
     getPossible(nums)
 }
+
+func Test969(t *testing.T) {
+    arr := []int{3, 2, 4, 1}
+    
+    fmt.Println(pancakeSort(arr))
+}
