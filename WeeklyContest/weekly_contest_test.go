@@ -283,3 +283,24 @@ func Test6294(t *testing.T) {
     }
     fmt.Println(maxOutput(6, edges, []int{9, 8, 7, 6, 10, 5}))
 }
+
+func Test6439(t *testing.T) {
+    s := "ABFCACDB"
+    fmt.Println(minLength(s))
+    s = "ACBBD"
+    fmt.Println(minLength(s))
+}
+
+func Test6454(t *testing.T) {
+    fmt.Println(makeSmallestPalindrome("abcd"))
+}
+func Test6441(t *testing.T) {
+    fmt.Println(punishmentNumber(37))
+}
+
+func Test6442(t *testing.T) {
+    n := 5
+    edges := [][]int{{4, 1, -1}, {2, 0, -1}, {0, 3, -1}, {4, 3, -1}}
+    source, destination, target := 0, 1, 5
+    fmt.Println(modifiedGraphEdges(n, edges, source, destination, target))
+}
