@@ -9,6 +9,12 @@
   - [321](#周赛321)
   - [322](#周赛322)
   - [323](#周赛323)
+  - [324](#周赛324)
+  - [325](#周赛325)
+  - [326](#周赛326)
+  - [327](#周赛327)
+  - [328](#周赛328)
+  - [346](#周赛346)
 - [双周赛](#双周赛)
   - [93](#双周赛93)
 
@@ -320,6 +326,13 @@
 - [6292. 子矩阵元素加 1](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6292.go)
 - [6293. 统计好子数组的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6293.go)
 - [6294. 最大价值和与最小价值和的差值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6294.go)
+
+### 周赛346
+
+- [6439. 删除子串后的字符串最小长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6439.go)
+- [6454. 字典序最小回文串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6454.go)
+- [6441. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6441.go)
+- [6442. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6442.go)
 
 ## 双周赛
 

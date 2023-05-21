@@ -55,6 +55,13 @@
 - [6293. 统计好子数组的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6293.go)
 - [6294. 最大价值和与最小价值和的差值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6294.go)
 
+### 周赛346
+
+- [6439. 删除子串后的字符串最小长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6439.go)
+- [6454. 字典序最小回文串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6454.go)
+- [6441. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6441.go)
+- [6442. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6442.go)
+
 
 ## 双周赛
 
