@@ -1,35 +1,30 @@
 package WeeklyContest
 
+import "strconv"
+
 func punishmentNumber(n int) int {
     var sum int
+    
     for i := 1; i <= n; i++ {
-        if isPunishmentNumber(i) {
+        s := strconv.Itoa(i * i)
+        n := len(s)
+        var dfs func(int, int) bool
+        dfs = func(p int, sum int) bool {
+            if p == n { // 切割到最后一位,判断是否符合要求
+                return sum == i
+            }
+            x := 0
+            for j := p; j < n; j++ {
+                x = x*10 + int(s[j]-'0')
+                if dfs(j+1, sum+x) {
+                    return true
+                }
+            }
+            return false
+        }
+        if dfs(0, 0) {
             sum += i * i
         }
     }
     return sum
-}
-
-func isPunishmentNumber(num int) bool {
-    square := num * num
-    // var res []int
-    var backtrack func(int, int) int
-    
-    backtrack = func(r, sum int) int {
-        i := 10
-        if r == sum {
-            return sum
-        }
-        for r/i > 0 {
-            x := r % i
-            if backtrack(r/i, sum-x) != -1 {
-                return sum
-            }
-            i *= 10
-        }
-        return -1
-    }
-    
-    sum := backtrack(square, num)
-    return sum == num
 }
