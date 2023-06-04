@@ -26,12 +26,12 @@ func maxIncreasingCells(mat [][]int) int {
         pos := g[x]
         mx := make([]int, len(pos))
         for i, p := range pos {
-            mx[i] = max(rowMax[p.x], colMax[p.y]) + 1
+            mx[i] = max(rowMax[p.x], colMax[p.y]) + 1 // 先把最大值算出来，再更新 rowMax 和 colMax
             ans = max(ans, mx[i])
         }
         for i, p := range pos {
-            rowMax[p.x] = max(rowMax[p.x], mx[i])
-            colMax[p.y] = max(colMax[p.y], mx[i])
+            rowMax[p.x] = max(rowMax[p.x], mx[i]) // 更新第 p.x 行的最大值
+            colMax[p.y] = max(colMax[p.y], mx[i]) // 更新第 p.y 列的最大值
         }
     }
     return ans
