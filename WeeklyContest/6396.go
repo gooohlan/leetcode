@@ -1,38 +1,54 @@
 package WeeklyContest
 
-import "strconv"
-
 func count(num1 string, num2 string, minSum int, maxSum int) int {
-    MOD := int(1e9) + 7
-    n1, _ := strconv.Atoi(num1)
-    n2, _ := strconv.Atoi(num2)
-    
-    dp := make([][]int, len(num2)+1)
-    for i := range dp {
-        dp[i] = make([]int, maxSum+1)
-    }
-    
-    dp[0][0] = 1
-    
-    for i := 1; i <= len(num2); i++ {
-        for j := 0; j <= maxSum; j++ {
-            for digit := 0; digit <= 9; digit++ {
-                if n1 <= n2 && j >= digit {
-                    newSum := j - digit
-                    if newSum >= 0 && newSum <= maxSum {
-                        dp[i][j] += dp[i-1][newSum]
-                        dp[i][j] %= MOD
-                    }
-                }
+    const mod int = 1e9 + 7
+    f := func(s string) int {
+        // 剪枝
+        memo := make([][]int, len(s))
+        for i := range memo {
+            memo[i] = make([]int, min(9*len(s), maxSum)+1)
+            for j := range memo[i] {
+                memo[i][j] = -1
             }
         }
+        
+        var dfs func(i int, sum int, limitUp bool) int
+        dfs = func(i int, sum int, limitUp bool) int {
+            if sum > maxSum {
+                return 0
+            }
+            if i == len(s) {
+                if sum >= minSum {
+                    return 1
+                }
+                return 0
+            }
+            var res int
+            if !limitUp && memo[i][sum] != -1 {
+                return memo[i][sum]
+            }
+            
+            up := 9
+            if limitUp {
+                up = int(s[i] - '0')
+            }
+            for d := 0; d <= up; d++ {
+                res = (res + dfs(i+1, sum+d, limitUp && d == up)) % mod
+            }
+            if !limitUp {
+                memo[i][sum] = res
+            }
+            return res
+        }
+        return dfs(0, 0, true)
     }
-    
-    result := 0
-    for j := minSum; j <= maxSum; j++ {
-        result += dp[len(num2)][j]
-        result %= MOD
+    ans := f(num2) - f(num1) + mod // 避免负数
+    sum := 0
+    for _, c := range num1 {
+        sum += int(c - '0')
     }
-    
-    return result
+    if minSum <= sum && sum <= maxSum { // x=num1 是合法的，补回来
+        ans++
+    }
+    return ans % mod
 }

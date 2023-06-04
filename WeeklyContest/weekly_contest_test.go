@@ -321,3 +321,11 @@ func Test6462(t *testing.T) {
 func Test6424(t *testing.T) {
     fmt.Println(semiOrderedPermutation([]int{1, 3, 2, 4}))
 }
+
+func Test6396(t *testing.T) {
+    num1 := "1"
+    num2 := "100"
+    min_num := 1
+    max_num := 13
+    fmt.Println(count(num1, num2, min_num, max_num))
+}
