@@ -69,6 +69,13 @@
 - [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2712.go)
 - [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2713.go)
 
+### 周赛348
+
+- [6462. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6462.go)
+- [6424. 半有序排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6424.go)
+- [6472. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6472.go)
+- [6396. 统计整数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6396.go)
+
 
 ## 双周赛
 

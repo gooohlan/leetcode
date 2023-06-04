@@ -15,6 +15,8 @@
   - [327](#周赛327)
   - [328](#周赛328)
   - [346](#周赛346)
+  - [347](#周赛347)
+  - [348](#周赛348)
 - [双周赛](#双周赛)
   - [93](#双周赛93)
 
@@ -327,12 +329,28 @@
 - [6293. 统计好子数组的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6293.go)
 - [6294. 最大价值和与最小价值和的差值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6294.go)
 
-### 周赛346
+### [周赛346](https://gooohlan.cn/skill/algorithm/61892.html)
 
 - [6439. 删除子串后的字符串最小长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6439.go)
 - [6454. 字典序最小回文串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6454.go)
 - [6441. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6441.go)
 - [6442. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6442.go)
+
+
+
+### [周赛347](https://gooohlan.cn/skill/algorithm/12549.html)
+
+- [2710. 移除字符串中的尾随零](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2710.go)
+- [2711. 对角线上不同值的数量差](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2711.go)
+- [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2712.go)
+- [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2713.go)
+
+### [周赛348](https://gooohlan.cn/skill/algorithm/13637.html)
+
+- [6462. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6462.go)
+- [6424. 半有序排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6424.go)
+- [6472. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6472.go)
+- [6396. 统计整数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6396.go)
 
 ## 双周赛
 
