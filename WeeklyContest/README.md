@@ -62,6 +62,13 @@
 - [6441. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6441.go)
 - [6442. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6442.go)
 
+### 周赛347
+
+- [2710. 移除字符串中的尾随零](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2710.go)
+- [2711. 对角线上不同值的数量差](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2711.go)
+- [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2712.go)
+- [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2713.go)
+
 
 ## 双周赛
 
