@@ -304,3 +304,8 @@ func Test6442(t *testing.T) {
     source, destination, target := 0, 1, 5
     fmt.Println(modifiedGraphEdges(n, edges, source, destination, target))
 }
+
+func Test2711(t *testing.T) {
+    grid := [][]int{{1, 2, 3}, {3, 1, 5}, {3, 2, 1}}
+    fmt.Println(differenceOfDistinctValues2(grid))
+}
