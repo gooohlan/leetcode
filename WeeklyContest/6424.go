@@ -13,7 +13,6 @@ func semiOrderedPermutation(nums []int) int {
     }
     if r > l {
         return l + n - r - 1
-    } else {
-        return l + n - r - 1 - 1
     }
+    return l + n - r - 1 - 1
 }
