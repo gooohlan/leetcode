@@ -309,3 +309,11 @@ func Test2711(t *testing.T) {
     grid := [][]int{{1, 2, 3}, {3, 1, 5}, {3, 2, 1}}
     fmt.Println(differenceOfDistinctValues2(grid))
 }
+
+func Test6462(t *testing.T) {
+    minimizedStringLength("ipi")
+}
+
+func Test6424(t *testing.T) {
+    fmt.Println(semiOrderedPermutation([]int{1, 3, 2, 4}))
+}
