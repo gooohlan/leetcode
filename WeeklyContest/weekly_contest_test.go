@@ -309,6 +309,10 @@ func Test2711(t *testing.T) {
     grid := [][]int{{1, 2, 3}, {3, 1, 5}, {3, 2, 1}}
     fmt.Println(differenceOfDistinctValues2(grid))
 }
+func Test2712(t *testing.T) {
+    mat := [][]int{{1, 1}, {1, 1}}
+    fmt.Println(maxIncreasingCells(mat))
+}
 
 func Test6462(t *testing.T) {
     minimizedStringLength("ipi")
