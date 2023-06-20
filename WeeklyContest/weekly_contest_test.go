@@ -329,3 +329,8 @@ func Test6396(t *testing.T) {
     max_num := 13
     fmt.Println(count(num1, num2, min_num, max_num))
 }
+
+func Test2734(t *testing.T) {
+    str := "cabbc"
+    fmt.Println(smallestString(str))
+}
