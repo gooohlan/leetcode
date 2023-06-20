@@ -334,3 +334,8 @@ func Test2734(t *testing.T) {
     str := "cabbc"
     fmt.Println(smallestString(str))
 }
+
+func Test2735(t *testing.T) {
+    nums := []int{20, 1, 2, 15}
+    fmt.Println(minCost(nums, 5))
+}
