@@ -17,6 +17,7 @@
   - [346](#周赛346)
   - [347](#周赛347)
   - [348](#周赛348)
+  - [349](#周赛349)
 - [双周赛](#双周赛)
   - [93](#双周赛93)
 
@@ -351,6 +352,14 @@
 - [6424. 半有序排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6424.go)
 - [6472. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6472.go)
 - [6396. 统计整数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6396.go)
+
+
+### 周赛349
+
+- [2733. 既不是最小值也不是最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2733.go)
+- [2734. 执行子串操作后的字典序最小字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2734.go)
+- [2735. 收集巧克力](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2735.go)
+- [2736. 最大和查询](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2736.go)
 
 ## 双周赛
 

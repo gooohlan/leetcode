@@ -69,6 +69,13 @@
 - [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2712.go)
 - [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2713.go)
 
+### 周赛349
+
+- [2733. 既不是最小值也不是最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2733.go)
+- [2734. 执行子串操作后的字典序最小字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2734.go)
+- [2735. 收集巧克力](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2735.go)
+- [2736. 最大和查询](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2736.go)
+
 ### 周赛348
 
 - [6462. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6462.go)
