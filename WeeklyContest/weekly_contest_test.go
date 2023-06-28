@@ -339,3 +339,7 @@ func Test2735(t *testing.T) {
     nums := []int{20, 1, 2, 15}
     fmt.Println(minCost(nums, 5))
 }
+
+func Test2736(t *testing.T) {
+    maximumSumQueries([]int{4, 3, 1, 2}, []int{2, 4, 9, 5}, [][]int{{4, 1}, {1, 3}, {2, 5}})
+}

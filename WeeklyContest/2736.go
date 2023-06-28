@@ -7,7 +7,7 @@ func maximumSumQueries(nums1 []int, nums2 []int, queries [][]int) []int {
         x, y int
     }
     
-    // x从大到小排序
+    // x从小到大排序
     pairList := make([]pair, len(nums1))
     for i, x := range nums1 {
         pairList[i] = pair{x, nums2[i]}
@@ -17,7 +17,7 @@ func maximumSumQueries(nums1 []int, nums2 []int, queries [][]int) []int {
     for i := range queries {
         queries[i] = append(queries[i], i) // 将下标加入queries
     }
-    // 查询从小到大排序
+    // 查询从大到小排序
     sort.Slice(queries, func(i, j int) bool { return queries[i][0] > queries[j][0] })
     
     ans := make([]int, len(queries))
