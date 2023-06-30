@@ -343,3 +343,8 @@ func Test2735(t *testing.T) {
 func Test2736(t *testing.T) {
     maximumSumQueries([]int{4, 3, 1, 2}, []int{2, 4, 9, 5}, [][]int{{4, 1}, {1, 3}, {2, 5}})
 }
+
+func Test2740(t *testing.T) {
+    nums := []int{100, 1, 10}
+    fmt.Println(findValueOfPartition(nums))
+}
