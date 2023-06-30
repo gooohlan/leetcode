@@ -348,3 +348,8 @@ func Test2740(t *testing.T) {
     nums := []int{100, 1, 10}
     fmt.Println(findValueOfPartition(nums))
 }
+
+func Test2741(t *testing.T) {
+    nums := []int{2, 3, 6}
+    fmt.Println(specialPerm(nums))
+}
