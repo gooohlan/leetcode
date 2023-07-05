@@ -350,6 +350,7 @@ func Test2740(t *testing.T) {
 }
 
 func Test2741(t *testing.T) {
-    nums := []int{2, 3, 6}
+    nums := []int{1, 2, 4, 8, 16, 32}
     fmt.Println(specialPerm(nums))
+    fmt.Println(specialPermDP(nums))
 }
