@@ -354,3 +354,10 @@ func Test2741(t *testing.T) {
     fmt.Println(specialPerm(nums))
     fmt.Println(specialPermDP(nums))
 }
+
+func Test2742(t *testing.T) {
+    cost := []int{1, 2, 3, 8}
+    time := []int{1, 2, 3, 99}
+    
+    fmt.Println(paintWalls(cost, time))
+}
