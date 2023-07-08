@@ -69,6 +69,13 @@
 - [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2712.go)
 - [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2713.go)
 
+### 周赛348
+
+- [6462. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6462.go)
+- [6424. 半有序排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6424.go)
+- [6472. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6472.go)
+- [6396. 统计整数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6396.go)
+
 ### 周赛349
 
 - [2733. 既不是最小值也不是最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2733.go)
@@ -76,12 +83,12 @@
 - [2735. 收集巧克力](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2735.go)
 - [2736. 最大和查询](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2736.go)
 
-### 周赛348
+### 周赛350
 
-- [6462. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6462.go)
-- [6424. 半有序排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6424.go)
-- [6472. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6472.go)
-- [6396. 统计整数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6396.go)
+- [2739. 总行驶距离](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2739.go)
+- [2740. 找出分区值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2740.go)
+- [2741. 特别的排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2741.go)
+- [2742. 给墙壁刷油漆](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2742.go)
 
 
 ## 双周赛

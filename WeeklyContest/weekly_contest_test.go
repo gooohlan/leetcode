@@ -356,9 +356,8 @@ func Test2741(t *testing.T) {
 }
 
 func Test2742(t *testing.T) {
-    cost := []int{4, 2, 5}
-    time := []int{99, 1, 2}
+    cost := []int{2, 3, 2, 4}
+    time := []int{1, 1, 1, 1}
     
     fmt.Println(paintWalls(cost, time))
-    fmt.Println(paintWallsDP(cost, time))
 }
