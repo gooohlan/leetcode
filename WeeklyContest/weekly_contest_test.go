@@ -361,3 +361,7 @@ func Test2742(t *testing.T) {
     
     fmt.Println(paintWalls(cost, time))
 }
+
+func Test6899(t *testing.T) {
+    
+}
