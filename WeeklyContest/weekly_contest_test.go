@@ -366,3 +366,12 @@ func Test6899(t *testing.T) {
     nums := []int{0, 2, 1, 3}
     fmt.Println(maximumJumps(nums, 2))
 }
+
+func Test6912(t *testing.T) {
+    nums1 := []int{11, 7, 7, 9}
+    nums2 := []int{19, 19, 1, 7}
+    fmt.Println(maxNonDecreasingLength(nums1, nums2))
+    nums1 = []int{11}
+    nums2 = []int{11}
+    fmt.Println(maxNonDecreasingLengthDP(nums1, nums2))
+}
