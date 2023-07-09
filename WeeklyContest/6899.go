@@ -1,18 +1,33 @@
 package WeeklyContest
 
+import "math"
+
 func maximumJumps(nums []int, target int) int {
     n := len(nums)
-    var count int
-    for i, j := 0, 1; j < n; j++ {
-        if abs(nums[i], nums[j]) <= target {
-            count++
-            i = j
+    var dfs func(int) int
+    dp := make([]int, n)
+    for i := 0; i < n; i++ {
+        dp[i] = math.MaxInt
+    }
+    dfs = func(index int) int {
+        if index == 0 {
+            return 0
         }
+        
+        if dp[index] == math.MaxInt {
+            dp[index] = -1
+            for i := index - 1; i >= 0; i-- {
+                if -target <= nums[index]-nums[i] && nums[index]-nums[i] <= target {
+                    if dfs(i) != -1 {
+                        dp[index] = max(dp[index], dfs(i)+1)
+                    }
+                }
+            }
+            
+        }
+        return dp[index]
     }
-    if count == 0 {
-        return -1
-    }
-    return count
+    return dfs(n - 1)
 }
 
 // func abs(a, b int) int {

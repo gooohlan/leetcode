@@ -363,5 +363,6 @@ func Test2742(t *testing.T) {
 }
 
 func Test6899(t *testing.T) {
-    
+    nums := []int{0, 2, 1, 3}
+    fmt.Println(maximumJumps(nums, 2))
 }
