@@ -371,7 +371,6 @@ func Test6912(t *testing.T) {
     nums1 := []int{11, 7, 7, 9}
     nums2 := []int{19, 19, 1, 7}
     fmt.Println(maxNonDecreasingLength(nums1, nums2))
-    nums1 = []int{11}
-    nums2 = []int{11}
     fmt.Println(maxNonDecreasingLengthDP(nums1, nums2))
+    fmt.Println(maxNonDecreasingLengthDP1(nums1, nums2))
 }

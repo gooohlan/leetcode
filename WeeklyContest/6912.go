@@ -58,3 +58,35 @@ func maxNonDecreasingLengthDP(nums1 []int, nums2 []int) int {
     
     return res
 }
+
+func maxNonDecreasingLengthDP1(nums1 []int, nums2 []int) int {
+    n := len(nums1)
+    dp0, dp1 := 1, 1
+    
+    var res = 1
+    for i := 1; i < n; i++ {
+        j0, j1 := 1, 1
+        // for j := 0; j < 2; j++ {
+        if nums1[i-1] <= nums1[i] {
+            // dp[i][j] = dp[i-1][0] + 1
+            j0 = dp0 + 1
+        }
+        if nums2[i-1] <= nums1[i] {
+            // dp[i][j] = max(dp[i-1][1]+1, dp[i][j])
+            j0 = max(dp1+1, j0)
+        }
+        if nums1[i-1] <= nums2[i] {
+            // dp[i][j] = dp[i-1][0] + 1
+            j1 = dp0 + 1
+        }
+        if nums2[i-1] <= nums2[i] {
+            // dp[i][j] = max(dp[i-1][1]+1, dp[i][j])
+            j1 = max(dp1+1, j1)
+        }
+        dp0, dp1 = j0, j1
+        // }
+        res = max(res, max(dp0, dp1))
+    }
+    
+    return res
+}
