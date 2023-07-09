@@ -5,29 +5,31 @@ import "math"
 func maximumJumps(nums []int, target int) int {
     n := len(nums)
     var dfs func(int) int
-    dp := make([]int, n)
+    memo := make([]int, n)
     for i := 0; i < n; i++ {
-        dp[i] = math.MaxInt
+        memo[i] = -1
     }
     dfs = func(index int) int {
         if index == 0 {
             return 0
         }
         
-        if dp[index] == math.MaxInt {
-            dp[index] = -1
+        if memo[index] == -1 {
+            memo[index] = math.MinInt
             for i := index - 1; i >= 0; i-- {
                 if -target <= nums[index]-nums[i] && nums[index]-nums[i] <= target {
-                    if dfs(i) != -1 {
-                        dp[index] = max(dp[index], dfs(i)+1)
-                    }
+                    memo[index] = max(memo[index], dfs(i)+1)
                 }
             }
             
         }
-        return dp[index]
+        return memo[index]
     }
-    return dfs(n - 1)
+    res := dfs(n - 1)
+    if res < 0 {
+        return -1
+    }
+    return res
 }
 
 // func abs(a, b int) int {

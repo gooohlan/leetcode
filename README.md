@@ -19,6 +19,7 @@
   - [348](#周赛348)
   - [349](#周赛349)
   - [350](#周赛350)
+  - [353](#周赛353)
 - [双周赛](#双周赛)
   - [93](#双周赛93)
 
@@ -360,13 +361,19 @@
 - [2734. 执行子串操作后的字典序最小字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2734.go)
 - [2735. 收集巧克力](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2735.go)
 - [2736. 最大和查询](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2736.go)
-### [周赛350](https://gooohlan.cn/skill/algorithm/25413.html)
 
+### [周赛350](https://gooohlan.cn/skill/algorithm/25413.html)
 - [2739. 总行驶距离](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2739.go)
 - [2740. 找出分区值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2740.go)
 - [2741. 特别的排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2741.go)
 - [2742. 给墙壁刷油漆](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2742.go)
 
+
+### [周赛353](https://gooohlan.cn/skill/algorithm/25093.html)
+- [6451. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6451.go)
+- [6899. 达到末尾下标所需的最大跳跃次数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6899.go)
+- [6912. 构造最长非递减子数组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6912.go)
+- [6919. 使数组中的所有元素都等于零](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6919.go)
 ## 双周赛
 
 ### 双周赛93
