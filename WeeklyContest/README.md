@@ -61,7 +61,7 @@
 - [2696. 删除子串后的字符串最小长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2696.go)
 - [2697. 字典序最小回文串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2697.go)
 - [2698. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2698.go)
-- [2698. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2698.go)
+- [2699. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2699.go)
 
 ### 周赛347
 
