@@ -20,6 +20,7 @@
   - [349](#周赛349)
   - [350](#周赛350)
   - [353](#周赛353)
+  - [354](#周赛354)
 - [双周赛](#双周赛)
   - [93](#双周赛93)
 
@@ -374,6 +375,13 @@
 - [6899. 达到末尾下标所需的最大跳跃次数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6899.go)
 - [6912. 构造最长非递减子数组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6912.go)
 - [6919. 使数组中的所有元素都等于零](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6919.go)
+### [周赛354](https://gooohlan.cn/skill/algorithm/41028.html)
+
+- [6889. 特殊元素平方和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6889.go)
+- [6929. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6929.go)
+- [6927. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6927.go)
+- [6924. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6924.go)
+
 ## 双周赛
 
 ### 双周赛93
