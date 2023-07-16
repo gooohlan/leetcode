@@ -22,3 +22,15 @@ func maximumBeauty(nums []int, k int) int {
     
     return res
 }
+func maximumBeauty2(nums []int, k int) int {
+    sort.Ints(nums)
+    left := 0
+    res := 1
+    for right := 1; right < len(nums); right++ {
+        for nums[right]-nums[left] > k*2 {
+            left++
+        }
+        res = max(res, right-left+1)
+    }
+    return res
+}
