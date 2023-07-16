@@ -2,124 +2,129 @@
 
 ## 周赛321
 
-- [6245. 找出中枢整数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6245.go)
-- [6246. 追加字符以获得子序列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6246.go)
-- [6247. 从链表中移除节点](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6247.go)
-- [6248. 统计中位数为 K 的子数组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6248.go)
+- [2485. 找出中枢整数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2485.go)
+- [2486. 追加字符以获得子序列](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2486.go)
+- [2487. 从链表中移除节点](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2487.go)
+- [2488. 统计中位数为 K 的子数组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2488.go)
 
 ### 周赛322
-- [6253. 回环句](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6253.go)
-- [6254. 划分技能点相等的团队](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6254.go)
-- [6255. 两个城市间路径的最小分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6255.go)
-- [6256. 将节点分成尽可能多的组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6256.go)
+
+- [2490. 回环句](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2490.go)
+- [2491. 划分技能点相等的团队](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2491.go)
+- [2492. 两个城市间路径的最小分数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2492.go)
+- [2493. 将节点分成尽可能多的组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2493.go)
 
 ### 周赛323
 
-- [6257. 删除每行中的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6257.go)
-- [6258. 数组中最长的方波](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6258.go)
-- [6259. 设计内存分配器](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6259.go)
-- [6260. 矩阵查询可获得的最大分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6260.go)
+- [2500. 删除每行中的最大值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2500.go)
+- [2501. 数组中最长的方波](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2501.go)
+- [2502. 设计内存分配器](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2502.go)
+- [2503. 矩阵查询可获得的最大分数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2503.go)
 
 ### 周赛324
 
-- [6265. 统计相似字符串对的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6265.go)
-- [6266. 使用质因数之和替换后可以取到的最小值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6266.go)
-- [6267. 添加边使所有节点度数都为偶数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6267.go)
-- [6268. 查询树中环的长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6268.go)
+- [2506. 统计相似字符串对的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2506.go)
+- [2507. 使用质因数之和替换后可以取到的最小值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2507.go)
+- [2508. 添加边使所有节点度数都为偶数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2508.go)
+- [2509. 查询树中环的长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2509.go)
 
 ### 周赛325
 
-- [6269. 统计相似字到目标字符串的最短距离符串对的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6269.go)
-- [6270. 每种字符至少取 K 个](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6270.go)
-- [6271. 礼盒的最大甜蜜度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6271.go)
-- [6272. 好分区的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6272.go)
+- [2515. 到目标字符串的最短距离](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2515.go)
+- [2516. 每种字符至少取 K 个](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2516.go)
+- [2517. 礼盒的最大甜蜜度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2517.go)
+- [2518. 好分区的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2518.go)
 
 ### 周赛326
 
-- [6278. 统计能整除数字的位数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6273.go)
-- [6279. 数组乘积中的不同质因数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
-- [6196. 将字符串分割成值不超过 K 的子字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6275.go)
-- [6280. 范围内最接近的两个质数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
+- [2520. 统计能整除数字的位数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2520.go)
+- [2521. 数组乘积中的不同质因数数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2521.go)
+- [2522. 将字符串分割成值不超过 K 的子字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2522.go)
+- [2523. 范围内最接近的两个质数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2523.go)
 
 ### 周赛327
 
-- [6283. 正整数和负整数的最大计数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6283.go)
-- [6285. 执行 K 次操作后的最大分数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6285.go)
-- [6284. 使字符串总不同字符的数目相等](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6284.go)
-- [6306. 过桥的时间](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6306.go)
+- [2529. 正整数和负整数的最大计数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2529.go)
+- [2530. 执行 K 次操作后的最大分数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2530.go)
+- [2531. 使字符串总不同字符的数目相等](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2531.go)
+- [2532. 过桥的时间](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2532.go)
 
 ### 周赛328
 
-- [6291. 数组元素和与数字和的绝对差](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6291.go)
-- [6292. 子矩阵元素加 1](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6292.go)
-- [6293. 统计好子数组的数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6293.go)
-- [6294. 最大价值和与最小价值和的差值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6294.go)
+- [2535. 数组元素和与数字和的绝对差](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2535.go)
+- [2536. 子矩阵元素加 1](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2536.go)
+- [2537. 统计好子数组的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2537.go)
+- [2538. 最大价值和与最小价值和的差值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2538.go)
 
 ### 周赛346
 
-- [6439. 删除子串后的字符串最小长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6439.go)
-- [6454. 字典序最小回文串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6454.go)
-- [6441. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6441.go)
-- [6442. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6442.go)
+- [2696. 删除子串后的字符串最小长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2696.go)
+- [2697. 字典序最小回文串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2697.go)
+- [2698. 求一个整数的惩罚数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2698.go)
+- [2698. 修改图中的边权](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2698.go)
 
 ### 周赛347
 
-- [2710. 移除字符串中的尾随零](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2710.go)
-- [2711. 对角线上不同值的数量差](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2711.go)
-- [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2712.go)
-- [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2713.go)
+- [2710. 移除字符串中的尾随零](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2710.go)
+- [2711. 对角线上不同值的数量差](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2711.go)
+- [2712. 使所有字符相等的最小成本](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2712.go)
+- [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2713.go)
 
 ### 周赛348
 
-- [6462. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6462.go)
-- [6424. 半有序排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6424.go)
-- [6472. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6472.go)
-- [6396. 统计整数数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6396.go)
+- [2716. 最小化字符串长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2716.go)
+- [2717. 半有序排列](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2717.go)
+- [2718. 查询后矩阵的和](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2718.go)
+- [2719. 统计整数数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2719.go)
 
 ### 周赛349
 
-- [2733. 既不是最小值也不是最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2733.go)
-- [2734. 执行子串操作后的字典序最小字符串](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2734.go)
-- [2735. 收集巧克力](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2735.go)
-- [2736. 最大和查询](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2736.go)
+- [2733. 既不是最小值也不是最大值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2733.go)
+- [2734. 执行子串操作后的字典序最小字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2734.go)
+- [2735. 收集巧克力](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2735.go)
+- [2736. 最大和查询](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2736.go)
 
 ### 周赛350
 
-- [2739. 总行驶距离](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2739.go)
-- [2740. 找出分区值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2740.go)
-- [2741. 特别的排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2741.go)
-- [2742. 给墙壁刷油漆](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2742.go)
+- [2739. 总行驶距离](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2739.go)
+- [2740. 找出分区值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2740.go)
+- [2741. 特别的排列](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2741.go)
+- [2742. 给墙壁刷油漆](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2742.go)
 
 ### 周赛353
 
-- [6451. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6451.go)
-- [6899. 达到末尾下标所需的最大跳跃次数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6899.go)
-- [6912. 构造最长非递减子数组](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6912.go)
-- [6919. 使数组中的所有元素都等于零](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6919.go)
+- [2769. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2769.go)
+- [2770. 达到末尾下标所需的最大跳跃次数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2770.go)
+- [2771. 构造最长非递减子数组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2771.go)
+- [2772. 使数组中的所有元素都等于零](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2772.go)
+
 ### 周赛354
 
-- [6889. 特殊元素平方和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6889.go)
-- [6929. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6929.go)
-- [6927. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6927.go)
-- [6924. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6924.go)
+- [6889. 特殊元素平方和](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6889.go)
+- [6929. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6929.go)
+- [6927. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6927.go)
+- [6924. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6924.go)
 
 
 ## 双周赛
 
 ### 双周赛93
-- [6261. 数组中字符串的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6261.go)
-- [6262. 图中最大星和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6262.go)
-- [6263. 青蛙过河 II](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6263.go)
-- [6264. 让数组不相等的最小总代价](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6264.go)
+
+- [2496. 数组中字符串的最大值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2496.go)
+- [2497. 图中最大星和](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2497.go)
+- [2498. 青蛙过河 II](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2498.go)
+- [2499. 让数组不相等的最小总代价](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2499.go)
 
 ### 双周赛94
-- [6273. 最多可以摧毁的敌人城堡数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6273.go)
-- [6274. 奖励最顶尖的 K 名学生](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6274.go)
-- [6295. 最小化两个数组中的最大值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6295.go)
-- [6276. 统计同位异构字符串数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6276.go)
+
+- [2511. 最多可以摧毁的敌人城堡数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2511.go)
+- [2512. 奖励最顶尖的 K 名学生](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2512.go)
+- [2513. 最小化两个数组中的最大值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2513.go)
+- [2514. 统计同位异构字符串数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2514.go)
 
 ### 双周赛95
-- [2525. 根据规则将箱子分类](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2525.go)
-- [2526. 找到数据流中的连续整数](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2526.go)
-- [2527. 查询数组 Xor 美丽值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2527.go)
-- [2528. 最大化城市的最小供电站数目](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2528.go)
+
+- [2525. 根据规则将箱子分类](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2525.go)
+- [2526. 找到数据流中的连续整数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2526.go)
+- [2527. 查询数组 Xor 美丽值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2527.go)
+- [2528. 最大化城市的最小供电站数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2528.go)
