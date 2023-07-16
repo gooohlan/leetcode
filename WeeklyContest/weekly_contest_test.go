@@ -374,3 +374,13 @@ func Test6912(t *testing.T) {
     fmt.Println(maxNonDecreasingLengthDP(nums1, nums2))
     fmt.Println(maxNonDecreasingLengthDP1(nums1, nums2))
 }
+
+func Test6889(t *testing.T) {
+    nums := []int{2, 7, 1, 19, 18, 3}
+    fmt.Println(sumOfSquares(nums))
+}
+
+func Test6929(t *testing.T) {
+    nums := []int{4, 6, 1, 2}
+    fmt.Println(maximumBeauty(nums, 2))
+}
