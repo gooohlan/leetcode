@@ -388,3 +388,18 @@ func Test6929(t *testing.T) {
 func Test2750(t *testing.T) {
     fmt.Println(numberOfGoodSubarraySplits([]int{0, 1, 0, 0, 1}))
 }
+
+func Test2751(t *testing.T) {
+    positions := []int{5, 4, 3, 2, 1}
+    healths := []int{2, 17, 9, 15, 10}
+    directions := "RRRRR"
+    fmt.Println(survivedRobotsHealths(positions, healths, directions))
+    positions = []int{3, 5, 2, 6}
+    healths = []int{10, 10, 15, 12}
+    directions = "RLRL"
+    fmt.Println(survivedRobotsHealths(positions, healths, directions))
+    positions = []int{1, 2, 5, 6}
+    healths = []int{10, 10, 11, 11}
+    directions = "RLRL"
+    fmt.Println(survivedRobotsHealths(positions, healths, directions))
+}
