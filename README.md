@@ -375,6 +375,12 @@
 - [2741. 特别的排列](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2741.go)
 - [2742. 给墙壁刷油漆](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/2742.go)
 
+### 周赛351
+
+- [2748. 美丽下标对的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2748.go)
+- [2749. 得到整数零需要执行的最少操作数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2749.go)
+- [2750. 将数组划分成若干好子数组的方式](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2750.go)
+- [2751. 机器人碰撞](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2751.go)
 
 ### [周赛353](https://gooohlan.cn/skill/algorithm/25093.html)
 
@@ -383,12 +389,12 @@
 - [2771. 构造最长非递减子数组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2771.go)
 - [2772. 使数组中的所有元素都等于零](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2772.go)
 
-- ### [周赛354](https://gooohlan.cn/skill/algorithm/41028.html)
+### 周赛354
 
-- [6889. 特殊元素平方和](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6889.go)
-- [6929. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6929.go)
-- [6927. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6927.go)
-- [6924. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/master/WeeklyContest/6924.go)
+- [2778. 特殊元素平方和](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2778.go)
+- [2779. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2779.go)
+- [2780. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2780.go)
+- [2781. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2781.go)
 
 ## 双周赛
 ### 双周赛93
