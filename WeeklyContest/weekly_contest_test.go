@@ -384,3 +384,7 @@ func Test6929(t *testing.T) {
     nums := []int{4, 6, 1, 2}
     fmt.Println(maximumBeauty(nums, 2))
 }
+
+func Test2750(t *testing.T) {
+    fmt.Println(numberOfGoodSubarraySplits([]int{0, 1, 0, 0, 1}))
+}
