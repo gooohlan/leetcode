@@ -2,7 +2,7 @@ package WeeklyContest
 
 func numberOfGoodSubarraySplits(nums []int) int {
     const mod = 1e9 + 7
-    res, pre := 0, -1
+    res, pre := 1, -1
     for i, num := range nums {
         if num > 0 {
             if pre >= 0 {
@@ -12,7 +12,7 @@ func numberOfGoodSubarraySplits(nums []int) int {
         }
     }
     if pre < 0 {
-        return -1
+        return 0
     }
     return res
 }
