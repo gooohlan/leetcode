@@ -403,3 +403,8 @@ func Test2751(t *testing.T) {
     directions = "RLRL"
     fmt.Println(survivedRobotsHealths(positions, healths, directions))
 }
+
+func Test2760(t *testing.T) {
+    nums := []int{3, 2, 5, 4}
+    fmt.Println(longestAlternatingSubarray(nums, 5))
+}
