@@ -21,6 +21,7 @@
   - [350](#周赛350)
   - [353](#周赛353)
   - [354](#周赛354)
+  - [355](#周赛355)
 - [双周赛](#双周赛)
   - [93](#双周赛93)
 
@@ -389,12 +390,20 @@
 - [2771. 构造最长非递减子数组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2771.go)
 - [2772. 使数组中的所有元素都等于零](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2772.go)
 
-### 周赛354
+### [周赛354](https://gooohlan.cn/skill/algorithm/41028.html)
 
 - [2778. 特殊元素平方和](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2778.go)
 - [2779. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2779.go)
 - [2780. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2780.go)
 - [2781. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2781.go)
+
+
+### [周赛355](https://gooohlan.cn/skill/algorithm/24709.html)
+
+- [6921. 按分隔符拆分字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6921.go)
+- [6915. 合并后数组中的最大元素](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6915.go)
+- [6955. 长度递增组的最大数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6955.go)
+- [6942. 树中可以形成回文的路径数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6942.go)
 
 ## 双周赛
 ### 双周赛93

@@ -112,6 +112,13 @@
 - [2780. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2780.go)
 - [2781. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2781.go)
 
+### 周赛355
+
+- [6921. 按分隔符拆分字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6921.go)
+- [6915. 合并后数组中的最大元素](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6915.go)
+- [6955. 长度递增组的最大数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6955.go)
+- [6942. 树中可以形成回文的路径数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6942.go)
+
 
 ## 双周赛
 
