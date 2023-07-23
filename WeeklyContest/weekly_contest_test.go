@@ -408,3 +408,12 @@ func Test2760(t *testing.T) {
     nums := []int{3, 2, 5, 4}
     fmt.Println(longestAlternatingSubarray(nums, 5))
 }
+
+func Test2761(t *testing.T) {
+    fmt.Println(findPrimePairs(10))
+}
+
+func Test6921(t *testing.T) {
+    word := []string{"$easy$", "$problem$"}
+    fmt.Println(splitWordsBySeparator(word, '$'))
+}
