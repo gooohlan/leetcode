@@ -3,20 +3,18 @@ package WeeklyContest
 func splitWordsBySeparator(words []string, separator byte) []string {
     var res []string
     for _, word := range words {
-        j := 0
+        begin := 0
         for i, w := range word {
             if w == int32(separator) {
-                if i != j {
-                    res = append(res, word[j:i])
+                if i != begin {
+                    res = append(res, word[begin:i])
                 }
-                j = i + 1
+                begin = i + 1
             }
         }
-        if j < len(word) {
-            res = append(res, word[j:])
+        if begin < len(word) {
+            res = append(res, word[begin:])
         }
-        // split := strings.Split(word, string(separator))
-        // res = append(res, split...)
     }
     return res
 }

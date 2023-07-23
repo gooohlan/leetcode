@@ -422,3 +422,11 @@ func Test6915(t *testing.T) {
     nums := []int{2, 3, 7, 9, 3}
     fmt.Println(maxArrayValue(nums))
 }
+
+func Test6955(t *testing.T) {
+    // 0
+    // 4 1
+    // 1 2 3
+    // 2 3 4,0
+    fmt.Println(maxIncreasingGroups([]int{2, 2, 2, 2, 2}))
+}
