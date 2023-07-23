@@ -417,3 +417,8 @@ func Test6921(t *testing.T) {
     word := []string{"$easy$", "$problem$"}
     fmt.Println(splitWordsBySeparator(word, '$'))
 }
+
+func Test6915(t *testing.T) {
+    nums := []int{2, 3, 7, 9, 3}
+    fmt.Println(maxArrayValue(nums))
+}
