@@ -430,3 +430,8 @@ func Test6955(t *testing.T) {
     // 2 3 4,0
     fmt.Println(maxIncreasingGroups([]int{2, 2, 2, 2, 2}))
 }
+
+func Test2762(t *testing.T) {
+    nums := []int{5, 4, 2, 4}
+    fmt.Println(continuousSubarrays(nums))
+}
