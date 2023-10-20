@@ -98,6 +98,14 @@
 - [2750. 将数组划分成若干好子数组的方式](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2750.go)
 - [2751. 机器人碰撞](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2751.go)
 
+
+### 周赛352
+
+- [2760. 美丽下标对的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2760.go)
+- [2761. 得到整数零需要执行的最少操作数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2761.go)
+- [2762. 将数组划分成若干好子数组的方式](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2762.go)
+- [2763. 机器人碰撞](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2763.go)
+
 ### 周赛353
 
 - [2769. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2769.go)
@@ -114,10 +122,10 @@
 
 ### 周赛355
 
-- [6921. 按分隔符拆分字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6921.go)
-- [6915. 合并后数组中的最大元素](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6915.go)
-- [6955. 长度递增组的最大数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6955.go)
-- [6942. 树中可以形成回文的路径数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/6942.go)
+- [2788. 按分隔符拆分字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2788.go)
+- [2789. 合并后数组中的最大元素](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2789.go)
+- [2790. 长度递增组的最大数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2790.go)
+- [2791. 树中可以形成回文的路径数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2791.go)
 
 
 ## 双周赛
