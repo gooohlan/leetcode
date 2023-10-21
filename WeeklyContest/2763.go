@@ -27,3 +27,27 @@ func sumImbalanceNumbers(nums []int) int {
     }
     return res
 }
+
+func sumImbalanceNumbers2(nums []int) (res int) {
+    n := len(nums)
+    right := make([]int, n)
+    idx := make([]int, n+1)
+    for i := range idx {
+        idx[i] = n
+    }
+    for i := n - 1; i >= 0; i-- {
+        x := nums[i]
+        right[i] = min(idx[x], idx[x-1])
+        idx[x] = i
+    }
+    
+    for i := range idx {
+        idx[i] = -1
+    }
+    for i, num := range nums {
+        res += (i - idx[num-1]) * (right[i] - i)
+        idx[num] = i
+    }
+    
+    return res - n*(n+1)/2
+}
