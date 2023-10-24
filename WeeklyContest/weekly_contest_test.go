@@ -440,3 +440,8 @@ func Test2763(t *testing.T) {
     nums := []int{2, 3, 1, 4}
     sumImbalanceNumbers2(nums)
 }
+
+func Test2799(t *testing.T) {
+    nums := []int{1, 3, 1, 2, 2}
+    fmt.Println(countCompleteSubarrays(nums))
+}
