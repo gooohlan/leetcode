@@ -435,3 +435,8 @@ func Test2762(t *testing.T) {
     nums := []int{5, 4, 2, 4}
     fmt.Println(continuousSubarrays(nums))
 }
+
+func Test2763(t *testing.T) {
+    nums := []int{2, 3, 1, 4}
+    sumImbalanceNumbers2(nums)
+}
