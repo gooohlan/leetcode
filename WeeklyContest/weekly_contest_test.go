@@ -442,6 +442,6 @@ func Test2763(t *testing.T) {
 }
 
 func Test2799(t *testing.T) {
-    nums := []int{1, 3, 1, 2, 2}
+    nums := []int{5, 5, 5, 5}
     fmt.Println(countCompleteSubarrays(nums))
 }
