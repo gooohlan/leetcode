@@ -445,3 +445,7 @@ func Test2799(t *testing.T) {
     nums := []int{5, 5, 5, 5}
     fmt.Println(countCompleteSubarrays(nums))
 }
+
+func Test2801(t *testing.T) {
+    fmt.Println(countSteppingNumbers("11", "1"))
+}

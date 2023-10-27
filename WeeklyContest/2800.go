@@ -32,3 +32,27 @@ func minimumString(a string, b string, c string) (res string) {
     }
     return
 }
+
+func mearge2(s, t string) string {
+    if strings.Contains(s, t) {
+        return s
+    }
+    if strings.Contains(t, s) {
+        return t
+    }
+    
+    p := t + "#" + s
+    n := len(p)
+    next := make([]int, n)
+    for i := 1; i < n; i++ {
+        j := next[i-1]
+        for j > 0 && p[i] != p[j] {
+            j = next[j-1]
+        }
+        if p[i] == p[j] {
+            j++
+        }
+        next[i] = j
+    }
+    return s + t[next[n-1]:]
+}
