@@ -412,6 +412,15 @@
 - [2790. 长度递增组的最大数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2790.go)
 - [2791. 树中可以形成回文的路径数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2791.go)
 
+### [周赛356](https://gooohlan.cn/skill/algorithm/25029.html)
+
+- [2798. 满足目标工作时长的员工数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2798.go)
+- [2799. 统计完全子数组的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2799.go)
+- [2800. 包含三个字符串的最短字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2800.go)
+- [2801. 统计范围内的步进数字数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2801.go)
+
+
+
 ## 双周赛
 ### 双周赛93
 
