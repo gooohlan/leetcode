@@ -310,3 +310,8 @@ func Test140(t *testing.T) {
         fmt.Println(s2)
     }
 }
+
+func Test1067(t *testing.T) {
+    count := digitsCount(3, 100, 250)
+    fmt.Println(count)
+}
