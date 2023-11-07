@@ -315,3 +315,7 @@ func Test1067(t *testing.T) {
     count := digitsCount(3, 100, 250)
     fmt.Println(count)
 }
+
+func Test1397(t *testing.T) {
+    fmt.Println(findGoodStrings(2, "aa", "da", "b"))
+}
