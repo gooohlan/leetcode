@@ -70,3 +70,4 @@ table」来优化穷举过程，避免不必要的计算。
 - [1012. 至少有 1 位重复的数字](https://github.com/gooohlan/leetcode/blob/master/DP/1012.go)
 - [1067. 范围内的数字计数](https://github.com/gooohlan/leetcode/blob/master/DP/1067.go)
 - [1397. 找到所有号字符串](https://github.com/gooohlan/leetcode/blob/master/DP/1397.go)
+- [2376. 统计特殊整数](https://github.com/gooohlan/leetcode/blob/master/DP/2376.go)
