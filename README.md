@@ -117,7 +117,6 @@
 
 #### 2.2. 递归解法
 
-
 ### [3. 二叉树](https://github.com/gooohlan/leetcode/tree/master/BinaryTree)
 
 - [104. 二叉树的最大深度](https://github.com/gooohlan/leetcode/blob/master/BinaryTree/104.go)
@@ -244,6 +243,17 @@
 - [123. 买卖股票的最佳时机 III](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/123.go)
 - [188. 买卖股票的最佳时机 IV](https://github.com/gooohlan/leetcode/blob/master/DP/Stock/188.go)
 
+#### 6.2. 数位DP
+### [2. 数位DP]
+- [233. 数字1的个数](https://github.com/gooohlan/leetcode/blob/master/DP/233.go)
+- [面试题 17.06. 2出现的次数](https://github.com/gooohlan/leetcode/blob/master/DP/ms1706.go)
+- [600. 不含连续1的非负整数](https://github.com/gooohlan/leetcode/blob/master/DP/600.go)
+- [902. 最大为 N 的数字组合](https://github.com/gooohlan/leetcode/blob/master/DP/902.go)
+- [1012. 至少有 1 位重复的数字](https://github.com/gooohlan/leetcode/blob/master/DP/1012.go)
+- [1067. 范围内的数字计数](https://github.com/gooohlan/leetcode/blob/master/DP/1067.go)
+- [1397. 找到所有号字符串](https://github.com/gooohlan/leetcode/blob/master/DP/1397.go)
+- [2376. 统计特殊整数](https://github.com/gooohlan/leetcode/blob/master/DP/2376.go)
+
 ### [7. 回溯](https://github.com/gooohlan/leetcode/tree/master/Backtrack)
 - [78. 子集](https://github.com/gooohlan/leetcode/blob/master/Backtrack/78.go)
 - [77. 组合](https://github.com/gooohlan/leetcode/blob/master/Backtrack/77.go)
@@ -264,7 +274,7 @@
 - [752. 打开转盘锁](https://github.com/gooohlan/leetcode/blob/master/BFS/752.go)
 - [773. 滑动谜题](https://github.com/gooohlan/leetcode/blob/master/BFS/773.go)
 
-##  [9. DFS](https://github.com/gooohlan/leetcode/tree/master/DFS)
+###  [9. DFS](https://github.com/gooohlan/leetcode/tree/master/DFS)
 - [200. 岛屿数量](https://github.com/gooohlan/leetcode/blob/master/DFS/200.go)
 - [1254. 统计封闭岛屿的数目](https://github.com/gooohlan/leetcode/blob/master/DFS/1254/go)
 - [1020. 飞地的数量](https://github.com/gooohlan/leetcode/blob/master/DFS/1020.go)
