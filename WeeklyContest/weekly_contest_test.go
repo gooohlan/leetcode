@@ -449,3 +449,8 @@ func Test2799(t *testing.T) {
 func Test2801(t *testing.T) {
     fmt.Println(countSteppingNumbers("11", "1"))
 }
+
+func Test2810(t *testing.T) {
+    str := "abicdiefi"
+    fmt.Println(finalString2(str))
+}
