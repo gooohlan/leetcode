@@ -23,7 +23,9 @@
   - [354](#周赛354)
   - [355](#周赛355)
   - [356](#周赛356)
-  - 
+  - [357](#周赛357)
+
+
 - [双周赛](#双周赛)
   - [93](#双周赛93)
   - [94](#双周赛94)
@@ -292,7 +294,7 @@
 
 ## 周赛
 
-## 周赛321
+### 周赛321
 
 - [2485. 找出中枢整数](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2485.go)
 - [2486. 追加字符以获得子序列](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2486.go)
@@ -418,7 +420,6 @@
 - [2780. 合法分割的最小下标](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2780.go)
 - [2781. 最长合法子字符串的长度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2781.go)
 
-
 ### [周赛355](https://gooohlan.cn/skill/algorithm/24709.html)
 
 - [2788. 按分隔符拆分字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2788.go)
@@ -432,6 +433,13 @@
 - [2799. 统计完全子数组的数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2799.go)
 - [2800. 包含三个字符串的最短字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2800.go)
 - [2801. 统计范围内的步进数字数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2801.go)
+- 
+### 周赛357
+
+- [2810. 故障键盘](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2810.go)
+- [2811. 判断是否能拆分数组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2811.go)
+- [2812. 找出最安全路径](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2812.go)
+- [2813. 子序列最大优雅度](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2813.go)
 
 
 
