@@ -38,9 +38,3 @@ func finalString2(s string) string {
     }
     return string(append(q, qs[tail]...))
 }
-// abefjk
-// cdgh
-0-翻转1
-1 翻转0
-2-翻转1
-3-翻转0
