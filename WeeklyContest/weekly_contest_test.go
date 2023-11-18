@@ -454,3 +454,8 @@ func Test2810(t *testing.T) {
     str := "abicdiefi"
     fmt.Println(finalString2(str))
 }
+
+func Test2812(t *testing.T) {
+    grid := [][]int{{0, 0, 0, 1}, {0, 0, 0, 0}, {0, 0, 0, 0}, {1, 0, 0, 0}}
+    fmt.Println(maximumSafenessFactor(grid))
+}
