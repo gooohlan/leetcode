@@ -464,3 +464,9 @@ func Test2815(t *testing.T) {
     nums := []int{51, 71, 17, 42, 24}
     fmt.Println(maxSum(nums))
 }
+
+func Test2816(t *testing.T) {
+    node := &ListNode{1, &ListNode{9, &ListNode{8, nil}}}
+    node = doubleIt(node)
+    fmt.Println(node)
+}
