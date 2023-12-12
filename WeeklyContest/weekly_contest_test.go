@@ -459,3 +459,8 @@ func Test2812(t *testing.T) {
     grid := [][]int{{0, 0, 0, 1}, {0, 0, 0, 0}, {0, 0, 0, 0}, {1, 0, 0, 0}}
     fmt.Println(maximumSafenessFactor(grid))
 }
+
+func Test2815(t *testing.T) {
+    nums := []int{51, 71, 17, 42, 24}
+    fmt.Println(maxSum(nums))
+}

@@ -434,7 +434,7 @@
 - [2800. 包含三个字符串的最短字符串](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2800.go)
 - [2801. 统计范围内的步进数字数目](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2801.go)
 - 
-### 周赛357
+### [周赛357](https://gooohlan.cn/skill/algorithm/41220.html)
 
 - [2810. 故障键盘](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2810.go)
 - [2811. 判断是否能拆分数组](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2811.go)
