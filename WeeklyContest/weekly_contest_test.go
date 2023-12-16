@@ -470,3 +470,7 @@ func Test2816(t *testing.T) {
     node = doubleIt(node)
     fmt.Println(node)
 }
+
+func Test2817(t *testing.T) {
+    fmt.Println(minAbsoluteDifference2([]int{13, 142, 146, 77, 82}, 2))
+}
