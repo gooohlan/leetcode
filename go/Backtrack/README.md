@@ -45,24 +45,24 @@ func bacjtrack(路径, 选择列表):
 组合问题和子集问题其实是等价的，这两棵树对应上面的算法框架，上述的三种变化形式和其他的限制条件，都是在树上进行剪枝
 
 - 子集（元素无重不可复选）
-  - [78. 子集](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/78.go)
+  - [78. 子集](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/78.go)
 - 组合（元素无重不可复选）
 
   **大小为`k`的组合就是大小为`k`的子集**
-  - [77. 组合](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/77.go)
-  - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/216.go)
-  - [698. 划分为k个相等的子集](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/698.go)
+  - [77. 组合](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/77.go)
+  - [216.组合总和 III](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/216.go)
+  - [698. 划分为k个相等的子集](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/698.go)
 - 排列（元素无重不可复选）
-  - [46. 全排列](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/46.go)
-  - [51. N 皇后（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/51.go)
-  - [52. N 皇后 II（特殊变种）](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/52.go)
+  - [46. 全排列](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/46.go)
+  - [51. N 皇后（特殊变种）](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/51.go)
+  - [52. N 皇后 II（特殊变种）](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/52.go)
 - 子集/组合（元素可重不可复选）
-  - [90. 子集 II](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/90.go)
-  - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/40.go)
+  - [90. 子集 II](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/90.go)
+  - [40. 组合总和 II](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/40.go)
 - 排列（元素可重不可复选）
-  - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/47.go)
+  - [47. 全排列 II](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/47.go)
 - 子集/组合（元素无重可复选）
-  - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/39.go)
+  - [39. 组合总和](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/39.go)
 - 排列（元素无重可复选）
 
   力扣上没有相关题目，所以我们根据情况假设一下，`arr`数组中的元素无重复客复选会互的情况,会有那些排列
@@ -76,5 +76,5 @@ func bacjtrack(路径, 选择列表):
   ```
   46题的全排列使用`used`进行剪枝，避免使用重复元素，允许使用的话，去掉所有`used`不进行剪枝即可，代码就不做赘述了。
 
-- [37. 解数独](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/37.go)
-- [22. 括号生成](https://github.com/gooohlan/leetcode/blob/master/go/Backtrack/22.go)
+- [37. 解数独](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/37.go)
+- [22. 括号生成](https://github.com/gooohlan/leetcode/blob/main/go/Backtrack/22.go)
