@@ -1,6 +1,12 @@
 # 日常算法学习
 
-## 周赛
+## 语言
+
+- [go](https://github.com/gooohlan/leetcode/blob/main/go)
+- [rust](https://github.com/gooohlan/leetcode/blob/main/rust)
+
+## 目录
+### 周赛
 
 | 周数    | 题目                                                                                                     | 难度     | 语言 | 解题思路 |
 |-------|--------------------------------------------------------------------------------------------------------|--------|----|------|
@@ -97,21 +103,21 @@
 | 双周赛95 | [ 2527. 查询数组 Xor 美丽值 ](https://github.com/gooohlan/leetcode/blob/main/go/WeeklyContest/2527.go)        | ⭐️⭐️   | go | -    |
 | 双周赛95 | [ 2528. 最大化城市的最小供电站数目 ](https://github.com/gooohlan/leetcode/blob/main/go/WeeklyContest/2528.go)       | ⭐️⭐️⭐️ | go | -    |
 
-## 每日一题
+### 每日一题
 
-| 日期         | 题目                                                                                | 难度         | 语言   | 解题思路 |
-|------------|-----------------------------------------------------------------------------------|------------|------|------|
-| 2024-05-09 | [2105. 给植物浇水 II](https://github.com/gooohlan/leetcode/blob/main/rust/src/r2105.rs | ⭐️⭐️（1507） | rust | -    |
+| 日期         | 题目                                                                                 | 难度         | 语言   | 解题思路 |
+|------------|------------------------------------------------------------------------------------|------------|------|------|
+| 2024-05-09 | [2105. 给植物浇水 II](https://github.com/gooohlan/leetcode/blob/main/rust/src/r2105.rs) | ⭐️⭐️（1507） | rust | -    |
 
-## 其他
+### 其他
 
 ## 解题思路
 
 [日刷LeetCode](https://www.gooohlan.cn/leetcode.html)
 
-## 学习路线
+### 学习路线
 
-### [1.数组](https://github.com/gooohlan/leetcode/tree/master/Array)
+#### [1.数组](https://github.com/gooohlan/leetcode/tree/master/Array)
 
 - [1. 两数之和](https://github.com/gooohlan/leetcode/blob/main/go/Array/1.go)
 - [169. 多数元素](https://github.com/gooohlan/leetcode/blob/main/go/Array/169.go)
