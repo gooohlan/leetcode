@@ -2,7 +2,7 @@
 
 ## 目录
 
-### 周赛
+### [周赛](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest)
 
 | 周数    | 题目                                                                                                  | 难度     | 解题思路 |
 |-------|-----------------------------------------------------------------------------------------------------|--------|------|
@@ -99,7 +99,7 @@
 | 双周赛95 | [ 2527. 查询数组 Xor 美丽值 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2527.go)        | ⭐️⭐️   | -    |
 | 双周赛95 | [ 2528. 最大化城市的最小供电站数目 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2528.go)       | ⭐️⭐️⭐️ | -    |
 
-### 每日一题
+### [每日一题](https://github.com/gooohlan/leetcode/blob/main/EveryDay)
 
 | 日期         | 题目                                                                                | 难度         | 解题思路 |
 |------------|-----------------------------------------------------------------------------------|------------|------|
