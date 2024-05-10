@@ -2,7 +2,16 @@
 
 ## 目录
 
-### [周赛](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest)
+### [每日一题](https://github.com/gooohlan/leetcode/tree/main/Everyday)
+
+| 日期         | 题目                                                                                | 难度         | 解题思路 |
+|------------|-----------------------------------------------------------------------------------|------------|------|
+| 2024-05-09 | [2105. 给植物浇水 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2105.go) | ⭐️⭐️（1507） | -    |
+| 2024-05-10 | [2960. 统计已测试设备](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2960.go) | ⭐（1169）    | -    |
+
+
+
+### [周赛](https://github.com/gooohlan/leetcode/tree/main/WeeklyContest)
 
 | 周数    | 题目                                                                                                  | 难度     | 解题思路 |
 |-------|-----------------------------------------------------------------------------------------------------|--------|------|
@@ -98,13 +107,6 @@
 | 双周赛95 | [ 2526. 找到数据流中的连续整数 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2526.go)         | ⭐⭐️️   | -    |
 | 双周赛95 | [ 2527. 查询数组 Xor 美丽值 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2527.go)        | ⭐️⭐️   | -    |
 | 双周赛95 | [ 2528. 最大化城市的最小供电站数目 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2528.go)       | ⭐️⭐️⭐️ | -    |
-
-### [每日一题](https://github.com/gooohlan/leetcode/blob/main/EveryDay)
-
-| 日期         | 题目                                                                                | 难度         | 解题思路 |
-|------------|-----------------------------------------------------------------------------------|------------|------|
-| 2024-05-09 | [2105. 给植物浇水 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2105.go) | ⭐️⭐️（1507） | -    |
-| 2024-05-10 | [2960. 统计已测试设备](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2960.go) | ⭐（1169）    | -    |
 
 ### 其他
 
