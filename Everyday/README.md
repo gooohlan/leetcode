@@ -8,3 +8,5 @@
 | 2024-05-12 | [1553.吃掉 N 个橘子的最少天数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1553.go)  | ⭐⭐⭐（2048）  | -    |
 | 2024-05-13 | [994.腐烂的橘子](https://github.com/gooohlan/leetcode/blob/main/EveryDay/994.go)            | ⭐⭐（1433）   | -    |
 | 2024-05-14 | [2244. 完成所有任务需要的最少轮数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2244.go) | ⭐⭐（1372）   | -    |
+| 2024-05-15 | [2589. 完成所有任务的最少时间](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2589.go) | ⭐⭐⭐（2381）   | -    |
+| 2024-05-16 | [1953. 你可以工作的最大周数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1953.go) | ⭐⭐（1804）   | -    |
