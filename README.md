@@ -14,6 +14,7 @@
 | 2024-05-14 | [2244. 完成所有任务需要的最少轮数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2244.go) | ⭐⭐（1372）   | -    |
 | 2024-05-15 | [2589. 完成所有任务的最少时间](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2589.go)   | ⭐⭐⭐（2381）  | -    |
 | 2024-05-16 | [1953. 你可以工作的最大周数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1953.go)    | ⭐⭐（1804）   | -    |
+| 2024-05-20 | [1542. 找出最长的超赞子字符串](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1542.go)   | ⭐⭐⭐（2222）  | -    |g
 
 ### [周赛](https://github.com/gooohlan/leetcode/tree/main/WeeklyContest)
 
