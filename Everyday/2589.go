@@ -20,4 +20,6 @@ func findMinimumTime(tasks [][]int) int {
 
         }
     }
+
+    return 0
 }
