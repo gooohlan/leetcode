@@ -11,6 +11,11 @@ func Test2391(t *testing.T) {
     fmt.Println(garbageCollection2(garbage, travel))
 }
 
+func Test2589(t *testing.T) {
+    tasks := [][]int{{2, 3, 1}, {4, 5, 1}, {1, 5, 2}}
+    fmt.Println(findMinimumTime(tasks))
+}
+
 func Test1542(t *testing.T) {
     s := "1317"
     fmt.Println(longestAwesome(s))

@@ -8,6 +8,7 @@ func findMinimumTime(tasks [][]int) int {
     })
     run := make([]bool, tasks[len(tasks)-1][1]+1)
 
+    res := 0
     for _, task := range tasks {
         start, end, d := task[0], task[1], task[2]
         for _, b := range run[start : end+1] {
@@ -17,9 +18,13 @@ func findMinimumTime(tasks [][]int) int {
         }
 
         for i := end; d > 0; i-- {
-
+            if !run[i] {
+                run[i] = true
+                d--
+                res++
+            }
         }
     }
 
-    return 0
+    return res
 }
