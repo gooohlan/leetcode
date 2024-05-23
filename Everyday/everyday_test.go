@@ -20,3 +20,10 @@ func Test1542(t *testing.T) {
     s := "1317"
     fmt.Println(longestAwesome(s))
 }
+
+func Test826(t *testing.T) {
+    difficulty := []int{2, 4, 6, 8, 10}
+    profit := []int{10, 20, 30, 40, 50}
+    worker := []int{4, 5, 6, 7}
+    maxProfitAssignment(difficulty, profit, worker)
+}
