@@ -14,3 +14,4 @@
 | 2024-05-18 | [2644. 找出可整除性得分最大的整数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2644.go) | ⭐（1258）    | [每日一题(1)](https://gooohlan.cn//skill/algorithm/49647.html) |
 | 2024-05-19 | [1535. 找出数组游戏的赢家](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1535.go)     | ⭐⭐（1433）   | [每日一题(1)](https://gooohlan.cn//skill/algorithm/49647.html) |
 | 2024-05-20 | [1542. 找出最长的超赞子字符串](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1542.go)   | ⭐⭐⭐（2222）  | [每日一题(1)](https://gooohlan.cn//skill/algorithm/49647.html) |
+| 2024-05-21 | [2769. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2769.go)    | ⭐（1191）    | -                                                          |
