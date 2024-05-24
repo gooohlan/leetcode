@@ -1,6 +1,5 @@
-package WeeklyContest
+package Everyday
 
 func theMaximumAchievableX(num int, t int) int {
-    
-    return num + t*2
+    return num + 2*t
 }

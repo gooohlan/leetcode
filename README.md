@@ -115,7 +115,7 @@
 | 双周赛95 | [ 2526. 找到数据流中的连续整数 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2526.go)         | ⭐⭐️️   | -                                                    |
 | 双周赛95 | [ 2527. 查询数组 Xor 美丽值 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2527.go)        | ⭐️⭐️   | -                                                    |
 | 双周赛95 | [ 2528. 最大化城市的最小供电站数目 ](https://github.com/gooohlan/leetcode/blob/main/WeeklyContest/2528.go)       | ⭐️⭐️⭐️ | -                                                    |
-
+    
 ### [其他](https://github.com/gooohlan/leetcode/tree/main/Other)
 
 #### [前缀和](https://github.com/gooohlan/leetcode/tree/main/Other/PrefixSum)
