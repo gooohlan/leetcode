@@ -33,3 +33,12 @@ func Test2831(t *testing.T) {
     k := 3
     fmt.Println(longestEqualSubarray(nums, k))
 }
+
+func Test1738(t *testing.T) {
+    matrix := [][]int{
+        []int{5, 2},
+        []int{1, 6},
+        []int{8, 3},
+    }
+    fmt.Println(kthLargestValue(matrix, 3))
+}
