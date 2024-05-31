@@ -42,3 +42,8 @@ func Test1738(t *testing.T) {
     }
     fmt.Println(kthLargestValue(matrix, 3))
 }
+
+func Test2951(t *testing.T) {
+    arr := []int{1, 4, 3, 8, 5}
+    fmt.Println(findPeaks(arr))
+}
