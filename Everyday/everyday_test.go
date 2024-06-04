@@ -47,3 +47,8 @@ func Test2951(t *testing.T) {
     arr := []int{1, 4, 3, 8, 5}
     fmt.Println(findPeaks(arr))
 }
+
+func Test2982(t *testing.T) {
+    s := "aada"
+    fmt.Println(maximumLength(s))
+}
