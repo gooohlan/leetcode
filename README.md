@@ -18,11 +18,12 @@
 | 2024-05-18 | [2644. 找出可整除性得分最大的整数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2644.go)  | ⭐（1258）    | [每日一题(1)](https://gooohlan.cn//skill/algorithm/49647.html) |
 | 2024-05-19 | [1535. 找出数组游戏的赢家](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1535.go)      | ⭐⭐（1433）   | [每日一题(1)](https://gooohlan.cn//skill/algorithm/49647.html) |
 | 2024-05-20 | [1542. 找出最长的超赞子字符串](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1542.go)    | ⭐⭐⭐（2222）  | [每日一题(1)](https://gooohlan.cn//skill/algorithm/49647.html) |
-| 2024-05-21 | [2769. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2769.go)     | ⭐（1191）    | -                                                          |
-| 2024-05-22 | [2225. 找出输掉零场或一场比赛的玩家](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2225.go) | ⭐⭐（1316）   | -                                                          |
-| 2024-05-23 | [2831. 找出最长等值子数组](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2831.go)      | ⭐⭐（1973）   | -                                                          |
-| 2024-05-24 | [1673. 找出最具竞争力的子序列](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1673.go)    | ⭐⭐（1802）   | -                                                          |
-| 2024-05-25 | [2903. 找出满足差值条件的下标 I](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2903.go)  | ⭐（1158）    | -                                                          |
+| 2024-05-21 | [2769. 找出最大的可达成数字](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2769.go)     | ⭐（1191）    | [每日一题(2)](https://gooohlan.cn/skill/algorithm/34287.html)  |
+| 2024-05-22 | [2225. 找出输掉零场或一场比赛的玩家](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2225.go) | ⭐⭐（1316）   | [每日一题(2)](https://gooohlan.cn/skill/algorithm/34287.html)  |
+| 2024-05-23 | [2831. 找出最长等值子数组](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2831.go)      | ⭐⭐（1973）   | [每日一题(2)](https://gooohlan.cn/skill/algorithm/34287.html)  |
+| 2024-05-24 | [1673. 找出最具竞争力的子序列](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1673.go)    | ⭐⭐（1802）   | [每日一题(2)](https://gooohlan.cn/skill/algorithm/34287.html)  |
+| 2024-05-25 | [2903. 找出满足差值条件的下标 I](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2903.go)  | ⭐（1158）    | [每日一题(2)](https://gooohlan.cn/skill/algorithm/34287.html)  |
+| 2024-05-26 | [1738. 找出第 K 大的异或坐标值](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1738.go)  | ⭐⭐（167158） | [每日一题(2)](https://gooohlan.cn/skill/algorithm/34287.html)  |
 
 ### [周赛](https://github.com/gooohlan/leetcode/tree/main/WeeklyContest)
 
