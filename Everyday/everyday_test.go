@@ -58,3 +58,16 @@ func Test2928(t *testing.T) {
     limit := 2
     fmt.Println(distributeCandies(n, limit))
 }
+
+func Test3967(t *testing.T) {
+    edges := [][]int{
+        []int{0, 6, 3},
+        []int{6, 5, 3},
+        []int{0, 3, 1},
+        []int{3, 2, 7},
+        []int{3, 1, 6},
+        []int{3, 4, 2},
+    }
+    signalSpeed := 3
+    fmt.Println(countPairsOfConnectableServers(edges, signalSpeed))
+}
