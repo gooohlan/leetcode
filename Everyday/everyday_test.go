@@ -52,3 +52,9 @@ func Test2982(t *testing.T) {
     s := "aada"
     fmt.Println(maximumLength(s))
 }
+
+func Test2928(t *testing.T) {
+    n := 5
+    limit := 2
+    fmt.Println(distributeCandies(n, limit))
+}
