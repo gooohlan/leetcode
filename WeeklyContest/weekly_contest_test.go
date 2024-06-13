@@ -474,3 +474,8 @@ func Test2816(t *testing.T) {
 func Test2817(t *testing.T) {
     fmt.Println(minAbsoluteDifference2([]int{13, 142, 146, 77, 82}, 2))
 }
+
+func Test2813(t *testing.T) {
+    items := [][]int{{3, 2}, {5, 1}, {10, 1}}
+    fmt.Println(findMaximumElegance(items, 2))
+}

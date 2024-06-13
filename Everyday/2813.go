@@ -28,7 +28,6 @@ func findMaximumElegance(items [][]int, k int) int64 {
             totalProfit = totalProfit - repeat[len(repeat)-1] + profit
             repeat = repeat[:len(repeat)-1]
         }
-        
     }
     return int64(ans)
 }
