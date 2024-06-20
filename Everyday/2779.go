@@ -1,38 +1,37 @@
-package WeeklyContest
+package Everyday
 
-import (
-    "sort"
-)
+import "sort"
 
-// 1,2,4,6,4
 func maximumBeauty(nums []int, k int) int {
     n := len(nums)
-    
     sort.Ints(nums)
+    
     d := make([]int, nums[n-1]+k+2)
     for _, num := range nums {
         d[max(0, num-k)] += 1
         d[num+k+1] -= 1
     }
     
-    res := 0
     sum := 0
+    ans := 0
     for i := max(0, nums[0]-k); i < len(d); i++ {
         sum += d[i]
-        res = max(res, sum)
+        ans = max(ans, sum)
     }
-    
-    return res
+    return ans
 }
+
 func maximumBeauty2(nums []int, k int) int {
+    n := len(nums)
     sort.Ints(nums)
-    left := 0
-    res := 1
-    for right := 1; right < len(nums); right++ {
-        for nums[right]-nums[left] > k*2 {
+    
+    left, ans := 0, 1
+    for right := 1; right < n; right++ {
+        if nums[right]-nums[left] > k*2 {
             left++
         }
-        res = max(res, right-left+1)
+        ans = max(ans, right-left+1)
     }
-    return res
+    
+    return ans
 }

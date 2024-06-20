@@ -381,7 +381,7 @@ func Test6889(t *testing.T) {
 }
 
 func Test6929(t *testing.T) {
-    nums := []int{4, 6, 1, 2}
+    nums := []int{12, 71}
     fmt.Println(maximumBeauty(nums, 2))
 }
 
