@@ -38,6 +38,13 @@
 | 2024-06-07 | [3038. 相同分数的最大操作数目 I](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3038.go)        | ⭐（1202）    | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html)  |
 | 2024-06-08 | [3040. 相同分数的最大操作数目 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3040.go)       | ⭐⭐（1709）   | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html)  |
 | 2024-06-09 | [312. 戳气球](https://github.com/gooohlan/leetcode/blob/main/EveryDay/312.go)                    | ⭐⭐⭐        | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html)  |
+| 2024-06-10 | [881. 救生艇](https://github.com/gooohlan/leetcode/blob/main/EveryDay/881.go)                    | ⭐⭐(1530)   | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-11 | [419. 棋盘上的战舰](https://github.com/gooohlan/leetcode/blob/main/EveryDay/419.go)                 | ⭐⭐         | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-12 | [2806. 取整购买后的账户余额](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2806.go)           | ⭐(1225)    | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-13 | [2813. 子序列最大优雅度](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2813.go)             | ⭐⭐⭐(2582)  | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-14 | [2786. 访问数组中的位置使分数最大](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2786.go)        | ⭐⭐(1733)   | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-15 | [2779. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2779.go)             | ⭐⭐(1638)   | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-16 | [521. 最长特殊序列 Ⅰ](https://github.com/gooohlan/leetcode/blob/main/EveryDay/521.go)               | ⭐          | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
 
 ### [周赛](https://github.com/gooohlan/leetcode/tree/main/WeeklyContest)
 
