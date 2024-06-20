@@ -27,5 +27,10 @@
 | 2024-05-31 | [2965. 找出缺失和重复的数字](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2965.go)           | ⭐（1245）    | [每日一题(3)](https://gooohlan.cn/skill/algorithm/16828.html) |
 | 2024-06-01 | [2928. 给小朋友们分糖果 I](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2928.go)           | ⭐（1393）    | [每日一题(3)](https://gooohlan.cn/skill/algorithm/16828.html) |
 | 2024-06-02 | [575. 分糖果](https://github.com/gooohlan/leetcode/blob/main/EveryDay/575.go)                    | ⭐          | [每日一题(3)](https://gooohlan.cn/skill/algorithm/16828.html) |
-| 2024-06-03 | [1103. 分糖果 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1103.go)               | ⭐（1287）    | -                                                         |
-| 2024-06-04 | [3067. 在带权树网络中统计可连接服务器对数目](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3067.go)   | ⭐⭐（1909）   | -                                                         |
+| 2024-06-03 | [1103. 分糖果 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/1103.go)               | ⭐（1287）    | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
+| 2024-06-04 | [3067. 在带权树网络中统计可连接服务器对数目](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3067.go)   | ⭐⭐（1909）   | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
+| 2024-06-05 | [3072. 将元素分配到两个数组中 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3072.go)       | ⭐⭐⭐（2053）  | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
+| 2024-06-06 | [2938. 区分黑球与白球](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2938.go)              | ⭐⭐（1423）   | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
+| 2024-06-07 | [3038. 相同分数的最大操作数目 I](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3038.go)        | ⭐（1202）    | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
+| 2024-06-08 | [3040. 相同分数的最大操作数目 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/3040.go)       | ⭐⭐（1709）   | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
+| 2024-06-09 | [312. 戳气球](https://github.com/gooohlan/leetcode/blob/main/EveryDay/312.go)                    | ⭐⭐⭐        | [每日一题(4)](https://gooohlan.cn/skill/algorithm/29118.html) |
