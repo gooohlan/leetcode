@@ -71,3 +71,14 @@ func Test3967(t *testing.T) {
     signalSpeed := 3
     fmt.Println(countPairsOfConnectableServers(edges, signalSpeed))
 }
+
+func Test522(t *testing.T) {
+    strs := []string{"aaa", "a", "aa", "aa"}
+    fmt.Println(findLUSlength2(strs))
+}
+
+func Test2288(t *testing.T) {
+    sentence := "there are $1 $2 and 5$ candies in the shop"
+    discount := 50
+    fmt.Println(discountPrices(sentence, discount))
+}
