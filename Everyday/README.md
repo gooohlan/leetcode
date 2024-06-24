@@ -41,3 +41,10 @@
 | 2024-06-14 | [2786. 访问数组中的位置使分数最大](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2786.go)        | ⭐⭐(1733)   | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
 | 2024-06-15 | [2779. 数组的最大美丽值](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2779.go)             | ⭐⭐(1638)   | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
 | 2024-06-16 | [521. 最长特殊序列 Ⅰ](https://github.com/gooohlan/leetcode/blob/main/EveryDay/521.go)               | ⭐          | [每日一题(5)](https://gooohlan.cn/skill/algorithm/57791.html) |
+| 2024-06-17 | [522. 最长特殊序列 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/522.go)              | ⭐⭐         | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-18 | [2288. 价格减免](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2288.go)                 | ⭐⭐(1577)   | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-19 | [2713. 矩阵中严格递增的单元格数](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2713.go)         | ⭐⭐⭐(2387)  | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-20 | [2748. 美丽下标对的数目](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2748.go)             | ⭐(1301)    | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-21 | [LCP 61. 气温变化趋势](https://github.com/gooohlan/leetcode/blob/main/EveryDay/lcp61.go)            | ⭐          | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-22 | [2663. 字典序最小的美丽字符串](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2663.go)          | ⭐⭐⭐(2416)  | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-23 | [520. 检测大写字母](https://github.com/gooohlan/leetcode/blob/main/EveryDay/520.go)                 | ⭐          | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
