@@ -82,3 +82,9 @@ func Test2288(t *testing.T) {
     discount := 50
     fmt.Println(discountPrices(sentence, discount))
 }
+
+func Test2663(t *testing.T) {
+    s := "bcaz"
+    k := 26
+    fmt.Println(smallestBeautifulString(s, k))
+}
