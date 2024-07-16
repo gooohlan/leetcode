@@ -48,3 +48,10 @@
 | 2024-06-21 | [LCP 61. 气温变化趋势](https://github.com/gooohlan/leetcode/blob/main/EveryDay/lcp61.go)            | ⭐          | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
 | 2024-06-22 | [2663. 字典序最小的美丽字符串](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2663.go)          | ⭐⭐⭐(2416)  | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
 | 2024-06-23 | [520. 检测大写字母](https://github.com/gooohlan/leetcode/blob/main/EveryDay/520.go)                 | ⭐          | [每日一题(6)](https://gooohlan.cn/skill/algorithm/4543.html)  |
+| 2024-06-24 | [503. 下一个更大元素 II](https://github.com/gooohlan/leetcode/blob/main/EveryDay/503.go)             | ⭐⭐         | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
+| 2024-06-25 | [2732. 找到矩阵中的好子集](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2732.go)            | ⭐⭐⭐(2240)  | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
+| 2024-06-26 | [2741. 特别的排列](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2741.go)                | ⭐⭐(2021)   | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
+| 2024-06-27 | [2734. 执行子串操作后的字典序最小字符串](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2734.go)     | ⭐⭐(1405)   | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
+| 2024-06-28 | [2742. 给墙壁刷油漆](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2742.go)               | ⭐⭐⭐(2425)  | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
+| 2024-06-29 | [2710. 移除字符串中的尾随零](https://github.com/gooohlan/leetcode/blob/main/EveryDay/2710.go)           | ⭐(1165)    | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
+| 2024-06-30 | [494. 目标和](https://github.com/gooohlan/leetcode/blob/main/EveryDay/494.go)                    | ⭐⭐         | [每日一题(7)](https://gooohlan.cn/skill/algorithm/33214.html) |
