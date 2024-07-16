@@ -88,3 +88,8 @@ func Test2663(t *testing.T) {
     k := 26
     fmt.Println(smallestBeautifulString(s, k))
 }
+
+func Test2741(t *testing.T) {
+    nums := []int{2, 3, 6}
+    fmt.Println(specialPerm(nums))
+}
