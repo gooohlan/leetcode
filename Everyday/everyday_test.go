@@ -93,3 +93,7 @@ func Test2741(t *testing.T) {
     nums := []int{2, 3, 6}
     fmt.Println(specialPerm(nums))
 }
+func TestLcp40(t *testing.T) {
+    card := []int{1, 2, 8, 9}
+    fmt.Println(maxmiumScore(card, 3))
+}
