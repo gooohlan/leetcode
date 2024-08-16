@@ -2,6 +2,7 @@ package Everyday
 
 import (
     "fmt"
+    "strconv"
     "testing"
 )
 
@@ -96,4 +97,12 @@ func Test2741(t *testing.T) {
 func TestLcp40(t *testing.T) {
     card := []int{1, 2, 8, 9}
     fmt.Println(maxmiumScore(card, 3))
+}
+
+func Test3117(t *testing.T) {
+    nums := []int{1, 4, 3, 3, 2}
+    andValues := []int{0, 3, 3, 2}
+    sum := minimumValueSum(nums, andValues)
+    fmt.Println(sum)
+    fmt.Println(strconv.FormatInt(int64(-1), 2))
 }
