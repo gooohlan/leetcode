@@ -106,3 +106,7 @@ func Test3117(t *testing.T) {
     fmt.Println(sum)
     fmt.Println(strconv.FormatInt(int64(-1), 2))
 }
+
+func Test3138(t *testing.T) {
+    fmt.Println(minAnagramLength("pqpqpqpq"))
+}
